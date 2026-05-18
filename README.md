@@ -1,9 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-# React + Vite
-
 # Global Heritage
 
 Global Heritage is a small React app built with Vite that showcases cultural landmarks and heritage data. It provides a fast development setup, an opinionated folder structure, and basic linting to help collaborators get started quickly.
