@@ -23,6 +23,7 @@
   font-weight: 600;
   color: var(--bg); /* Uses your #08060d / #f3f4f6 token */
   cursor: pointer;
+  -webkit-user-select: none;
   user-select: none;
 }
 
@@ -94,15 +95,15 @@
     padding: 0 20px;
     height: 70px;
   }
-  
+
   .navbar-logo {
     font-size: 20px;
   }
-  
+
   .navbar-links {
     gap: 16px;
   }
-  
+
   .nav-item {
     font-size: 14px;
   }
