@@ -1,0 +1,253 @@
+/* colors */
+:root {
+  /* ========================================
+   BASE PALETTE TOKENS
+   Raw brand colors — NEVER use directly in components
+   ======================================== */
+
+  --color-brand-50: #fef7f3;
+  --color-brand-100: #fff8f3;
+  --color-brand-200: #f2e7dd;
+  --color-brand-300: #f3a55c;
+  --color-brand-400: #906d54;
+
+  --color-primary-500: #134c66;
+  --color-primary-700: #2d3d45;
+  --color-primary-900: #121a28;
+
+  --color-accent-500: #a64ea9;
+
+  /* ========================================
+   SEMANTIC TOKENS
+   Use THESE in components
+   ======================================== */
+
+  /* Backgrounds */
+  --bg-page: var(--color-brand-50);
+  --bg-surface: var(--color-brand-100);
+  --bg-muted: var(--color-brand-200);
+
+  /* Text */
+  --text-primary: var(--color-primary-900);
+  --text-secondary: var(--color-primary-700);
+  --text-muted: var(--color-brand-400);
+  --text-inverse: #ffffff;
+
+  /* Brand / Actions */
+  --color-primary: var(--color-primary-500);
+  --color-primary-hover: var(--color-primary-700);
+  --color-primary-active: var(--color-primary-900);
+
+  /* Accent */
+  --color-accent: var(--color-accent-500);
+
+  /* Borders */
+  --border-default: var(--color-brand-200);
+  --border-strong: var(--color-brand-400);
+
+  /* Buttons */
+  --button-primary-bg: var(--color-primary);
+  --button-primary-text: var(--text-inverse);
+
+  --button-secondary-bg: var(--bg-surface);
+  --button-secondary-text: var(--text-primary);
+
+  /* Cards */
+  --card-bg: var(--bg-surface);
+  --card-border: var(--border-default);
+
+  /* Navigation */
+  --nav-bg: var(--color-primary-900);
+  --nav-text: var(--text-inverse);
+
+  /* Status */
+  --status-warning: var(--color-brand-300);
+  --status-highlight: var(--color-accent);
+
+  /* =========================================================
+   FONT FAMILIES
+   ========================================================= */
+
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Base styles (mobile - first) */
+
+  /* =========================================================
+     MOBILE TYPOGRAPHY OVERRIDES
+     ========================================================= */
+
+  /* Hero */
+  --text-hero-display-font: var(--font-heading);
+  --text-hero-display-size: 48px;
+  --text-hero-display-line-height: 56px;
+
+  --text-hero-display-relaxed-font: var(--font-heading);
+  --text-hero-display-relaxed-size: 40px;
+  --text-hero-display-relaxed-line-height: 48px;
+
+  /* Heading XL */
+  --text-heading-xl-font: var(--font-heading);
+  --text-heading-xl-size: 40px;
+  --text-heading-xl-line-height: 50px;
+
+  /* Heading LG */
+  --text-heading-lg-font: var(--font-heading);
+  --text-heading-lg-size: 32px;
+  --text-heading-lg-line-height: 40px;
+
+  /* Special Inter Heading */
+  --text-heading-inter-font: var(--font-body);
+  --text-heading-inter-size: 32px;
+  --text-heading-inter-line-height: 20px;
+
+  /* Heading MD */
+  --text-heading-md-font: var(--font-heading);
+  --text-heading-md-size: 24px;
+  --text-heading-md-line-height: 32px;
+
+  --text-heading-md-relaxed-font: var(--font-heading);
+  --text-heading-md-relaxed-size: 24px;
+  --text-heading-md-relaxed-line-height: 39px;
+
+  /* Body Large */
+  --text-body-lg-font: var(--font-body);
+  --text-body-lg-size: 18px;
+  --text-body-lg-line-height: 28px;
+
+  --text-body-lg-relaxed-font: var(--font-body);
+  --text-body-lg-relaxed-size: 18px;
+  --text-body-lg-relaxed-line-height: 29px;
+
+  /* Body */
+  --text-body-font: var(--font-body);
+  --text-body-size: 16px;
+  --text-body-line-height: 24px;
+
+  --text-body-relaxed-font: var(--font-body);
+  --text-body-relaxed-size: 16px;
+  --text-body-relaxed-line-height: 26px;
+
+  --text-body-tight-font: var(--font-body);
+  --text-body-tight-size: 16px;
+  --text-body-tight-line-height: normal;
+
+  /* Serif Body */
+  --text-body-serif-font: var(--font-heading);
+  --text-body-serif-size: 16px;
+  --text-body-serif-line-height: 24px;
+
+  /* Small */
+  --text-small-font: var(--font-body);
+  --text-small-size: 14px;
+  --text-small-line-height: 20px;
+
+  /* Caption */
+  --text-caption-font: var(--font-body);
+  --text-caption-size: 12px;
+  --text-caption-line-height: 16px;
+}
+
+.hero-title {
+  font-family: var(--text-hero-display-font);
+  font-size: var(--text-hero-display-size);
+  line-height: var(--text-hero-display-line-height);
+}
+
+.body-text {
+  font-family: var(--text-body-font);
+  font-size: var(--text-body-size);
+  line-height: var(--text-body-line-height);
+}
+
+.caption {
+  font-family: var(--text-caption-font);
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-line-height);
+}
+
+/*
+
+
+
+
+Tablet and larger screens  
+
+
+
+
+*/
+@media (min-width: 768px) {
+  :root {
+    /* =========================================================
+   DESKTOP TYPOGRAPHY TOKENS
+   ========================================================= */
+
+    /* Hero */
+    --text-hero-display-size: 64px;
+    --text-hero-display-line-height: 72px;
+
+    --text-hero-display-relaxed-size: 64px;
+    --text-hero-display-relaxed-line-height: 80px;
+
+    /* Heading XL */
+    --text-heading-xl-size: 48px;
+    --text-heading-xl-line-height: 56px;
+
+    --text-heading-xl-relaxed-font: var(--font-heading);
+    --text-heading-xl-relaxed-size: 48px;
+    --text-heading-xl-relaxed-line-height: 60px;
+
+    /* Heading LG */
+    --text-heading-lg-size: 32px;
+    --text-heading-lg-line-height: 40px;
+
+    --text-heading-lg-relaxed-font: var(--font-heading);
+    --text-heading-lg-relaxed-size: 32px;
+    --text-heading-lg-relaxed-line-height: 52px;
+
+    /* Heading MD */
+    --text-heading-md-size: 24px;
+    --text-heading-md-line-height: 32px;
+
+    /* Body Large */
+    --text-body-lg-size: 18px;
+    --text-body-lg-line-height: 28px;
+
+    /* Body */
+    --text-body-size: 16px;
+    --text-body-line-height: 24px;
+
+    --text-body-relaxed-size: 16px;
+    --text-body-relaxed-line-height: 26px;
+
+    --text-body-tight-size: 16px;
+    --text-body-tight-line-height: normal;
+
+    /* Small */
+    --text-small-size: 14px;
+    --text-small-line-height: 20px;
+
+    /* Caption */
+    --text-caption-size: 12px;
+    --text-caption-line-height: 16px;
+  }
+
+  .hero-title {
+    font-family: var(--text-hero-display-font);
+    font-size: var(--text-hero-display-size);
+    line-height: var(--text-hero-display-line-height);
+  }
+
+  .body-text {
+    font-family: var(--text-body-font);
+    font-size: var(--text-body-size);
+    line-height: var(--text-body-line-height);
+  }
+
+  .caption {
+    font-family: var(--text-caption-font);
+    font-size: var(--text-caption-size);
+    line-height: var(--text-caption-line-height);
+  }
+}
