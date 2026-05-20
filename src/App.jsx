@@ -3,10 +3,7 @@ import './App.css';
 import './global.css';
 /*  import Header from './components/Header/header';  */
 
-import Footer from './components/Footer/footer'; 
-
-
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
