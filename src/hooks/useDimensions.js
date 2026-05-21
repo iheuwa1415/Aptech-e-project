@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 
+const BREAKPOINT = 768;
+
 export const useDimensions = () => {
   const [windowSize, setWindowSize] = useState({
     height: window.innerHeight,
@@ -18,5 +20,5 @@ export const useDimensions = () => {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
-  return { ...windowSize, isMobile: windowSize.width < 768 };
+  return { ...windowSize, isMobile: windowSize.width < BREAKPOINT };
 };
