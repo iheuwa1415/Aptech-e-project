@@ -1,9 +1,13 @@
 import { useState } from 'react';
 import './header.css';
-import { NavLink } from 'react-router';
+import { NavLink, useLocation } from 'react-router';
 
 const Header = () => {
-  const [activeTab, setActiveTab] = useState('Explore');
+  const { pathname } = useLocation();
+  const [activeTab, setActiveTab] = useState(
+    pathname === '/' ? 'Explore' : pathname.charAt(0).toUpperCase() + pathname.slice(1)
+  );
+  // console.log('location: %s', JSON.stringify(pathname));
   const navItems = ['Explore', 'Continents', 'Gallery', 'Saved', 'About'];
 
   return (
@@ -19,6 +23,7 @@ const Header = () => {
               to={item === 'Explore' ? '/' : `/${item.toLowerCase()}`}
               className={`nav-item ${activeTab === item ? 'active' : ''}`}
               onClick={() => setActiveTab(item)}
+              style={() => ({ textDecoration: 'none' })}
               end
             >
               {item}
