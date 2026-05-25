@@ -1,28 +1,23 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router';
 import './App.css';
 import './global.css';
-import Feedback from './components/Feedback/Feedback';
-import './components/Feedback/Feedback.css';
-import ContactAndFeedback from './pages/ContactAndFeedback';
+/*  import Header from './components/Header/header';  */
 
-const HomePage = () => (
-  <div style={{ padding: 40 }}>
-    <h1>Welcome</h1>
-    <p>This demo exposes the Contact and Feedback pages.</p>
-    <p>
-      <Link to="/contact">Contact Us</Link> |{' '}
-      <Link to="/feedback">Feedback</Link>
-    </p>
-  </div>
-);
+import { HomePage } from './pages/Homepage/HomePage';
+import { Continents } from './pages/Continents/Continents';
+import { Gallery } from './pages/Gallery/Gallery';
+import { Saved } from './pages/Saved/Saved';
+import { About } from './pages/About/About';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/contact" element={<ContactAndFeedback />} />
-        <Route path="/feedback" element={<Feedback />} />
+        <Route path="/continents" element={<Continents />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/saved" element={<Saved />} />
+        <Route path="/about" element={<About />} />
         <Route path="/hello" element={<div>Hello World</div>} />
       </Routes>
     </BrowserRouter>
