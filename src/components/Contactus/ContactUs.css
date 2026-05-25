@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700;800&display=swap');
+
+/* =========================
+   GLOBAL RESET
+========================= */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f4f4f4;
+  overflow-x: hidden;
+  color: #222;
+}
+
+/* =========================
+   MAIN CONTAINER
+========================= */
+
+.contact-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 60px 20px;
+
+  background: linear-gradient(
+    180deg,
+    #d89b63 0%,
+    #c48352 45%,
+    #7b5b49 100%
+  );
+}
+
+/* =========================
+   CONTACT CARD
+========================= */
+
+.contact-card {
+  width: 100%;
+  max-width: 850px;
+
+  background: rgba(255, 255, 255, 0.98);
+
+  padding: 70px 60px;
+
+  border-radius: 28px;
+
+  box-shadow:
+    0 15px 40px rgba(0, 0, 0, 0.12),
+    0 5px 15px rgba(0, 0, 0, 0.06);
+
+  backdrop-filter: blur(10px);
+
+  transition: 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-4px);
+}
+
+/* =========================
+   TITLES
+========================= */
+
+.main-title {
+  font-family: 'Playfair Display', serif;
+
+  font-size: clamp(2.7rem, 7vw, 5rem);
+
+  line-height: 1.1;
+
+  text-align: center;
+
+  color: #08163a;
+
+  margin-bottom: 22px;
+}
+
+.description {
+  width: 100%;
+  max-width: 650px;
+
+  margin: 0 auto 55px;
+
+  font-size: clamp(1rem, 2vw, 1.2rem);
+
+  line-height: 1.8;
+
+  text-align: center;
+
+  color: #555;
+}
+
+.contact-title {
+  font-size: clamp(2rem, 5vw, 3.4rem);
+
+  font-weight: 800;
+
+  color: #866400;
+
+  margin-bottom: 40px;
+
+  border-bottom: 1px solid #e5e5e5;
+
+  padding-bottom: 14px;
+}
+
+/* =========================
+   FORM
+========================= */
+
+.contact-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 34px;
+}
+
+/* LABELS */
+
+.form-group label {
+  display: block;
+
+  font-size: 15px;
+
+  font-weight: 700;
+
+  color: #444;
+
+  margin-bottom: 12px;
+
+  letter-spacing: 0.5px;
+}
+
+/* INPUTS */
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+
+  border: none;
+
+  border-bottom: 2px solid #b7b7b7;
+
+  background: transparent;
+
+  padding: 15px 0;
+
+  font-size: 17px;
+
+  font-family: 'Inter', sans-serif;
+
+  color: #222;
+
+  outline: none;
+
+  transition: all 0.3s ease;
+}
+
+/* TEXTAREA */
+
+.form-group textarea {
+  min-height: 150px;
+
+  resize: vertical;
+}
+
+/* PLACEHOLDER */
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #bdbdbd;
+
+  font-size: 16px;
+}
+
+/* FOCUS EFFECT */
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-bottom-color: #08163a;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+.submit-btn {
+  width: 100%;
+
+  padding: 18px;
+
+  border: none;
+
+  border-radius: 14px;
+
+  background: #08163a;
+
+  color: #fff;
+
+  font-size: 17px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: #13285f;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 10px 20px rgba(8, 22, 58, 0.2);
+}
+
+.submit-btn:active {
+  transform: scale(0.98);
+}
+
+/* =========================
+   LARGE DESKTOP
+========================= */
+
+@media (min-width: 1400px) {
+  .contact-card {
+    max-width: 950px;
+
+    padding: 80px 70px;
+  }
+
+  .description {
+    font-size: 1.25rem;
+  }
+}
+
+/* =========================
+   TABLET DEVICES
+========================= */
+
+@media (max-width: 992px) {
+  .contact-card {
+    padding: 55px 40px;
+  }
+
+  .description {
+    margin-bottom: 45px;
+  }
+}
+
+/* =========================
+   MOBILE TABLETS
+========================= */
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 35px 16px;
+
+    align-items: flex-start;
+  }
+
+  .contact-card {
+    padding: 45px 28px;
+
+    border-radius: 22px;
+  }
+
+  .contact-title {
+    margin-bottom: 30px;
+  }
+
+  .form-group {
+    margin-bottom: 28px;
+  }
+
+  .submit-btn {
+    padding: 16px;
+  }
+}
+
+/* =========================
+   MOBILE DEVICES
+========================= */
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 20px 12px;
+  }
+
+  .contact-card {
+    padding: 35px 20px;
+
+    border-radius: 18px;
+  }
+
+  .main-title {
+    line-height: 1.2;
+
+    margin-bottom: 18px;
+  }
+
+  .description {
+    font-size: 15px;
+
+    line-height: 1.7;
+
+    margin-bottom: 30px;
+  }
+
+  .contact-title {
+    padding-bottom: 10px;
+
+    margin-bottom: 24px;
+  }
+
+  .form-group {
+    margin-bottom: 24px;
+  }
+
+  .form-group label {
+    font-size: 14px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px;
+
+    padding: 12px 0;
+  }
+
+  .form-group textarea {
+    min-height: 120px;
+  }
+
+  .submit-btn {
+    font-size: 16px;
+
+    padding: 15px;
+  }
+}
+
+/* =========================
+   EXTRA SMALL DEVICES
+========================= */
+
+@media (max-width: 320px) {
+  .contact-card {
+    padding: 28px 16px;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .contact-title {
+    font-size: 1.7rem;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 15px;
+  }
+
+  .submit-btn {
+    font-size: 15px;
+  }
+}
