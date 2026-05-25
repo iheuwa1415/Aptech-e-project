@@ -23,7 +23,7 @@ const ContactUs = () => {
 
     console.log(formData);
 
-    alert("Message sent successfully!");
+    alert("Message Sent Successfully!");
 
     setFormData({
       fullName: "",
@@ -34,15 +34,26 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="contact-container">
+    <section className="contact-section">
+      <div className="quote-box">
+        <div className="quote-line"></div>
+
+        <div>
+          <p className="quote">
+            “A people without the knowledge of their past history,
+            origin and culture is like a tree without roots.”
+          </p>
+
+          <span className="author">— MARCUS GARVEY</span>
+        </div>
+      </div>
+
       <div className="contact-card">
-        <h1 className="main-title">Share Your Insights</h1>
+        <h1 className="main-title">Contact Us</h1>
 
         <p className="description">
-          Help us preserve the world's heritage through modern technology.
+          Reach out to our archival team for direct inquiries.
         </p>
-
-        <h2 className="contact-title">CONTACT US</h2>
 
         <form className="contact-form" onSubmit={handleSubmit}>
           {/* FULL NAME */}
@@ -94,20 +105,19 @@ const ContactUs = () => {
             <textarea
               rows="5"
               name="message"
-              placeholder="How can we help you?"
+              placeholder="Your message to the curators..."
               value={formData.message}
               onChange={handleChange}
               required
             ></textarea>
           </div>
 
-          {/* BUTTON */}
           <button type="submit" className="submit-btn">
-            Send Message
+            SEND MESSAGE
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 
