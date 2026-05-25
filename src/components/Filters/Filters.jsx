@@ -10,27 +10,27 @@ function Filters() {
       />
 
       <h3>ERA</h3>
+      <div className="stright">
+        <label>
+          <input type="checkbox" />
+          Pre-history
+        </label>
+        
+        <label>
+          <input type="checkbox" />
+          Ancient
+        </label>
 
-      <label>
-        <input type="checkbox" />
-        Pre-history
-      </label>
+        <label>
+          <input type="checkbox" />
+          Medieval
+        </label>
 
-      <label>
-        <input type="checkbox" />
-        Ancient
-      </label>
-
-      <label>
-        <input type="checkbox" />
-        Medieval
-      </label>
-
-      <label>
-        <input type="checkbox" />
-        Renaissance
-      </label>
-
+        <label>
+          <input type="checkbox" />
+          Renaissance
+        </label>
+      </div>
     </div>
   );
 }

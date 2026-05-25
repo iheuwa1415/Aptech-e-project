@@ -10,3 +10,14 @@
   padding: 10px;
   margin: 10px 0;
 }
+
+/* .stright {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+} */
+
+.stright label {
+  display: block;
+  margin-bottom: 12px;
+}
