@@ -1,13 +1,11 @@
-function Filters() {
+import './Filters.css';
+
+const Filters = () => {
   return (
     <div className="filters">
-
       <h2>FILTERS</h2>
 
-      <input
-        type="text"
-        placeholder="Search records..."
-      />
+      <input type="text" placeholder="Search records..." />
 
       <h3>ERA</h3>
       <div className="stright">
@@ -15,7 +13,7 @@ function Filters() {
           <input type="checkbox" />
           Pre-history
         </label>
-        
+
         <label>
           <input type="checkbox" />
           Ancient
@@ -31,9 +29,8 @@ function Filters() {
           Renaissance
         </label>
       </div>
-      
     </div>
   );
-}
+};
 
 export default Filters;
