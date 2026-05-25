@@ -4,7 +4,7 @@ import './global.css';
 import './pages/Saved/Saved.css'
 import './components/Card/Card.css';
 import './components/Filters/Filters.css'
-/*  import Header from './components/Header/header';  */
+
 
 import { HomePage } from './pages/Homepage/HomePage';
 import { Continents } from './pages/Continents/Continents';

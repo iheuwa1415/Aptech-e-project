@@ -18,7 +18,7 @@ export const Saved = () => {
           <div className="sidebar">
               <Filters /> 
           </div>
-          <div className='card'>
+          <div className='cards'>
           {data.map((item) => (
           <Card
             key={item.id}

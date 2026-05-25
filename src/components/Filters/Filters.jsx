@@ -31,6 +31,7 @@ function Filters() {
           Renaissance
         </label>
       </div>
+      
     </div>
   );
 }
