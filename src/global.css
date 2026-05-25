@@ -19,6 +19,8 @@
 
   --color-header-nav-text: #45474d;
   --color-header-nav-text-active: #051125;
+
+  --color-footer-brand: #f6ece1;
   /**/
   /* ========================================
    SEMANTIC TOKENS
@@ -29,12 +31,16 @@
   --bg-page: var(--color-brand-50);
   --bg-surface: var(--color-brand-100);
   --bg-muted: var(--color-brand-200);
+  --bg-footer: var(--color-footer-brand);
 
   /* Text */
   --text-primary: var(--color-primary-900);
   --text-secondary: var(--color-primary-700);
   --text-muted: var(--color-brand-400);
   --text-inverse: #ffffff;
+
+  --text-grey: var(--color-header-nav-text);
+  --text-dark: var(var(--color-header-nav-text-active));
 
   /* Brand / Actions */
   --color-primary: var(--color-primary-500);

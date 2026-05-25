@@ -22,7 +22,7 @@
   font-size: var(--text-heading-md-size);
   font-weight: 600;
   line-height: var(--text-heading-md-line-height);
-  color: var(--color-header-nav-text-active); /* Uses your #08060d / #f3f4f6 token */
+  color: var(--text-grey-active); /* Uses your #08060d / #f3f4f6 token */
   cursor: pointer;
   -webkit-user-select: none;
   user-select: none;
@@ -44,7 +44,7 @@
   font-family: var(--font-body);
   font-size: var(--text-small-size);
   font-weight: bold;
-  color: var(--color-header-nav-text);
+  color: var(--text-grey);
   cursor: pointer;
   position: relative;
   padding: 8px 0;
@@ -59,7 +59,7 @@
 .nav-item.active {
   color: var(--bg);
   font-weight: bold;
-  color: var(--color-header-nav-text-active);
+  color: var(--text-grey-active);
 }
 
 .nav-item.active::after {
@@ -85,7 +85,7 @@
   width: 24px;
   height: 24px;
   transition: opacity 0.2s ease;
-  color: var(--color-header-nav-text-active);
+  color: var(--text-grey-active);
 }
 
 .profile-icon:hover {

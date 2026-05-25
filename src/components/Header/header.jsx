@@ -23,7 +23,7 @@ const Header = () => {
               to={item === 'Explore' ? '/' : `/${item.toLowerCase()}`}
               className={`nav-item ${activeTab === item ? 'active' : ''}`}
               onClick={() => setActiveTab(item)}
-              style={() => ({ textDecoration: 'none' })}
+              style={() => ({ textDecoration: 'none', fontWeight: activeTab === item ? 'bold' : 600 })}
               end
             >
               {item}
