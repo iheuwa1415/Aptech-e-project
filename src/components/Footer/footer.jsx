@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import './footer.css';
 
-const Footer = () => {
+const Footer = ({ isHomePage = false }) => {
   const [activeTab, setActiveTab] = useState('Explore');
 
   return (
-    <footer className="footer">
+    <footer className={`footer ${isHomePage ? 'home-footer' : 'inner-footer'}`}>
       <div className="footer-container">
         
         {/* Top Section: Split between description and links */}
@@ -15,11 +15,13 @@ const Footer = () => {
           <div className="footer-brand-section">
             <h3 className="footer-logo">Global Heritage</h3>
             <p className="footer-description">
-              © 2026 Global Heritage. Preserving history through modern discovery. 
-              We are a digital archive dedicated to the immersive exploration of humanity's greatest achievements.
+              ©️ 2026 Global Heritage. Preserving history through modern discovery.
+              {/* Only show the full descriptive sentence on the Home Page */}
+              {isHomePage && " We are a digital archive dedicated to the immersive exploration of humanity's greatest achievements."}
             </p>
             
-            <div className="footer-icons">
+            {/* Desktop: Icons stay on left ONLY if it's the Home Page. Mobile: Kept untouched via CSS display */}
+            <div className="footer-icons desktop-left-icons">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="footer-icon">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-.778.099-1.533.284-2.253" />
               </svg>
@@ -34,19 +36,23 @@ const Footer = () => {
 
           {/* Right Blocks: Directory links */}
           <div className="footer-links-section">
-            <div className="footer-column">
-              <h4>DISCO<br />VER</h4>
-              <ul>
-                <li><a href="#europe">Europe</a></li>
-                <li><a href="#asia">Asia & Pacific</a></li>
-                <li><a href="#americas">Americas</a></li>
-                <li><a href="#africa">Africa</a></li>
-              </ul>
-            </div>
+            {/* Only render the entire DISCOVER block if it is the Home Page */}
+            {isHomePage && (
+              <div className="footer-column">
+                <h4>DISCO<br />VER</h4>
+                <ul>
+                  <li><a href="#europe">Europe</a></li>
+                  <li><a href="#asia">Asia & Pacific</a></li>
+                  <li><a href="#americas">Americas</a></li>
+                  <li><a href="#africa">Africa</a></li>
+                </ul>
+              </div>
+            )}
             
-            <div className="footer-column">
-              <h4>ORGANIZAT<br />ION</h4>
-              <ul>
+            <div className="footer-column organization-column">
+              {/* Only show the Heading on the Home Page */}
+              {isHomePage && <h4>ORGANIZAT<br />ION</h4>}
+              <ul className="organization-links-list">
                 <li><a href="#privacy">Privacy Policy</a></li>
                 <li><a href="#terms">Terms of Service</a></li>
                 <li><a href="#accessibility">Accessibility</a></li>
@@ -55,16 +61,33 @@ const Footer = () => {
             </div>
           </div>
 
+          {/* Desktop: New Far Right Icons block that only shows up on Inner Pages */}
+          {!isHomePage && (
+            <div className="footer-icons desktop-right-icons">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="footer-icon">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-.778.099-1.533.284-2.253" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="footer-icon">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="footer-icon">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+              </svg>
+            </div>
+          )}
+
         </div>
 
-        {/* Bottom Section: Tagline */}
-        <div className="footer-bottom">
-          <span className="footer-tagline">Designed with reverence for the past.</span>
-        </div>
+        {/* Bottom Section: Tagline (Only shows on home page variant) */}
+        {isHomePage && (
+          <div className="footer-bottom">
+            <span className="footer-tagline">Designed with reverence for the past.</span>
+          </div>
+        )}
 
       </div>
 
-      {/* NEW: Mobile App-Style Bottom Navigation Bar */}
+      {/* Mobile App-Style Bottom Navigation Bar (Completely Unaltered) */}
       <div className="mobile-bottom-nav">
         <div 
           className={`mobile-nav-item ${activeTab === 'Explore' ? 'active' : ''}`} 
