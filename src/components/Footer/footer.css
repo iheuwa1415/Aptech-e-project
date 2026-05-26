@@ -248,6 +248,7 @@
   font-style: italic;
 }
 
+
 /* =========================================================================
    CRITICAL MOBILE SCREEN MEDIA QUERY (BREAKS COLS APART)
    ========================================================================= */
@@ -273,7 +274,7 @@
   /* Align directories row layout across the bottom of mobile screen */
   .footer-links-section {
     width: 100%;
-    justify-content: space-between; /* Spreads menus outward evenly over narrow device spaces */
+    justify-content:间-between; /* Spreads menus outward evenly over narrow device spaces */
     gap: 20px;
   }
 
@@ -281,12 +282,8 @@
     justify-content: flex-start; /* Shifts watermark label text neatly to left on phones */
     padding-top: 20px;
   }
-  
-  /* Hide desktop-specific helper layouts on mobile viewports */
-  .desktop-right-icons {
-    display: none !important;
-  }
 }
+
 
 /* =========================================================================
    MOBILE BOTTOM APP NAVIGATION COMPONENT
@@ -343,41 +340,5 @@
 
   .mobile-nav-item.active .mobile-nav-icon {
     opacity: 1;
-  }
-}
-
-
-/* =========================================================================
-   NEW DESKTOP-ONLY STYLES FOR THE INNER PAGES VARIANT 
-   ========================================================================= */
-
-@media (min-width: 769px) {
-  /* When on an inner page, apply a neat single-row layout */
-  .inner-footer .footer-main {
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  /* Limit the height/width of description text to mimic the second picture */
-  .inner-footer .footer-description {
-    margin-bottom: 0px;
-    max-width: 320px;
-  }
-
-  /* Turn the organizational items list into a tight 2x2 side-by-side grid arrangement */
-  .inner-footer .organization-links-list {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 12px 60px; /* high column gap to separate lists cleanly */
-  }
-
-  /* Hide the left-aligned desktop icon block on inner sub-pages */
-  .inner-footer .desktop-left-icons {
-    display: none !important;
-  }
-  
-  /* Make sure the right-side icons display horizontally on desktop */
-  .inner-footer .desktop-right-icons {
-    display: flex;
   }
 }
