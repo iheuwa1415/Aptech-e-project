@@ -1,35 +1,25 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import './global.css';
+/*  import Header from './components/Header/header';  */
 
-import Footer from './components/Footer/footer';
-// 1. Un-comment your real Home component import here:
-// import Home from './components/Home/home';
-
-function AppContent() {
-  const location = useLocation();
-  const isHomePage = location.pathname === "/";
-
-  return (
-    <>
-      <Routes>
-        {/* 2. REPLACE THE DIV PLACEHOLDER HERE */}
-        {/* Swap it to your real component like this: <Route path="/" element={<Home />} /> */}
-        {/* Or use an empty fragment if you aren't ready to render anything yet: */}
-        <Route path="/" element={<></>} />
-        
-        <Route path="/hello" element={<div>Hello World</div>} />
-      </Routes>
-
-      <Footer isHomePage={isHomePage} />
-    </>
-  );
-}
+import { HomePage } from './pages/Homepage/HomePage';
+import { Continents } from './pages/Continents/Continents';
+import { Gallery } from './pages/Gallery/Gallery';
+import { Saved } from './pages/Saved/Saved';
+import { About } from './pages/About/About';
 
 function App() {
   return (
     <BrowserRouter>
-      <AppContent />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/continents" element={<Continents />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/saved" element={<Saved />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/hello" element={<div>Hello World</div>} />
+      </Routes>
     </BrowserRouter>
   );
 }
