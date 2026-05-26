@@ -34,20 +34,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="contact-section">
-      <div className="quote-box">
-        <div className="quote-line"></div>
-
-        <div>
-          <p className="quote">
-            “A people without the knowledge of their past history,
-            origin and culture is like a tree without roots.”
-          </p>
-
-          <span className="author">— MARCUS GARVEY</span>
-        </div>
-      </div>
-
+    
       <div className="contact-card">
         <h1 className="main-title">Contact Us</h1>
 
@@ -117,7 +104,6 @@ const ContactUs = () => {
           </button>
         </form>
       </div>
-    </section>
   );
 };
 
