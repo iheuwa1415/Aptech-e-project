@@ -9,7 +9,7 @@ export const Saved = () => {
   return (
     <>
       <Header />
-      <container>
+      <div>
         <div className="hero">
           <h1>Your Collection</h1>
           <p>
@@ -28,7 +28,7 @@ export const Saved = () => {
             ))}
           </div>
         </div>
-      </container>
+      </div>
       <Footer />
     </>
   );

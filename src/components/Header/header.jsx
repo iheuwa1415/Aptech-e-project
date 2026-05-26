@@ -18,8 +18,9 @@ const Header = () => {
 
         {/* Center: Navigation Links */}
         <ul className="navbar-links">
-          {navItems.map((item) => (
+          {navItems.map((item, index) => (
             <NavLink
+              key={index}
               to={item === 'Explore' ? '/' : `/${item.toLowerCase()}`}
               className={`nav-item ${activeTab === item ? 'active' : ''}`}
               onClick={() => setActiveTab(item)}
