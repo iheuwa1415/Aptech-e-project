@@ -1,3 +1,4 @@
+import './Card.css';
 
 function Card({ name, country, city, images }) {
   return (

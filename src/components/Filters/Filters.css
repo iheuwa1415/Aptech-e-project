@@ -1,5 +1,5 @@
 .filters {
-  width: 250px;
+  width: 20%;
   padding: 20px;
   border-right: 1px solid #ddd;
   height: 100vh;
@@ -20,4 +20,16 @@
 .stright label {
   display: block;
   margin-bottom: 12px;
+}
+
+.stright{
+  border-bottom: 1PX rgb(205, 201, 201) solid;
+}
+
+.btn{
+  margin-top: 20px;
+  width: 240px;
+  padding: 15px;
+  background-color: transparent;
+  border: 0.5px black solid;
 }
