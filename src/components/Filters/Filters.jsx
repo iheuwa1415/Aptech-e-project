@@ -3,7 +3,7 @@ import './Filters.css';
 
 function Filters(props) {
   
-  const filters = props.filters;
+  const filters = props.filters;git 
 
   console.log(filters)
   
