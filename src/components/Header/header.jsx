@@ -8,7 +8,7 @@ const Header = () => {
     pathname === '/' ? 'Explore' : pathname.charAt(0).toUpperCase() + pathname.slice(1)
   );
   // console.log('location: %s', JSON.stringify(pathname));
-  const navItems = ['Explore', 'Continents', 'Gallery', 'Saved', 'About'];
+  const navItems = ['Explore', 'Continents', 'Monument', 'Gallery', 'Saved', 'About'];
 
   return (
     <nav className="navbar">

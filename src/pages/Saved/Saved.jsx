@@ -2,7 +2,7 @@ import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Card from '../../components/Card/Card';
 import Filters from '../../components/Filters/Filters';
-import data from '../../worldwonder.json';
+import data from '../../data/monuments.json';
 import './Saved.css';
 
 export const Saved = () => {
