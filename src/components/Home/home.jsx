@@ -1,5 +1,7 @@
-import Button from '../buttons/button'; 
-import './home.css';
+import Button from '../Button/Button';
+import LiveTicker from '../Ticker/Ticker';
+import './Home.css';
+
 
 const Home = () => {
   const handleBeginJourney = () => console.log("Journey initiated...");
@@ -9,7 +11,7 @@ const Home = () => {
 
   return (
     <div className="home-page">
-      
+      <LiveTicker />
       {/* 1. HERO SECTION */}
       <section className="hero-section">
         <div className="hero-overlay">
@@ -17,7 +19,8 @@ const Home = () => {
             <span className="hero-subtitle">THE CRADLE OF CIVILIZATION</span>
             <h1 className="hero-title">Witness the Majesty of<br />the Eternal Sands.</h1>
             <div className="hero-action">
-              <Button text="BEGIN JOURNEY" variant="solid" onClick={handleBeginJourney} />
+       
+<Button variant="btn-solid" text="Begin Journey" onClick={handleBeginJourney} />
             </div>
           </div>
         </div>
@@ -31,7 +34,7 @@ const Home = () => {
             <p>Explore the destinations capturing the imagination of historians and travelers worldwide this season.</p>
           </div>
           <div className="trending-action-btn">
-            <Button text="VIEW ALL" variant="outline" onClick={handleViewAllMonuments} />
+           <Button variant="btn-solid" text="VIEW ALL" onClick={handleViewAllMonuments} />
           </div>
         </div>
 
@@ -89,7 +92,7 @@ const Home = () => {
             <p className="exhibition-intro">In the heart of the Jordanian desert lies a marvel of the ancient world. Known as the Rose City due to the color of the stone out of which it is carved, Petra stands as a symbol of resilience and artistic brilliance.</p>
             <p className="exhibition-details">Our latest digital chapter explores the Nabataean civilization's mastery of water management and trade, revealing how they transformed a barren canyon into a thriving metropolis.</p>
             <div className="exhibition-action">
-              <Button text="READ FEATURED CHAPTER" variant="solid" onClick={handleReadChapter} />
+            <Button variant="btn-solid" text="READ FEATURED CHAPTER" onClick={handleReadChapter} />
             </div>
           </div>
         </div>

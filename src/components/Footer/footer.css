@@ -1,137 +1,12 @@
-.footer {
-  width: 100%;
-  background-color: var(--bg-surface); /* Clean warm brand-100 background tint */
-  border-top: 1px solid var(--border-default);
-  padding: 60px 40px 30px 40px;
-  box-sizing: border-box;
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  gap: 60px;
-  width: 100%;
-}
-
-.footer-main {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-}
-
-/* Left Section Styles */
-.footer-brand-section {
-  max-width: 440px;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.footer-logo {
-  font-family: var(--font-heading); /* Uses Playfair Display */
-  font-size: var(--text-heading-md-size);
-  line-height: var(--text-heading-md-line-height);
-  font-weight: 500;
-  color: var(--text-primary); /* Pure primary #121a28 deep tone */
-  margin: 0 0 20px 0;
-}
-
-.footer-description {
-  font-family: var(--font-body); /* Uses Inter */
-  font-size: var(--text-small-size);
-  line-height: var(--text-small-line-height);
-  color: var(--text-secondary); /* Balanced #2d3d45 readability tone */
-  margin: 0 0 32px 0;
-}
-
-.footer-icons {
-  display: flex;
-  gap: 18px;
-}
-
-.footer-icon {
-  width: 18px;
-  height: 18px;
-  color: var(--text-primary);
-  cursor: pointer;
-  opacity: 0.85;
-  transition: opacity 0.2s ease, transform 0.2s ease;
-}
-
-.footer-icon:hover {
-  opacity: 1;
-  transform: translateY(-1px);
-}
-
-/* Right Section Styles */
-.footer-links-section {
-  display: flex;
-  gap: 84px;
-}
-
-.footer-column {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.footer-column h4 {
-  font-family: var(--font-body);
-  font-size: var(--text-caption-size);
-  line-height: 1.3;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--text-primary); /* Bold directory names */
-  margin: 0 0 24px 0;
-}
-
-.footer-column ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-
-.footer-column ul li a {
-  font-family: var(--font-body);
-  font-size: var(--text-small-size);
-  text-decoration: none;
-  color: var(--text-secondary);
-  transition: color 0.2s ease;
-}
-
-.footer-column ul li a:hover {
-  color: var(--color-primary); /* Shifts cleanly to your primary teal/blue on hover */
-}
-
-/* Bottom Row Section Styles */
-.footer-bottom {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-  border-top: 1px solid var(--border-default);
-  padding-top: 24px;
-}
-
-.footer-tagline {
-  font-family: var(--font-body);
-  font-size: var(--text-caption-size);
-  color: var(--text-muted); /* Uses muted brown token #906d54 from your config */
-  font-style: italic;
-}
-
 /* =========================================================================
    UNIVERSAL RESPONSIVE FOOTER STYLES
    ========================================================================= */
 
 .footer {
   width: 100%;
-  background-color: var(--bg-surface); /* Warm brand-100 tint */
+  background-color: var(--bg-surface);
   border-top: 1px solid var(--border-default);
-  padding: 60px 24px 30px 24px; /* Slightly tighter horizontal padding to prevent page overflow */
+  padding: 60px 24px 30px 24px;
   box-sizing: border-box;
 }
 
@@ -145,16 +20,22 @@
   box-sizing: border-box;
 }
 
-/* Master horizontal layout handler */
+/* =========================================================================
+   TOP FOOTER LAYOUT
+   ========================================================================= */
+
 .footer-main {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   width: 100%;
-  gap: 40px;
+  gap: 24px;
 }
 
-/* Brand Section Styling (Left Panel) */
+/* =========================================================================
+   LEFT SECTION
+   ========================================================================= */
+
 .footer-brand-section {
   flex: 1;
   max-width: 440px;
@@ -164,7 +45,7 @@
 }
 
 .footer-logo {
-  font-family: var(--font-heading); /* Playfair Display */
+  font-family: var(--font-heading);
   font-size: var(--text-heading-md-size);
   line-height: var(--text-heading-md-line-height);
   font-weight: 500;
@@ -173,12 +54,16 @@
 }
 
 .footer-description {
-  font-family: var(--font-body); /* Inter */
+  font-family: var(--font-body);
   font-size: var(--text-small-size);
   line-height: var(--text-small-line-height);
   color: var(--text-secondary) !important;
   margin: 0 0 24px 0;
 }
+
+/* =========================================================================
+   ICONS
+   ========================================================================= */
 
 .footer-icons {
   display: flex;
@@ -190,12 +75,23 @@
   height: 18px;
   color: var(--text-primary) !important;
   cursor: pointer;
+  opacity: 0.85;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
-/* Directory Menu Section Styling (Right Panel) */
+.footer-icon:hover {
+  opacity: 1;
+  transform: translateY(-1px);
+}
+
+/* =========================================================================
+   RIGHT LINKS SECTION
+   ========================================================================= */
+
 .footer-links-section {
   display: flex;
-  gap: 64px;
+  align-items: flex-start;
+  gap: 48px;
 }
 
 .footer-column {
@@ -212,7 +108,7 @@
   letter-spacing: 0.1em;
   color: var(--text-primary) !important;
   margin: 0 0 20px 0;
-  white-space: nowrap; /* Keeps DISCOVER and ORGANIZATION perfectly whole */
+  white-space: nowrap;
 }
 
 .footer-column ul {
@@ -230,9 +126,17 @@
   text-decoration: none;
   color: var(--text-secondary) !important;
   white-space: nowrap;
+  transition: color 0.2s ease;
 }
 
-/* Bottom Row Tagline Element */
+.footer-column ul li a:hover {
+  color: var(--color-primary);
+}
+
+/* =========================================================================
+   BOTTOM TAGLINE
+   ========================================================================= */
+
 .footer-bottom {
   display: flex;
   justify-content: flex-end;
@@ -248,46 +152,64 @@
   font-style: italic;
 }
 
-
 /* =========================================================================
-   CRITICAL MOBILE SCREEN MEDIA QUERY (BREAKS COLS APART)
+   MOBILE RESPONSIVE
    ========================================================================= */
 
 @media (max-width: 768px) {
   .footer {
-    padding: 40px 16px 80px 16px; /* Added lower clearance cushion for mobile base bar */
+    padding: 40px 16px 96px 16px;
   }
 
-  /* Force vertical stacking instead of crunching items side-by-side */
   .footer-main {
     flex-direction: column;
-    align-items: flex-start;
-    gap: 40px;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
   }
 
-  /* Release maximum restrictions so elements embrace total mobile window width */
   .footer-brand-section {
     max-width: 100%;
     width: 100%;
+    align-items: center;
+    text-align: center;
   }
 
-  /* Align directories row layout across the bottom of mobile screen */
+  .footer-description {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 24px auto;
+  }
+
+  .footer-icons {
+    justify-content: center;
+    margin-bottom: 8px;
+  }
+
   .footer-links-section {
     width: 100%;
-    justify-content:间-between; /* Spreads menus outward evenly over narrow device spaces */
-    gap: 20px;
+    justify-content: center;
+    gap: 48px;
+    border-top: 1px solid var(--border-default);
+    padding-top: 28px;
+    flex-wrap: wrap;
+  }
+
+  .footer-column {
+    align-items: center;
+    text-align: center;
   }
 
   .footer-bottom {
-    justify-content: flex-start; /* Shifts watermark label text neatly to left on phones */
+    justify-content: center;
     padding-top: 20px;
   }
 }
 
-
 /* =========================================================================
    MOBILE BOTTOM APP NAVIGATION COMPONENT
    ========================================================================= */
+
 .mobile-bottom-nav {
   display: none;
 }
@@ -335,7 +257,7 @@
   }
 
   .mobile-nav-item.active {
-    color: var(--text-muted) !important; 
+    color: var(--text-muted) !important;
   }
 
   .mobile-nav-item.active .mobile-nav-icon {
