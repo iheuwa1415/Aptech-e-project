@@ -1,5 +1,7 @@
 import { useParams } from 'react-router';
 import monuments from '../../data/monuments.json';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
 
 export const Monument = () => {
   //DO NOT TOUCH!
@@ -14,10 +16,14 @@ export const Monument = () => {
   console.log(monument);
 
   return (
-    <div>
-      <h2>This is the monuments page</h2>
-      <h4>{monument.name}</h4>
-      <p>{monument.shortDescription}</p>
-    </div>
+    <>
+      <Header />
+      <div>
+        <h2>This is the monuments page</h2>
+        <h4>{monument.name}</h4>
+        <p>{monument.shortDescription}</p>
+      </div>
+      <Footer />
+    </>
   );
 };
