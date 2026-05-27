@@ -14,16 +14,19 @@ export const About = () => {
 
         <div>
           <p className="quote">
-            “A people without the knowledge of their past history,origin and culture is like a tree without roots.”
+            “A people without the knowledge of their past history,
+            origin and culture is like a tree without roots.”
           </p>
           
           <span className="author">— MARCUS GARVEY</span>
-        </div>
-        <div className="contact-feedback-container">
-          <ContactUs />
-          <Feedback />  
-        </div >
+        </div>  
       </div>
+       <div className="contact-feedback-container">
+          
+          <Feedback />
+          
+          <ContactUs/>  
+        </div >
       <div className="spotlight-section">
         <img 
          src = "./assets/OIP.webp"

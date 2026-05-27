@@ -71,6 +71,22 @@ body {
   transform: translateY(-3px);
 }
 
+.insight-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #1f1f1f;
+  margin-bottom: 10px;
+} 
+
+.insight-subtitle {
+ color: #777;
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+
+
 /* =========================
    TITLE
 ========================= */

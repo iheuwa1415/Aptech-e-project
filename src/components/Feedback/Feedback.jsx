@@ -4,6 +4,13 @@ const FeedbackPage = () => {
   return (
     <div className="feedback-container">
       <div className="feedback-card">
+        {/* Share Your Insight Header */}
+        <div className="insight-header">
+          <h1 className="insight-title">Share Your Insights </h1>
+
+          
+          <p className="insight-subtitle">Help us preserve history through modern technology.</p>
+        </div>
 
         <h1 className="feedback-title">FEEDBACK</h1>
 
