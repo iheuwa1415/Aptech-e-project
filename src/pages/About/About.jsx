@@ -14,8 +14,7 @@ export const About = () => {
 
         <div>
           <p className="quote">
-            “A people without the knowledge of their past history,
-            origin and culture is like a tree without roots.”
+            “A people without the knowledge of their past history,origin and culture is like a tree without roots.”
           </p>
           
           <span className="author">— MARCUS GARVEY</span>
@@ -27,8 +26,8 @@ export const About = () => {
       </div>
       <div className="spotlight-section">
         <img 
-          src="OIP.webp" 
-          alt="" 
+         src = "./assets/OIP.webp"
+          alt="spotlight-image" 
           className="spotlight-image"
         />
         <div className="spotlight-overlay">
