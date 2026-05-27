@@ -1040,5 +1040,803 @@
       "metaTitle": "Sigiriya Rock Fortress - Global Heritage",
       "metaDescription": "Discover Sigiriya Rock Fortress, Sri Lanka’s ancient palace citadel and UNESCO World Heritage Site."
     }
+  },
+  {
+    "id": 14,
+    "slug": "chichen-itza",
+    "name": "Chichen Itza",
+
+    "zone": "north",
+    "continent": "North America",
+    "country": "Mexico",
+    "city": "Yucatán",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "600 AD",
+    "completedYear": "1200 AD",
+    "builtBy": "Maya Civilization",
+    "architecturalStyle": "Maya-Toltec Architecture",
+
+    "shortDescription": "An ancient Mayan city in Mexico known for its pyramids, temples, and astronomical significance.",
+
+    "fullDescription": "Chichen Itza was one of the largest and most influential cities of the ancient Maya civilization. Located in the Yucatán Peninsula of Mexico, the city served as a political, religious, and economic center for centuries. Its most famous structure, El Castillo, demonstrates the Maya’s advanced knowledge of astronomy and engineering. Today, Chichen Itza stands as one of the most visited archaeological sites in the Americas.",
+
+    "historicalSignificance": [
+      "It represents a unique merger of Maya knowledge and central Mexican Toltec military culture.",
+      "UNESCO World Heritage Site",
+      "The city controlled regional salt beds and maritime trade networks through its port at Isla Cerritos.",
+      "One of the Seven Wonders of the World",
+      "Major center of the ancient Maya civilization"
+    ],
+
+    "facts": [
+      "El Castillo pyramid has 365 steps representing the solar calendar",
+      "During the equinox, shadows create the illusion of a serpent descending the pyramid",
+      " Clapping at the base of El Castillo creates an echo that perfectly mimics the chirp of the sacred Quetzal bird.",
+      "A person speaking softly at one end of the Great Ball Court can be heard perfectly 150 meters away.",
+      "The site includes one of the largest ancient ball courts in Mesoamerica",
+      "It was voted one of the New 7 Wonders of the World in 2007 by over 100 million global voters."
+    ],
+
+    "tags": ["unesco", "world wonder", "mexico", "historical", "maya"],
+
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/960px-Chichen_Itza_3.jpg",
+      "https://montecristomagazine.com/wp-content/uploads/2025/12/Travel-Chichen-Itza_Page_1_Image_0001.webp",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Chichen-Itza-1000-Warriors-Columns.jpg/960px-Chichen-Itza-1000-Warriors-Columns.jpg",
+      "https://visitmexico.com/media/usercontent/6838d056867ca-1_gmxdot_-Chich%C3%A9n-Itz%C3%A1,-Yucat%C3%A1n,-M%C3%A9xico-(2)-(2)_gmxdot_jpg",
+      "https://visitmexico.com/media/usercontent/687e9a154f8e9-landscape-photography-of-the-governors-palace-1024x683_gmxdot_jpeg"
+    ],
+
+    "location": {
+      "address": "Chichen Itza Archaeological Site, Yucatán, Mexico",
+      "coordinates": {
+        "latitude": 20.6843,
+        "longitude": -88.5678
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "5:00 PM",
+      "entryFee": {
+        "local": "MXN 310",
+        "foreign": "MXN 697"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 267845
+    },
+
+    "theme": {
+      "primaryColor": "#8C6B3F",
+      "accentColor": "#E4D3B7"
+    },
+
+    "seo": {
+      "metaTitle": "Chichen Itza - Global Heritage",
+      "metaDescription": "Explore Chichen Itza, the legendary Mayan city and one of the New Seven Wonders of the World."
+    }
+  },
+
+  {
+    "id": 15,
+    "slug": "grand-canyon",
+    "name": "Grand Canyon",
+
+    "zone": "west",
+    "continent": "North America",
+    "country": "United States",
+    "city": "Arizona",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "Unknown",
+    "completedYear": "Unknown",
+    "builtBy": "Natural Formation",
+    "architecturalStyle": "Canyon Landscape",
+
+    "shortDescription": "A massive natural canyon carved by the Colorado River in the state of Arizona, USA.",
+
+    "fullDescription": "The Grand Canyon is one of the most breathtaking natural landmarks in the world. Formed over millions of years by the Colorado River, the canyon stretches for hundreds of kilometers and reveals layers of geological history dating back nearly two billion years. Known for its dramatic cliffs, vibrant rock formations, and panoramic views, the Grand Canyon attracts millions of visitors annually and stands as a symbol of America’s natural beauty.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "Sacred ancestral homeland for Native American tribes,",
+      "One of the Seven Natural Wonders of the World",
+      "A turning point for American conservation",
+      "Major geological and ecological landmark"
+    ],
+
+    "facts": [
+      "The canyon is approximately 446 kilometers long",
+      "The canyon is larger than the entire state of Rhode Island.",
+      "Some rock layers are nearly 2 billion years old",
+      "The gorge plunges down to a maximum depth of 1,828 meters.",
+      "The giant scar is easily seen by astronauts aboard the International Space Station.",
+      "Supai Village sits at the bottom of the canyon and has 208 residents.",
+      "The canyon contains an estimated 1,000 caves, but only 335 are mapped.",
+      "The Colorado River continues to shape the canyon today"
+    ],
+
+    "tags": ["unesco", "natural wonder", "usa", "nature", "geology"],
+
+    "images": [
+      "https://cdn.outsideonline.com/wp-content/uploads/2018/11/20/outside-guide-grand-canyon_h.jpg?auto=webp&width=3840&quality=75&fit=cover",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Duttonnp000077AAA2.jpg/960px-Duttonnp000077AAA2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg/960px-Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cape_Royal_Sunset.jpg/960px-Cape_Royal_Sunset.jpg",
+      "https://iugs-geoheritage.org/wp-content/uploads/2022/07/084-1_The-Grand-Canyon.jpg"
+    ],
+
+    "location": {
+      "address": "Grand Canyon National Park, Arizona, USA",
+      "coordinates": {
+        "latitude": 36.1069,
+        "longitude": -112.1129
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "Open 24 Hours",
+      "closingHours": "Open 24 Hours",
+      "entryFee": {
+        "local": "USD 20",
+        "foreign": "USD 35"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 489321
+    },
+
+    "theme": {
+      "primaryColor": "#A05A2C",
+      "accentColor": "#E8D2B8"
+    },
+
+    "seo": {
+      "metaTitle": "Grand Canyon - Global Heritage",
+      "metaDescription": "Discover the Grand Canyon, one of the world’s greatest natural wonders and America’s iconic canyon landscape."
+    }
+  },
+
+  {
+    "id": 16,
+    "slug": "taos-pueblo",
+    "name": "Taos Pueblo",
+
+    "zone": "southwest",
+    "continent": "North America",
+    "country": "United States",
+    "city": "Taos",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "1000",
+    "completedYear": "1450 AD",
+    "builtBy": "Taos Pueblo People",
+    "architecturalStyle": "Pueblo Architecture",
+
+    "shortDescription": "An ancient adobe settlement in New Mexico that has been continuously inhabited for over 1,000 years.",
+
+    "fullDescription": "Taos Pueblo is one of the oldest continuously inhabited communities in North America and a significant cultural center for the Taos people. Constructed using adobe mud bricks and timber, the multi-storied structures reflect traditional Pueblo architecture and indigenous building techniques. The pueblo remains an active living community and an enduring symbol of Native American heritage and resilience.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "National Historic Landmark",
+      "One of the oldest continuously inhabited settlements in North America"
+    ],
+
+    "facts": [
+      "The pueblo has been inhabited for more than 1,000 years",
+      "Traditional adobe structures are still maintained using ancient methods",
+      "Electricity and running water are limited in some traditional areas",
+      "Unlike many ancient ruins, the Pueblo has never been abandoned.",
+      "The Taos people still live, speak their native Tiwa language, and practice ancestral traditions in the exact same location as their ancestors did a millennium ago."
+    ],
+
+    "tags": ["unesco", "historical", "native american", "usa", "architecture"],
+
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Taos_Pueblo_2017-05-05.jpg/960px-Taos_Pueblo_2017-05-05.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Taos_Pueblo2.jpg/960px-Taos_Pueblo2.jpg",
+      "https://www.worldatlas.com/r/w768/upload/e8/da/b0/shutterstock-307561931.jpg",
+      "https://www.worldatlas.com/r/w768-q80/upload/d0/52/9a/shutterstock-1697789347.jpg",
+      "https://www.worldatlas.com/r/w768-q80/upload/d4/b4/46/shutterstock-179219417.jpg"
+    ],
+
+    "location": {
+      "address": "120 Veterans Hwy, Taos, New Mexico, USA",
+      "coordinates": {
+        "latitude": 36.4373,
+        "longitude": -105.5456
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "9:00 AM",
+      "closingHours": "4:00 PM",
+      "closedDays": ["Ceremonial and Cultural Event Days"],
+      "entryFee": {
+        "local": "USD 25",
+        "foreign": "USD 25"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 28453
+    },
+
+    "theme": {
+      "primaryColor": "#9A6A42",
+      "accentColor": "#E7D6C3"
+    },
+
+    "seo": {
+      "metaTitle": "Taos Pueblo - Global Heritage",
+      "metaDescription": "Explore Taos Pueblo, one of North America’s oldest living indigenous communities and a UNESCO World Heritage Site."
+    }
+  },
+
+  {
+    "id": 17,
+    "slug": "mesa-verde",
+    "name": "Mesa Verde",
+
+    "zone": "southwest",
+    "continent": "North America",
+    "country": "United States",
+    "city": "Colorado",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "600 AD",
+    "completedYear": "1300 AD",
+    "builtBy": "Ancestral Puebloans",
+    "architecturalStyle": "Cliff Dwelling and Kivas Architecture",
+
+    "shortDescription": "A historic archaeological site in Colorado known for its ancient cliff dwellings built by the Ancestral Pueblo people.",
+
+    "fullDescription": "Mesa Verde is one of the most important archaeological preserves in the United States, protecting thousands of ancient dwellings and cultural sites created by the Ancestral Puebloans. Famous for its cliff dwellings built into canyon walls, the site offers remarkable insight into indigenous life, engineering, and community organization before European contact in North America.",
+
+    "historicalSignificance": [
+      "It represents the spectacular climax of Ancestral Puebloan architectural evolution",
+      "UNESCO World Heritage Site",
+      "One of the largest archaeological preserves in the United States",
+      "Important center of Ancestral Puebloan culture"
+    ],
+
+    "facts": [
+      "Cliff Palace is the largest cliff dwelling in North America",
+      "It boasts of 150 rooms and 23 ceremonial kivas",
+      "The site contains more than 4,000 archaeological locations",
+      "Mesa Verde means 'green table' in Spanish",
+      "Scientists used tree rings inside the wooden roof beams (dendrochronology) to pin down the exact years the villages were built."
+    ],
+
+    "tags": ["unesco", "historical", "native american", "usa", "archaeology"],
+
+    "images": [
+      "https://www.travelandleisure.com/thmb/ojL7P1M9Fo0jUYMzesmnSS2tsAk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-header-cliff-palace-mesa-verde-national-park-co-CLIFFDWELLINGS0525-4e1afbf5ea1f4eb3b89691562ad8c1ee.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cliff_Palace-Colorado-Mesa_Verde_NP.jpg/960px-Cliff_Palace-Colorado-Mesa_Verde_NP.jpg",
+      "https://canyonoftheancients.com/wp-content/uploads/2024/10/Fun-Facts-About-Mesa-Verde-Learn-Before-You-Explore-1100x733.jpg",
+      "https://i0.wp.com/americanfieldtrip.mystagingwebsite.com/wp-content/uploads/2018/08/mesa-verde-1.jpg?w=1200&ssl=1",
+      "https://i0.wp.com/americanfieldtrip.mystagingwebsite.com/wp-content/uploads/2018/08/mesa-verde-9.jpg?w=1200&ssl=1"
+    ],
+
+    "location": {
+      "address": "Mesa Verde National Park, Colorado, USA",
+      "coordinates": {
+        "latitude": 37.1839,
+        "longitude": 108.4886
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "Sunset",
+      "entryFee": {
+        "local": "USD 15",
+        "foreign": "USD 30"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 47215
+    },
+
+    "theme": {
+      "primaryColor": "#8A6442",
+      "accentColor": "#DDD0BE"
+    },
+
+    "seo": {
+      "metaTitle": "Mesa Verde - Global Heritage",
+      "metaDescription": "Discover Mesa Verde, the ancient cliff dwelling site of the Ancestral Puebloans in Colorado, USA."
+    }
+  },
+
+  {
+    "id": 18,
+    "slug": "chaco-culture",
+    "name": "Chaco Culture National Historical Park",
+
+    "zone": "southwest",
+    "continent": "North America",
+    "country": "United States",
+    "city": "New Mexico",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "850",
+    "completedYear": "1250",
+    "builtBy": "Ancestral Puebloans",
+    "architecturalStyle": "Pueblo Architecture",
+
+    "shortDescription": "An ancient cultural and ceremonial center built by the Ancestral Puebloans in northwestern New Mexico.",
+
+    "fullDescription": "Chaco Culture National Historical Park preserves one of the most important archaeological and cultural sites in North America. Between the 9th and 13th centuries, Chaco Canyon became a major center of trade, astronomy, ceremony, and architecture for the Ancestral Pueblo people. The site is famous for its massive stone buildings, engineered roads, and astronomical alignments that demonstrate advanced planning and social organization.",
+
+    "historicalSignificance": [
+      "It served as a critical link connecting Southwestern cultures to Mesoamerican empires.",
+      "The site proves the Ancestral Puebloans possessed advanced knowledge of astronomy, tracking solar and lunar cycles with extreme precision.",
+      "UNESCO World Heritage Site",
+      "Major ceremonial and trade center of the Ancestral Puebloans",
+      "Important archaeological and astronomical site"
+    ],
+
+    "facts": [
+      "Pueblo Bonito is the largest and most famous great house in Chaco Canyon",
+      "They built massive complexes containing up to 700 rooms.",
+      "Many structures are aligned with solar and lunar cycles",
+      "The Chaco road system extended for hundreds of kilometers",
+      "Workers carried over 200,000 logs from 50 miles away."
+    ],
+
+    "tags": ["unesco", "historical", "native american", "usa", "archaeology"],
+
+    "images": [
+      "https://www.nps.gov/chcu/learn/historyculture/images/Pueblo-Bonito_Kearns.jpg?maxwidth=650&autorotate=false&quality=78&format=webp",
+      "https://redroadtodc.org/wp-content/uploads/2021/05/Chaco-Canyon-1024x532.png",
+      "https://www.pew.org/-/media/post-launch-images/2017/11/chaco_1/chaco_1_16x9.jpg",
+      "https://i0.wp.com/wanderingcanadians.com/wp-content/uploads/2024/06/IMG_3862.jpeg?resize=997%2C380&ssl=1",
+      "https://images.squarespace-cdn.com/content/v1/5b2d9bee697a9837a1ab3f16/ddb935ec-e82f-4496-b1b0-6dea0540694c/IMG_9699.jpg?format=1000w"
+    ],
+
+    "location": {
+      "address": "Chaco Culture National Historical Park, New Mexico, USA",
+      "coordinates": {
+        "latitude": 36.0605,
+        "longitude": -107.9683
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "7:00 AM",
+      "closingHours": "Sunset",
+      "closedDays": ["Thanksgiving Day", "Christmas Day", "New Year's Day"],
+      "entryFee": {
+        "local": "USD 15",
+        "foreign": "USD 25"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 19834
+    },
+
+    "theme": {
+      "primaryColor": "#7C5A3A",
+      "accentColor": "#DCCBB5"
+    },
+
+    "seo": {
+      "metaTitle": "Chaco Culture National Historical Park - Global Heritage",
+      "metaDescription": "Explore Chaco Culture, the ancient ceremonial and architectural center of the Ancestral Puebloans in New Mexico."
+    }
+  },
+  {
+    "id": 19,
+    "slug": "machu-picchu",
+    "name": "Machu Picchu",
+
+    "zone": "west",
+    "continent": "South America",
+    "country": "Peru",
+    "city": "Cusco",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "1450",
+    "completedYear": "1460",
+    "builtBy": "Inca Empire",
+    "architecturalStyle": "Inca Architecture",
+
+    "shortDescription": "An ancient Incan citadel set high in the Andes Mountains of Peru.",
+
+    "fullDescription": "Machu Picchu is one of the most iconic archaeological sites in the world and a masterpiece of Inca engineering and architecture. Built during the reign of Emperor Pachacuti, the mountain citadel features temples, terraces, plazas, and stone structures carefully integrated into the surrounding landscape. Hidden for centuries and rediscovered internationally in the early 20th century, Machu Picchu remains a symbol of the Inca civilization and Peru's cultural heritage.",
+
+    "historicalSignificance": [
+      "an untouched time capsule",
+      " A sacred religious hub",
+      "UNESCO World Heritage Site",
+      "One of the Seven Wonders of the World",
+      "Outstanding example of Inca engineering and architecture"
+    ],
+
+    "facts": [
+      "Machu Picchu sits approximately 2,430 meters above sea level",
+      "The site was largely unknown to the outside world until 1911",
+      "Its stone structures were built without mortar using precise stone-cutting techniques",
+      "When explorer Hiram Bingham 'discovered' the site in 1911, several indigenous farming families were actively living and growing crops right on the ancient agricultural terraces."
+    ],
+
+    "tags": ["unesco", "world wonder", "peru", "historical", "inca"],
+
+    "images": [
+      "https://www.incatrailmachu.com/img/machu-picchu-02-011.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_Machu_Picchu_Sunrise.jpg/960px-Peru_Machu_Picchu_Sunrise.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Wayna_Picchu%2C_Peru-27Oct2009.jpg/500px-Wayna_Picchu%2C_Peru-27Oct2009.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/P1150143_Pano4_-_Machu_Picchu.JPG/1920px-P1150143_Pano4_-_Machu_Picchu.JPG",
+      "https://sacredsites.com/images/americas/peru/Machu-Picchu-main-shot-cropped.webp"
+    ],
+
+    "location": {
+      "address": "Machu Picchu Historic Sanctuary, Cusco Region, Peru",
+      "coordinates": {
+        "latitude": -13.1631,
+        "longitude": -72.545
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "5:30 PM",
+      "entryFee": {
+        "local": "PEN 90",
+        "foreign": "PEN 152"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 315274
+    },
+
+    "theme": {
+      "primaryColor": "#6E7F4F",
+      "accentColor": "#DDE4D0"
+    },
+
+    "seo": {
+      "metaTitle": "Machu Picchu - Global Heritage",
+      "metaDescription": "Discover Machu Picchu, Peru’s legendary Incan citadel and one of the world’s greatest archaeological wonders."
+    }
+  },
+
+  {
+    "id": 20,
+    "slug": "easter-island",
+    "name": "Easter Island (Rapa Nui)",
+
+    "zone": "west",
+    "continent": "South America",
+    "country": "Chile",
+    "city": "Hanga Roa",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "1200",
+    "completedYear": "1600",
+    "builtBy": "Rapa Nui People",
+    "architecturalStyle": "Polynesian Monumental Architecture",
+
+    "shortDescription": "A remote volcanic island in the Pacific Ocean famous for its massive stone Moai statues.",
+
+    "fullDescription": "Easter Island, known locally as Rapa Nui, is one of the world’s most isolated inhabited islands and is renowned for its mysterious Moai statues carved by the indigenous Rapa Nui people. The island served as a major ceremonial and cultural center, with hundreds of monumental statues built to honor ancestors and spiritual leaders. Today, Easter Island remains a symbol of Polynesian culture, archaeological wonder, and human creativity.",
+
+    "historicalSignificance": [
+      "The apex of Polynesian maritime",
+      "UNESCO World Heritage Site",
+      "Home to the famous Moai stone statues",
+      "Important center of Polynesian culture and history"
+    ],
+
+    "facts": [
+      "There are nearly 1,000 Moai statues across the island",
+      "Some Moai statues weigh more than 80 tons",
+      "The island is one of the most remote inhabited places on Earth",
+      "The island's lone runway is classified as the most remote airport in the world.",
+      "It was declared a UNESCO World Heritage site in 1995 to protect the fragile archaeological ecosystem from unchecked development and tourism."
+    ],
+
+    "tags": ["unesco", "historical", "chile", "polynesian", "archaeology"],
+
+    "images": [
+      "https://www.andeantrails.co.uk/nitropack_static/iwfVQrUWbgdNPzhPfPdurFCwDZQSldCZ/assets/images/optimized/rev-38b0105/www.andeantrails.co.uk/wp-content/uploads/2017/07/seven-moais-easter-island.jpg",
+      "https://magazine.columbia.edu/sites/default/files/styles/wysiwyg_full_width_image/public/2024-08/Exp_easter-island.jpg?itok=mO1e5TJJ",
+      "https://media.istockphoto.com/id/1164299361/photo/morning-raraku-p%C3%A5sk%C3%B6n.jpg?s=612x612&w=0&k=20&c=zpgu7bojb6zaQ7t78oyFiB7fwCgpHAJhxlS2pmS5zWs=",
+      "https://www.travelandleisure.com/thmb/7IanglynRCBGmWmEPXkjgAitXfk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-moai-in-a-line-EASTERISLAND1023-74e7e3252bb1426d8861b07e21acd367.jpg",
+      "https://media.wired.com/photos/68f12bbe0c68c00ae87a1d8e/master/w_960,c_limit/620497234"
+    ],
+
+    "location": {
+      "address": "Rapa Nui National Park, Hanga Roa, Easter Island, Chile",
+      "coordinates": {
+        "latitude": -27.1127,
+        "longitude": -109.3497
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "9:00 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "CLP 20000",
+        "foreign": "USD 80"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 68452
+    },
+
+    "theme": {
+      "primaryColor": "#7B5A3E",
+      "accentColor": "#DDD0BF"
+    },
+
+    "seo": {
+      "metaTitle": "Easter Island (Rapa Nui) - Global Heritage",
+      "metaDescription": "Explore Easter Island, the remote Polynesian island famous for its mysterious Moai statues and cultural heritage."
+    }
+  },
+
+  {
+    "id": 21,
+    "slug": "nazca-lines",
+    "name": "Nazca Lines",
+
+    "zone": "west",
+    "continent": "South America",
+    "country": "Peru",
+    "city": "Nazca",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "500 BC",
+    "completedYear": "500 AD",
+    "builtBy": "Nazca Civilization",
+    "architecturalStyle": "Geoglyph Art",
+
+    "shortDescription": "A series of enormous ancient geoglyphs etched into the desert plains of southern Peru.",
+
+    "fullDescription": "The Nazca Lines are one of the world's greatest archaeological mysteries, consisting of hundreds of massive geoglyphs created by the ancient Nazca civilization. Formed by removing the reddish surface stones to reveal lighter ground beneath, the lines depict animals, plants, geometric shapes, and human figures. Best viewed from the air, the Nazca Lines are celebrated for their scale, precision, and cultural significance.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "One of the most important archaeological mysteries in the world",
+      "Outstanding example of ancient geoglyph art"
+    ],
+
+    "facts": [
+      "Some geoglyphs stretch over several kilometers",
+      "Famous figures include a hummingbird, monkey, spider, and condor",
+      "The dry desert climate helped preserve the lines for centuries"
+    ],
+
+    "tags": ["unesco", "historical", "peru", "archaeology", "geoglyphs"],
+
+    "images": [
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/05/archaeological-treasures-in-peru-nazca-lines.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2021/04/nazca-lines-theories-monkey-822x463.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/09/nazca-lines-images-astronaut.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/07/Hummingbird-in-Nazca-Lines.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/09/nazca-lines-images-parrot.jpg"
+    ],
+
+    "location": {
+      "address": "Nazca Desert, Ica Region, Peru",
+      "coordinates": {
+        "latitude": -14.739,
+        "longitude": -75.13
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "5:00 PM",
+      "entryFee": {
+        "local": "PEN 20",
+        "foreign": "PEN 77"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 52318
+    },
+
+    "theme": {
+      "primaryColor": "#A1724A",
+      "accentColor": "#E7D7C3"
+    },
+
+    "seo": {
+      "metaTitle": "Nazca Lines - Global Heritage",
+      "metaDescription": "Discover the Nazca Lines, Peru's mysterious ancient desert geoglyphs and archaeological wonder."
+    }
+  },
+
+  {
+    "id": 22,
+    "slug": "ciudad-perdida",
+    "name": "Ciudad Perdida",
+
+    "zone": "north",
+    "continent": "South America",
+    "country": "Colombia",
+    "city": "Santa Marta",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "800 CE",
+    "completedYear": "900 CE",
+    "builtBy": "Tayrona Civilization",
+    "architecturalStyle": "Terraced Stone Architecture",
+
+    "shortDescription": "An ancient archaeological city hidden in the Sierra Nevada mountains of Colombia.",
+
+    "fullDescription": "Ciudad Perdida, meaning 'Lost City,' is an ancient settlement built by the Tairona civilization centuries before Machu Picchu. Hidden deep within Colombia’s Sierra Nevada de Santa Marta mountains, the site consists of stone terraces, stairways, plazas, and pathways integrated into the jungle landscape. Rediscovered in the 1970s, Ciudad Perdida remains one of South America’s most important archaeological and cultural treasures.",
+
+    "historicalSignificance": [
+      "Important archaeological site of the Tairona civilization",
+      "One of the oldest ancient cities in South America",
+      "Major symbol of indigenous Colombian heritage"
+    ],
+
+    "facts": [
+      "The site can only be reached through a multi-day jungle trek",
+      "More than 1,200 stone steps lead to the city",
+      "Ciudad Perdida predates Machu Picchu by several centuries"
+    ],
+
+    "tags": ["historical", "colombia", "archaeology", "indigenous", "south america"],
+
+    "images": [
+      "https://i2-prod.mirror.co.uk/article32275496.ece/ALTERNATES/s1200e/1_ciudad-perdida-ancient-ruins-in-sierra-nevada-mountains.jpg",
+      "https://i2-prod.mirror.co.uk/article32275495.ece/ALTERNATES/s1200f/0_tourists-on-a-path-to-ciudad-perdida.jpg",
+      "https://i0.wp.com/s3.amazonaws.com/images.gearjunkie.com/uploads/2024/09/file-31.jpg?w=700&ssl=1",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/CIUDAD_PERDIDA_2.jpg/500px-CIUDAD_PERDIDA_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/YAEL_PHOTOS_898.jpg/500px-YAEL_PHOTOS_898.jpg"
+    ],
+
+    "location": {
+      "address": "Sierra Nevada de Santa Marta, Magdalena Department, Colombia",
+      "coordinates": {
+        "latitude": 11.0375,
+        "longitude": -73.925
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "COP 1200000",
+        "foreign": "COP 1200000"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 18724
+    },
+
+    "theme": {
+      "primaryColor": "#5F7048",
+      "accentColor": "#DCE3D2"
+    },
+
+    "seo": {
+      "metaTitle": "Ciudad Perdida - Global Heritage",
+      "metaDescription": "Explore Ciudad Perdida, Colombia's ancient Lost City hidden in the Sierra Nevada mountains."
+    }
+  },
+
+  {
+    "id": 23,
+    "slug": "cueva-de-las-manos",
+    "name": "Cueva de las Manos",
+
+    "zone": "south",
+    "continent": "South America",
+    "country": "Argentina",
+    "city": "Santa Cruz",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "7300 BC",
+    "completedYear": "700 AD",
+    "builtBy": "Early Hunter-Gatherer Communities",
+    "architecturalStyle": "Rock Art Cave Site",
+
+    "shortDescription": "A prehistoric cave site in Argentina famous for its ancient hand-painted rock art.",
+
+    "fullDescription": "Cueva de las Manos, meaning 'Cave of the Hands,' is one of the most significant prehistoric art sites in South America. Located in Patagonia, the cave contains hundreds of hand stencils, animal depictions, hunting scenes, and symbolic paintings created over thousands of years by early hunter-gatherer communities. The artwork provides valuable insight into the cultural and spiritual lives of ancient peoples in the region.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "One of the oldest known rock art sites in South America",
+      "Important record of prehistoric human culture"
+    ],
+
+    "facts": [
+      "Most of the handprints were created using spray-painting techniques",
+      "Many hand stencils are left hands, suggesting paint was sprayed using the right hand",
+      "The cave art dates back more than 9,000 years"
+    ],
+
+    "tags": ["unesco", "historical", "argentina", "rock art", "archaeology"],
+
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cueva_de_las_Manos.jpg/960px-Cueva_de_las_Manos.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Marianoc_IMG_8565_copy.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Acceso_a_la_Cueva_de_las_Manos.jpg/960px-Acceso_a_la_Cueva_de_las_Manos.jpg?utm_source=en.wikivoyage.org&utm_campaign=parser&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/SantaCruz-CuevaManos-P2210651b.jpg/960px-SantaCruz-CuevaManos-P2210651b.jpg",
+      "https://www.southamerica.travel/wp-content/uploads/2026/03/Cueva-De-Las-Manos-%E2%80%93-Cave-Of-The-Hands-2-1024x585.jpg"
+    ],
+
+    "location": {
+      "address": "Perito Moreno, Santa Cruz Province, Argentina",
+      "coordinates": {
+        "lat": -47.155,
+        "lng": -70.6563
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "9:00 AM",
+      "closingHours": "5:00 PM",
+      "closedDays": [],
+      "entryFee": {
+        "local": "ARS 5000",
+        "foreign": "ARS 12000"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 9432
+    },
+
+    "theme": {
+      "primaryColor": "#8B5E4A",
+      "accentColor": "#E6D3C8"
+    },
+
+    "seo": {
+      "metaTitle": "Cueva de las Manos - Global Heritage",
+      "metaDescription": "Discover Cueva de las Manos, Argentina’s prehistoric cave art site famous for its ancient hand paintings."
+    }
   }
 ]
