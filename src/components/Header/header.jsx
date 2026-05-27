@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './header.css';
+import './Header.css';
 import { NavLink, useLocation } from 'react-router';
 
 const Header = () => {
@@ -8,7 +8,7 @@ const Header = () => {
     pathname === '/' ? 'Explore' : pathname.charAt(0).toUpperCase() + pathname.slice(1)
   );
   // console.log('location: %s', JSON.stringify(pathname));
-  const navItems = ['Explore', 'Continents', 'Gallery', 'Saved', 'About'];
+  const navItems = ['Explore', 'Continents', 'Monument', 'Gallery', 'Saved', 'About'];
 
   return (
     <nav className="navbar">
@@ -18,12 +18,13 @@ const Header = () => {
 
         {/* Center: Navigation Links */}
         <ul className="navbar-links">
-          {navItems.map((item) => (
+          {navItems.map((item, index) => (
             <NavLink
+              key={index}
               to={item === 'Explore' ? '/' : `/${item.toLowerCase()}`}
               className={`nav-item ${activeTab === item ? 'active' : ''}`}
               onClick={() => setActiveTab(item)}
-              style={() => ({ textDecoration: 'none' })}
+              style={() => ({ textDecoration: 'none', fontWeight: activeTab === item ? 'bold' : 600 })}
               end
             >
               {item}
