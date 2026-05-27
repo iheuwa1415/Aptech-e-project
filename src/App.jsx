@@ -1,15 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router';
 import './App.css';
 import './global.css';
-
-
+/*  import Header from './components/Header/header';  */
 
 import { HomePage } from './pages/Homepage/HomePage';
 import { Continents } from './pages/Continents/Continents';
 import { Gallery } from './pages/Gallery/Gallery';
 import { Saved } from './pages/Saved/Saved';
 import { About } from './pages/About/About';
-
 
 function App() {
   return (
