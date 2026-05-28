@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import monuments from '../data/monuments.json';
 
 const filters = Array.from(new Set(monuments.flatMap((m) => m.tags.map((t) => t))).values());
+console.log(filters);
 
 export const useMonuments = () => {
   const [activeFilters, setActiveFilters] = useState([]);
@@ -21,8 +22,9 @@ export const useMonuments = () => {
 
   return {
     monuments: data,
-    filters: filters,
+    filters,
     addToFilters: addToActiveFilters,
     removeFromFilters: removeFromActiveFilters,
+    activeFilters,
   };
 };

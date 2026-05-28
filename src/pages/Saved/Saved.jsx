@@ -8,7 +8,7 @@ import './Saved.css';
 
 export const Saved = () => {
   // console.log('These are the monuments: %s', JSON.stringify(data));
-  const { filters, addToFilters, removeFromFilters, monuments } = useMonuments();
+  const { filters, addToFilters, removeFromFilters, monuments, activeFilters } = useMonuments();
 
   return (
     <>
@@ -24,7 +24,12 @@ export const Saved = () => {
         </div>
         <div className="middle">
           {/* <div className="sidebar"> */}
-          <Filters filters={filters} addToFilters={addToFilters} removeFromFilters={removeFromFilters} />
+          <Filters
+            filters={filters}
+            addToFilters={addToFilters}
+            removeFromFilters={removeFromFilters}
+            activeFilters={activeFilters}
+          />
           {/* </div> */}
           <div className="cards">
             {monuments.map((item) => (
