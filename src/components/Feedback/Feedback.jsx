@@ -8,11 +8,10 @@ const FeedbackPage = () => {
         <div className="insight-header">
           <h1 className="insight-title">Share Your Insights </h1>
 
-          
           <p className="insight-subtitle">Help us preserve history through modern technology.</p>
         </div>
 
-        <h1 className="feedback-title">FEEDBACK</h1>
+        <h1 className="feedback-title">feedback details </h1>
 
         <form className="feedback-form">
 

@@ -51,35 +51,24 @@ body {
 .feedback-card {
   width: 100%;
   max-width: 900px;
-
-  background: rgba(255, 255, 255, 0.98);
-
-  padding: 65px 60px;
-
-  border-radius: 28px;
-
-  box-shadow:
-    0 12px 35px rgba(0, 0, 0, 0.08),
-    0 4px 10px rgba(0, 0, 0, 0.04);
-
-  backdrop-filter: blur(10px);
-
-  transition: 0.3s ease;
+  background: #f7f5f1;
+  padding: 55px;
 }
+
 
 .feedback-card:hover {
   transform: translateY(-3px);
 }
 
-.insight-title {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 4rem;
-  font-weight: 500;
-  color: #1f1f1f;
-  margin-bottom: 10px;
+.feedback-insight-title {
+  font-family:'Playfair Display', serif; ;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
 } 
 
-.insight-subtitle {
+.feedbackinsight-subtitle {
  color: #777;
   font-size: 1rem;
   margin-bottom: 40px;
@@ -128,9 +117,9 @@ body {
 /* LABELS */
 
 .form-group label {
-  font-size: 15px;
+  font-size: 10px;
 
-  font-weight: 700;
+  font-weight: 300;
 
   color: #22324d;
 
