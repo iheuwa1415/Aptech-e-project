@@ -1,0 +1,1842 @@
+[
+  {
+    "id": 1,
+    "slug": "pyramids-of-giza",
+    "name": "Pyramids of Giza",
+
+    "zone": "north",
+    "continent": "Africa",
+    "country": "Egypt",
+    "city": "Giza",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "2589 BCE",
+    "completedYear": "2560 BCE",
+    "builtBy": "Ancient Egyptians",
+    "architecturalStyle": "Ancient Egyptian Architecture",
+
+    "shortDescription": "The Pyramids of Giza are ancient monumental tombs located on the Giza Plateau near Cairo, Egypt.",
+
+    "fullDescription": "The Pyramids of Giza were constructed during the Fourth Dynasty of the Old Kingdom of Ancient Egypt. The complex includes the Great Pyramid of Khufu, the Pyramid of Khafre, and the Pyramid of Menkaure, along with the Great Sphinx. Built as royal tombs, the pyramids are among the most iconic and enduring symbols of ancient civilization and engineering excellence.",
+
+    "historicalSignificance": [
+      "Only surviving wonder of the Ancient World",
+      "UNESCO World Heritage Site",
+      "Symbol of Ancient Egyptian civilization"
+    ],
+
+    "facts": [
+      "The Great Pyramid was the tallest man-made structure for over 3,800 years",
+      "Millions of limestone blocks were used in construction",
+      "The pyramids align closely with the cardinal directions"
+    ],
+
+    "tags": ["unesco", "world wonder", "historical", "egypt", "ancient architecture"],
+
+    "images": [
+      "https://holeinthedonut.com/wp-content/uploads/2018/01/Egypt-Giza-Pyramids-Pyramid-of-Khufu.jpg",
+      "https://images.immediate.co.uk/production/volatile/sites/7/2019/07/33-GettyImages-154260931-216706f.jpg?quality=90&webp=true&resize=1000,667",
+      "https://www.egypttoursportal.com/images/2017/12/The-Great-Pyramid-Egypt-Tours-Portal-e1514361529725.jpg",
+      "https://media.istockphoto.com/id/1434687699/photo/the-sphinx-by-the-pyramids-of-giza-in-the-desert-of-egypt.jpg?s=1024x1024&w=is&k=20&c=6hSOjHVeFXqo5JIwG924N1DbEKM9Cl_y1pZZJnGDZ1Q=",
+      "https://images.newscientist.com/wp-content/uploads/2023/03/02123011/SEI_146468776.jpg?width=1003"
+    ],
+
+    "location": {
+      "address": "Al Haram, Nazlet El-Semman, Giza Governorate, Egypt",
+      "coordinates": {
+        "latitude": 29.9792,
+        "longitude": 31.1342
+      }
+    },
+
+    "visitingInfo": {
+      "days": "Mondays - Sundays",
+      "openingHours": "07:00 AM",
+      "closingHours": "5:00 PM",
+      "ramadanTime": "08:00 AM - 03:30 PM",
+      "entryFee": {
+        "generalEntry": "EGP 700",
+        "greatPyramidInterior": "EGP 1500"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 9000
+    },
+
+    "theme": {
+      "primaryColor": "#C2A46D",
+      "accentColor": "#E8D3A9"
+    },
+
+    "seo": {
+      "metaTitle": "Pyramids of Giza - Global Heritage",
+      "metaDescription": "Discover the mystery and history of the Pyramids of Giza in Egypt."
+    }
+  },
+
+  {
+    "id": 2,
+    "slug": "rock-hewn-churches-lalibela",
+    "name": "Rock-Hewn Churches of Lalibela",
+
+    "zone": "east",
+    "continent": "Africa",
+    "country": "Ethiopia",
+    "city": "Lalibela",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "1181 AD",
+    "completedYear": "1221 AD",
+    "builtBy": "King Gebre Meskel Lalibela",
+    "architecturalStyle": "Medieval Ethiopian Architecture",
+
+    "shortDescription": "A collection of monolithic rock-cut churches carved directly into stone in Lalibela, Ethiopia.",
+
+    "fullDescription": "The Rock-Hewn Churches of Lalibela are a group of eleven medieval churches carved from solid volcanic rock during the reign of King Lalibela. Built as a symbolic 'New Jerusalem,' the churches remain active places of worship for Ethiopian Orthodox Christians and are celebrated for their remarkable engineering, spiritual importance, and architectural uniqueness.",
+
+    "historicalSignificance": [
+      "The Creation of a 'New Jerusalem'",
+      "Proof of Medieval African Engineering Power",
+      "Survival of the Zagwe Dynasty and Axumite Identity",
+      "An Unbroken, Living Cultural Heritage",
+      "UNESCO World Heritage Site",
+      "Important pilgrimage destination for Ethiopian Orthodox Christians",
+      "Outstanding example of rock-cut architecture"
+    ],
+
+    "facts": [
+      "The churches were carved downward into solid rock",
+      "Bet Giyorgis is the most famous church in the complex",
+      "The site is still used for religious ceremonies today"
+    ],
+
+    "tags": ["unesco", "historical", "ethiopia", "religious", "architecture"],
+
+    "images": [
+      "https://dynamic-media.tacdn.com/media/photo-o/2f/19/94/88/caption.jpg?w=1100&h=800&s=1",
+      "https://dynamic-media.tacdn.com/media/photo-o/2f/19/94/88/caption.jpg?w=1100&h=800&s=1",
+      "https://dynamic-media.tacdn.com/media/photo-o/2f/19/67/d5/caption.jpg?w=1100&h=800&s=1",
+      "https://dynamic-media.tacdn.com/media/photo-o/2f/19/78/ee/caption.jpg?w=1100&h=800&s=1",
+      "https://suzannelovellinc.com/wp-content/uploads/2020/04/bigstock-Unique-monolithic-rock-hewn-Ch-77030435.jpg"
+    ],
+
+    "location": {
+      "address": "Lalibela, Amhara Region, Ethiopia",
+      "coordinates": {
+        "latitude": 12.0325,
+        "longitude": 39.0433
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "lunchbreak": "12:00 PM - 2:00 PM",
+      "closingHours": "5:30 PM",
+      "closedDays": [],
+      "entryFee": {
+        "local": "ETB 200",
+        "foreign": "USD 100"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 38421
+    },
+
+    "theme": {
+      "primaryColor": "#8B5E3C",
+      "accentColor": "#D8C3A5"
+    },
+
+    "seo": {
+      "metaTitle": "Rock-Hewn Churches of Lalibela - Global Heritage",
+      "metaDescription": "Explore the ancient rock-hewn churches of Lalibela, Ethiopia."
+    }
+  },
+
+  {
+    "id": 3,
+    "slug": "great-zimbabwe",
+    "name": "Great Zimbabwe",
+
+    "zone": "south",
+    "continent": "Africa",
+    "country": "Zimbabwe",
+    "city": "Masvingo",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "1100",
+    "completedYear": "1450",
+    "builtBy": "Shona people",
+    "architecturalStyle": "Dry Stone Architecture",
+
+    "shortDescription": "An ancient stone city and cultural monument located in southeastern Zimbabwe.",
+
+    "fullDescription": "Great Zimbabwe was the capital of the Kingdom of Zimbabwe during the Late Iron Age and is the largest ancient stone structure in sub-Saharan Africa. Built by the ancestors of the Shona people, the site served as a political, economic, and religious center and became a symbol of African civilization, trade, and architectural achievement.",
+
+    "historicalSignificance": [
+      "proof of advanced pre-colonial civilization",
+      "A core hub of medieval global trade",
+      "A catalyst for modern Afican nationalism",
+      "UNESCO World Heritage Site",
+      "Largest ancient stone ruins in sub-Saharan Africa",
+      "National symbol of Zimbabwe"
+    ],
+
+    "facts": [
+      "The walls were built without mortar",
+      "walls taper and lean inward as they get higher to shift the centre of gravity and prevent collapse",
+      "they are zero 90-degrees corners; all walls flow in sweeping, organic curves",
+      "The Great Enclosure is one of the site's most famous structures",
+      "The country of Zimbabwe was named after the monument"
+    ],
+
+    "tags": ["unesco", "historical", "africa", "zimbabwe", "architecture"],
+
+    "images": [
+      "https://t4.ftcdn.net/jpg/06/36/05/59/240_F_636055988_1S4mvijRgF9CymKYi00tWDE15C9Vr8GL.jpg",
+      "https://t4.ftcdn.net/jpg/06/20/25/09/240_F_620250997_A7TMsDFefu51KZQUR5kWgUIxtqbcgtIz.jpg",
+      "https://cdn.thestandard.co.zw/images/thestandard/uploads/2022/10/DWJgK9cIgX54yIf2a4qf4HLNwMSQT7YwbBJd3UZW.jpg",
+      "https://images.ctfassets.net/159p56s120vn/OBNd0lPtCWX0jzM16ZrpN/1d98d8197863d16831248c14e72e7e20/Great_Enclosure_ruins_UNESCO_Site_in_Great_Zimbabwe.jpg",
+      "https://images.ctfassets.net/159p56s120vn/39748ibIMYWuiz81Y0jvIv/624cbbb794e7262e459c5782eab282f5/Hill_Complex_ruins_UNESCO_Site_in_Great_Zimbabwe.jpg"
+    ],
+
+    "location": {
+      "address": "Great Zimbabwe National Monument, Masvingo Province, Zimbabwe",
+      "coordinates": {
+        "latitude": -20.2675,
+        "longitude": 30.9333
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "6:00 PM",
+
+      "entryFeeForLocals": {
+        "children": "USD 3",
+        "adults": "USD 10"
+      },
+      "entryFeeForForeigners": {
+        "chuldren": "USD 8",
+        "adults": "USD 15"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 18642
+    },
+
+    "theme": {
+      "primaryColor": "#7B5B3A",
+      "accentColor": "#CBB89D"
+    },
+
+    "seo": {
+      "metaTitle": "Great Zimbabwe - Global Heritage",
+      "metaDescription": "Discover the ancient stone city of Great Zimbabwe and its rich African history."
+    }
+  },
+
+  {
+    "id": 4,
+    "slug": "obelisks-of-aksum",
+    "name": "Obelisks of Aksum",
+
+    "zone": "east",
+    "continent": "Africa",
+    "country": "Ethiopia",
+    "city": "Aksum",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "300",
+    "completedYear": "400",
+    "builtBy": "Kingdom of Aksum",
+    "architecturalStyle": "Ancient Aksumite Architecture",
+
+    "shortDescription": "A collection of ancient granite stelae and obelisks located in the historic city of Aksum, Ethiopia.",
+
+    "fullDescription": "The Obelisks of Aksum are monumental stone stelae erected by the ancient Kingdom of Aksum to mark royal burial sites and demonstrate the empire’s power and engineering skill. Carved from single pieces of granite, the obelisks are among the most significant archaeological remains of ancient Africa and symbolize the cultural and historical legacy of the Aksumite civilization.",
+
+    "historicalSignificance": [
+      "Proof of the Aksum engineering prowess",
+      "A modern symbol of cultural restitution",
+      "A triumph for cultural justice",
+      "UNESCO World Heritage Site",
+      "Symbol of the ancient Kingdom of Aksum",
+      "Important archaeological and religious heritage site"
+    ],
+
+    "facts": [
+      "The tallest fallen obelisk measures over 33 meters and weighs up to 500 tons",
+      "The Obelisk of Aksum was returned to Ethiopia from Italy in 2005",
+      "The monuments were carved from single blocks of granite",
+      "The columns are meticulously carved to look like multi-story skyscrapers, featuring realistic false doors, frames, handles, locks, and rows of windows.",
+      "the obelisks are actually massive tombstones built to mark the subterranean burial grounds of Aksum’s royal family."
+    ],
+
+    "tags": ["unesco", "historical", "ethiopia", "africa", "monument"],
+
+    "images": [
+      "https://img.atlasobscura.com/mq0bPYQ9Hip9adKQMvLB_64XCrkh9g8SJ5scj8iLS-I/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy9mNTE1/ZjA0ZDIxNThkOTFl/ZTBfODAwcHgtQXh1/bV9ub3J0aGVybl9z/dGVsZWFfcGFyay5q/cGc.webp",
+      "https://img.atlasobscura.com/UT_RLiXZOyM7iwrFjydpP8ASckVQkdlfh201M43Ka34/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy82NGJm/YmE1Mzk0ZDAwNzM0/MzBfMTAyNHB4LVJv/bWVfU3RlbGUuanBn.webp",
+      "https://img.atlasobscura.com/Ml58A9LE8LDrxTKMVCnqhGWvQ2SX5vLMtWmOgp8NVxM/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80ZjNj/ZDQ1OGI1MWE3YTgx/ZmRfODAwcHgtT2Jl/bGlza19vZl9Ba3N1/bV9SZW1haW5zMi5q/cGc.webp",
+      "https://img.atlasobscura.com/KWlO7bW98_fRzlr_HjRG18D1IBODQwx9AffUJcDu17I/rt:fit/w:1200/q:80/sm:1/scp:1/ar:1/aHR0cHM6Ly9hdGxh/cy1kZXYuczMuYW1h/em9uYXdzLmNvbS91/cGxvYWRzL3BsYWNl/X2ltYWdlcy80ZjNj/ZDQ1OGI1MWE3YTgx/ZmRfMTI4MHB4LU9i/ZWxpc2tfb2ZfQWtz/dW1fUmVtYWluczQu/anBn.webp",
+      "https://madainproject.com/content/media/collect/aksum_obelisk_2788.jpg"
+    ],
+
+    "location": {
+      "address": "Aksum, Tigray Region, Ethiopia",
+      "coordinates": {
+        "latitude": 14.1319,
+        "longitude": 38.7245
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "ETB 100",
+        "foreign": "USD 20"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 12457
+    },
+
+    "theme": {
+      "primaryColor": "#8A6A4A",
+      "accentColor": "#D9C7A4"
+    },
+
+    "seo": {
+      "metaTitle": "Obelisks of Aksum - Global Heritage",
+      "metaDescription": "Explore the ancient Obelisks of Aksum and the legacy of the Aksumite Kingdom."
+    }
+  },
+  {
+    "id": 5,
+    "slug": "leptis-magna",
+    "name": "Leptis Magna",
+
+    "zone": "north",
+    "continent": "Africa",
+    "country": "Libya",
+    "city": "Al Khums",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "700 BC",
+    "completedYear": "200 AD",
+    "builtBy": "Phoenicians and Romans",
+    "architecturalStyle": "Roman Classical Architecture",
+
+    "shortDescription": "An ancient Roman city located on the Mediterranean coast of modern-day Libya.",
+
+    "fullDescription": "Leptis Magna was one of the most prosperous and influential cities of the Roman Empire in North Africa. Originally founded by the Phoenicians, the city flourished under Roman rule, especially during the reign of Emperor Septimius Severus, who was born there. Known for its remarkably preserved ruins, Leptis Magna showcases grand amphitheaters, basilicas, markets, and triumphal arches that reflect the wealth and sophistication of ancient Roman urban planning.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "One of the best-preserved Roman cities in the Mediterranean",
+      "Birthplace of Emperor Septimius Severus"
+    ],
+
+    "facts": [
+      "The city contains a massive Roman amphitheater near the sea",
+      "Leptis Magna was an important trade hub in the Roman Empire",
+      "Its ruins remained buried by sand for centuries, helping preserve them"
+    ],
+
+    "tags": ["unesco", "historical", "roman empire", "libya", "architecture"],
+
+    "images": [
+      "https://www.historyhit.com/app/uploads/bis-images/5198643/Leptis-Magna-750px-1576x1074.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Leptis_Magna_-_Marktgeb%C3%A4ude_%28macellum%29.jpg/1920px-Leptis_Magna_-_Marktgeb%C3%A4ude_%28macellum%29.jpg?_=20101128153952",
+      "https://www.jamesmerriman.co.uk/_next/image?url=https%3A%2F%2Fimagedelivery.net%2FlLmNeOP7HXG0OqaG97wimw%2F6951f41a-a32f-434d-9ebf-9de0b1b81893%2Fe4ebe8d2-74c4-442c-81a5-a3f03a179b27.jpg%2Fpublic&w=1024&q=75",
+      "https://www.embassyoflibyadc.org/assets/frontend/img/LeptisMagna.png",
+      "https://www.aljazeera.com/wp-content/uploads/2021/09/000_9NF7TM.jpg"
+    ],
+
+    "location": {
+      "address": "Leptis Magna Archaeological Site, Al Khums, Libya",
+      "coordinates": {
+        "latitude": 32.6396,
+        "longitude": 14.2906
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "5:00 PM",
+      "entryFee": {
+        "local": "LYD 10",
+        "foreign": "LYD 25"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 9675
+    },
+
+    "theme": {
+      "primaryColor": "#B58B57",
+      "accentColor": "#E2D1B3"
+    },
+
+    "seo": {
+      "metaTitle": "Leptis Magna - Global Heritage",
+      "metaDescription": "Discover the ancient Roman city of Leptis Magna and its extraordinary ruins in Libya."
+    }
+  },
+
+  {
+    "id": 6,
+    "slug": "mount-kilimanjaro",
+    "name": "Mount Kilimanjaro",
+
+    "zone": "east",
+    "continent": "Africa",
+    "country": "Tanzania",
+    "city": "Moshi",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "Unknown",
+    "completedYear": "Unknown",
+    "builtBy": "Natural Formation",
+    "architecturalStyle": "Volcanic Mountain Landscape",
+
+    "shortDescription": "The highest mountain in Africa and the world’s tallest free-standing mountain, located in Tanzania.",
+
+    "fullDescription": "Mount Kilimanjaro is a dormant volcanic mountain in northeastern Tanzania and one of Africa’s most iconic natural landmarks. Rising to 5,895 meters above sea level, it attracts climbers and adventurers from around the world. The mountain features diverse ecosystems ranging from rainforest to alpine desert and glaciers, making it one of the most unique trekking destinations on Earth.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "Highest mountain in Africa",
+      "Major symbol of Tanzania and African natural heritage"
+    ],
+
+    "facts": [
+      "Kilimanjaro consists of three volcanic cones: Kibo, Mawenzi, and Shira",
+      "It is one of the Seven Summits of the world",
+      "Its glaciers have been shrinking due to climate change"
+    ],
+
+    "tags": ["unesco", "mountain", "nature", "tanzania", "adventure"],
+
+    "images": [
+      "https://journeysbydesign.com/wp-content/uploads/2017/02/Mt_Kilimanjaro_Africa-1.jpg",
+      "https://journeysbydesign.com/wp-content/uploads/2017/02/KilimanjaroviewonthewaytoKibo-camp.jpg",
+      "https://www.climbing-kilimanjaro.com/wp-content/uploads/2020/11/Mount-Kilimanjaro-Meaning-1024x704.jpg",
+      "https://kilidovetours.com/wp-content/uploads/2025/05/Monut-Kilimanjaro-Green-Season-view.webp",
+      "https://www.explore.com/img/gallery/mount-kilimanjaro-the-complete-guide-to-hiking-the-famous-mountain/intro-1676676464.webp"
+    ],
+
+    "location": {
+      "address": "Kilimanjaro National Park, Tanzania",
+      "coordinates": {
+        "latitude": -3.0674,
+        "longitude": 37.3556
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "Open 24 Hours",
+      "closingHours": "Open 24 Hours",
+      "entryFee": {
+        "local": "TZS 10000",
+        "foreign": "USD 70 per day"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 96314
+    },
+
+    "theme": {
+      "primaryColor": "#5E7A4D",
+      "accentColor": "#DDE6D5"
+    },
+
+    "seo": {
+      "metaTitle": "Mount Kilimanjaro - Global Heritage",
+      "metaDescription": "Discover Mount Kilimanjaro, Africa’s tallest mountain and one of the world’s greatest trekking destinations."
+    }
+  },
+  {
+    "id": 7,
+    "slug": "great-wall-of-china",
+    "name": "Great Wall of China",
+
+    "zone": "east",
+    "continent": "Asia",
+    "country": "China",
+    "city": "Beijing",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "700 BC",
+    "completedYear": "1644",
+    "builtBy": "Various Chinese Dynasties",
+    "architecturalStyle": "Ancient Chinese Military Architecture",
+
+    "shortDescription": "A vast series of fortifications built across northern China to protect against invasions.",
+
+    "fullDescription": "The Great Wall of China is one of the largest and most remarkable construction projects in human history. Built and expanded by multiple Chinese dynasties over centuries, the wall served as a military defense system, trade route protector, and symbol of imperial strength. Stretching thousands of kilometers across mountains, deserts, and plains, it remains one of the world’s most iconic cultural landmarks.",
+
+    "historicalSignificance": [
+      "Protector of the silk road",
+      "Monument to the imperial power and loss",
+      "UNESCO World Heritage Site",
+      "One of the Seven Wonders of the World",
+      "Symbol of Chinese civilization and defense strategy"
+    ],
+
+    "facts": [
+      "The wall stretches over 21,196 kilometers",
+      "It was built using stone, brick, wood, and tamped earth",
+      "Millions of workers contributed to its construction over centuries"
+    ],
+
+    "tags": ["unesco", "world wonder", "china", "historical", "architecture"],
+
+    "images": [
+      "https://dailydoseofhistory.com/wp-content/uploads/2023/04/the-great-wall-of-china_optimized.jpg?w=1024",
+      "https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2024/11/11_magnificent_Unesco_sites_in_the_Chinese_Mainland-Sunset_Great_Wall_of_ChinaCanto-1.renditionimage.900.900.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/The_Great_Wall_of_China_at_Jinshanling-edit.jpg/960px-The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+      "https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/newscms/2015_27/1100116/150630-great-wall-china-mn-0835.jpg",
+      "https://www.cathaypacific.com/content/dam/focal-point/cx/inspiration/2024/11/11_magnificent_Unesco_sites_in_the_Chinese_Mainland-Great_Wall_of_China-Credit_Bernard_Tan-1.renditionimage.900.900.jpg"
+    ],
+
+    "location": {
+      "address": "Huairou District, Beijing, China",
+      "coordinates": {
+        "latitude": 40.4319,
+        "longitude": 116.5704
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "7:30 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "CNY 40",
+        "foreign": "CNY 40"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 352184
+    },
+
+    "theme": {
+      "primaryColor": "#7B5A3A",
+      "accentColor": "#D9C2A3"
+    },
+
+    "seo": {
+      "metaTitle": "Great Wall of China - Global Heritage",
+      "metaDescription": "Explore the history and grandeur of the Great Wall of China, one of the world's greatest architectural achievements."
+    }
+  },
+
+  {
+    "id": 8,
+    "slug": "taj-mahal",
+    "name": "Taj Mahal",
+
+    "zone": "south",
+    "continent": "Asia",
+    "country": "India",
+    "city": "Agra",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "1631",
+    "completedYear": "1653",
+    "builtBy": "Shah Jahan",
+    "architecturalStyle": "Mughal Architecture",
+
+    "shortDescription": "An ivory-white marble mausoleum located in Agra, India.",
+
+    "fullDescription": "The Taj Mahal was commissioned in 1631 by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal. Widely regarded as one of the most beautiful buildings in the world, the monument combines Persian, Islamic, and Indian architectural styles. Its symmetrical gardens, intricate marble inlays, and grand dome make it a lasting symbol of love and artistic excellence.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "symbol of imperial wealth and power",
+      "One of the Seven Wonders of the World",
+      "Symbol of Mughal architecture and eternal love"
+    ],
+
+    "facts": [
+      "The main gate (Darwaza) is designed to trick your eyes. As you approach the gate, the Taj Mahal appears to get smaller. When you walk away, it seems to grow larger.",
+      "More than 20,000 artisans worked on its construction",
+      "The monument was built using white Makrana marble from Rajasthan",
+      "The Taj Mahal changes color depending on the time of day",
+      "The four minarets surrounding the tomb look perfectly vertical, but they actually lean slightly outward. This trick ensures that if an earthquake occurs, the massive towers will collapse away from the main tomb, protecting the dome."
+    ],
+
+    "tags": ["unesco", "world wonder", "india", "historical", "architecture"],
+
+    "images": [
+      "https://media.architecturaldigest.com/photos/67acb9b0339bcbaaadeb91b5/1:1/w_960,c_limit/GettyImages-873536102.jpg",
+      "https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_1080,h_540,g_auto/dpr_auto/f_auto/q_auto:eco/v1/taj-mahal-gettyimages-463924915?_a=BAVMn6DY0",
+      "https://media.gettyimages.com/id/986474256/photo/interior-of-the-musamman-burj-agra-india.jpg?s=612x612&w=0&k=20&c=E7Zr9Uers5ImpFSAcYxVZW52Cs-dS2esrjAtB9QAiMI=",
+      "https://media.gettyimages.com/id/168932189/photo/taj-mahal-agra-india.jpg?s=612x612&w=0&k=20&c=qWcmcoX2pmHDQEq0sDhabW4UQKsVu0YgiUZbMmQ1wPY=",
+      "https://geeinfratech.wordpress.com/wp-content/uploads/2017/05/taj-mahal-garden-aerial-view.jpg?w=1400&h=9999"
+    ],
+    "location": {
+      "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh, India",
+      "coordinates": {
+        "latitude": 27.1751,
+        "longitude": 78.0421
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "6:30 PM",
+      "closedDays": ["Friday"],
+      "entryFee": {
+        "local": "₹50",
+        "foreign": "₹1100"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 128493
+    },
+
+    "theme": {
+      "primaryColor": "#C19A6B",
+      "accentColor": "#F5E6CC"
+    },
+
+    "seo": {
+      "metaTitle": "Taj Mahal - Global Heritage",
+      "metaDescription": "Explore the history and beauty of the Taj Mahal, India’s iconic symbol of love and architecture."
+    }
+  },
+
+  {
+    "id": 9,
+    "slug": "petra",
+    "name": "Petra",
+
+    "zone": "west",
+    "continent": "Asia",
+    "country": "Jordan",
+    "city": "Wadi Musa",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "312 BC",
+    "completedYear": "100 AD",
+    "builtBy": "Nabataeans",
+    "architecturalStyle": "Nabatean Architecture",
+
+    "shortDescription": "An ancient rock-cut city in southern Jordan famous for its carved sandstone structures.",
+
+    "fullDescription": "Petra was the capital of the Nabataean Kingdom and one of the most important trade centers of the ancient world. Carved directly into rose-colored sandstone cliffs, the city is renowned for its sophisticated water management system, monumental tombs, and iconic structures such as Al-Khazneh, also known as The Treasury. Petra reflects a blend of Eastern and Hellenistic architectural influences and remains one of the world’s most extraordinary archaeological sites.",
+
+    "historicalSignificance": [
+      "The wall street of the Ancient Desert",
+      "A triumph of Hydrological Engineering",
+      "UNESCO World Heritage Site",
+      "One of the Seven Wonders of the World",
+      "Major center of ancient trade routes"
+    ],
+
+    "facts": [
+      "Petra is often called the 'Rose City' because of the color of its stone. However, the cliffs are not just pink. Walking through the narrow canyons reveals striking, multi-colored bands of rock that weave together shades of vibrant red, deep purple, bright yellow, and stark white.",
+      "Archealogists estimates that only 15% has been discovered, 85% of the ancient city still remains hidden underground",
+      "The city remained unknown to much of the Western world until 1812",
+      "Many structures were carved directly into cliffs and mountains",
+      "Local tribesmen literally shot at the solid stone structure for decades, hoping to break the urn open to release the legendary treasure they believed was trapped inside."
+    ],
+
+    "tags": ["unesco", "world wonder", "jordan", "historical", "architecture"],
+
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Al_Deir_Petra.JPG/960px-Al_Deir_Petra.JPG",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Petra_-_286630893.jpg/960px-Petra_-_286630893.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Treasury_petra_crop.jpeg/960px-Treasury_petra_crop.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Urn_Tomb%2C_Petra_01.jpg/960px-Urn_Tomb%2C_Petra_01.jpg",
+      "https://www.ancient-origins.net/sites/default/files/styles/large/public/Petra-Jordan-overview.jpg?itok=RFUo6GDO"
+    ],
+
+    "location": {
+      "address": "Petra Archaeological Park, Wadi Musa, Jordan",
+      "coordinates": {
+        "latitude": 30.3285,
+        "longitude": 35.4444
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "JOD 1",
+        "foreign": "JOD 50"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 174238
+    },
+
+    "theme": {
+      "primaryColor": "#B66A50",
+      "accentColor": "#E7C7B8"
+    },
+
+    "seo": {
+      "metaTitle": "Petra - Global Heritage",
+      "metaDescription": "Discover Petra, the ancient rose-red city carved into the cliffs of Jordan."
+    }
+  },
+
+  {
+    "id": 10,
+    "slug": "angkor-wat",
+    "name": "Angkor Wat",
+
+    "zone": "southeast",
+    "continent": "Asia",
+    "country": "Cambodia",
+    "city": "Siem Reap",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "1122",
+    "completedYear": "1150",
+    "builtBy": "King Suryavarman II",
+    "architecturalStyle": "Khmer Architecture",
+
+    "shortDescription": "A massive temple complex in Cambodia and the largest religious monument in the world.",
+
+    "fullDescription": "Angkor Wat was originally constructed as a Hindu temple dedicated to Vishnu during the Khmer Empire and later transformed into a Buddhist temple. Renowned for its grand scale, intricate carvings, and symbolic design, the temple complex represents the height of classical Khmer architecture and remains Cambodia’s most iconic cultural and spiritual landmark.",
+
+    "historicalSignificance": [
+      "The peak of Khmer Architecture and power",
+      "UNESCO World Heritage Site",
+      "Largest religious monument in the world",
+      "Symbol of Cambodia and Khmer civilization"
+    ],
+
+    "facts": [
+      "Angkor Wat appears on the national flag of Cambodia",
+      "The temple complex covers more than 160 hectares",
+      "Its walls contain thousands of detailed bas-relief carvings"
+    ],
+
+    "tags": ["unesco", "world wonder", "cambodia", "historical", "temple"],
+
+    "images": [
+      "https://theslowroad.org/wp-content/uploads/2019/07/cambodiaposts-22-1120x840.jpg",
+      "https://res.cloudinary.com/tourhq/image/upload/c_fill,f_auto,fl_progressive,g_auto,h_900,q_auto:best,w_1800/g5vyowuyx88c8dovy0wt",
+      "https://www.indochinavoyages.com/wp-content/uploads/2017/06/angkor-cambodia-1117x628.jpg",
+      "https://www.indochinavoyages.com/wp-content/uploads/2017/06/angkor-temple-1117x628.jpg",
+      "https://www.indochinavoyages.com/wp-content/uploads/2017/06/magnificent-inside-the-angkor-temple-1117x628.jpg"
+    ],
+
+    "location": {
+      "address": "Angkor Archaeological Park, Siem Reap, Cambodia",
+      "coordinates": {
+        "lat": 13.4125,
+        "lng": 103.867
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "5:00 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "KHR 15000",
+        "foreign": "USD 37"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 241763
+    },
+
+    "theme": {
+      "primaryColor": "#8C6A43",
+      "accentColor": "#E4D2B8"
+    },
+
+    "seo": {
+      "metaTitle": "Angkor Wat - Global Heritage",
+      "metaDescription": "Explore Angkor Wat, Cambodia’s legendary temple complex and one of the world’s greatest architectural masterpieces."
+    }
+  },
+
+  {
+    "id": 11,
+    "slug": "borobudur",
+    "name": "Borobudur",
+    "zone": "southeast",
+    "continent": "Asia",
+    "country": "Indonesia",
+    "city": "Magelang",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "780 CE",
+    "completedYear": "840 CE",
+    "builtBy": "Sailendra Dynasty",
+    "architecturalStyle": "Buddhist Mahayana Architecture",
+
+    "shortDescription": "A massive 9th-century Buddhist temple complex located in Central Java, Indonesia.",
+
+    "fullDescription": "Borobudur is the world’s largest Buddhist temple and one of Southeast Asia’s most important cultural landmarks. Built during the reign of the Sailendra Dynasty, the monument was designed as a symbolic representation of Buddhist cosmology. Featuring multiple terraces, thousands of relief panels, and hundreds of Buddha statues, Borobudur serves as both a pilgrimage site and a masterpiece of ancient Indonesian architecture.",
+
+    "historicalSignificance": [
+      "The zenith of the Maritime javanese Empire",
+      "A living Encyclopedia of Buddhist cosmology",
+      "UNESCO World Heritage Site",
+      "Largest Buddhist temple in the world",
+      "Major symbol of Indonesian cultural heritage"
+    ],
+
+    "facts": [
+      "he entire monument was constructed using over two million volcanic rock blocks (andesite).",
+      "The true, original base of Borobudur is completely hidden from view.",
+      "In the 1970s, the monument was on the verge of collapsing due to water logging and shifting foundations. In one of the most complex archaeological rescues in history, UNESCO dismantled all one million stones from the upper levels, cataloged them using early computers, installed a modern hidden drainage system inside the hill, and put the pieces back together.",
+      "The monument contains over 2,600 relief panels",
+      "More than 500 Buddha statues are found throughout the temple",
+      "Borobudur was rediscovered in the 19th century after centuries of abandonment"
+    ],
+
+    "tags": ["unesco", "historical", "indonesia", "buddhist", "architecture"],
+
+    "images": [
+      "https://sacredsites.com/images/asia/indonesia/Borobudur-Buddha.webp",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Pradaksina.jpg/960px-Pradaksina.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Borobudur-Nothwest-view.jpg/960px-Borobudur-Nothwest-view.jpg",
+      "https://www.indonesia.travel/contentassets/ea5919f254c2494c9579fa4ce3522bcb/candi-borobudur-1.jpeg",
+      "https://cdn.jacadatravel.com/wp-content/uploads/2025/02/AdobeStock_214890881-Borobudur-Buddhist-Temple.jpg"
+    ],
+
+    "location": {
+      "address": "Borobudur Temple Compounds, Magelang Regency, Central Java, Indonesia",
+      "coordinates": {
+        "latitude": -7.6079,
+        "longitude": 110.2038
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:30 AM",
+      "closingHours": "5:00 PM",
+      "closedDays": [],
+      "entryFee": {
+        "local": "IDR 50000",
+        "foreign": "USD 25"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 156492
+    },
+
+    "theme": {
+      "primaryColor": "#7D684F",
+      "accentColor": "#DDD0BE"
+    },
+
+    "seo": {
+      "metaTitle": "Borobudur - Global Heritage",
+      "metaDescription": "Discover Borobudur, Indonesia’s iconic Buddhist temple and one of the greatest monuments of Southeast Asia."
+    }
+  },
+
+  {
+    "id": 12,
+    "slug": "bagan",
+    "name": "Bagan",
+
+    "zone": "southeast",
+    "continent": "Asia",
+    "country": "Myanmar",
+    "city": "Bagan",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "849 CE",
+    "completedYear": "1297 CE",
+    "builtBy": "Pagan Kingdom",
+    "architecturalStyle": "Burmese Buddhist Architecture",
+
+    "shortDescription": "An ancient city in Myanmar famous for its vast plain of Buddhist temples, pagodas, and monasteries.",
+
+    "fullDescription": "Bagan was the capital of the Pagan Kingdom and one of the most important centers of Buddhist culture in Southeast Asia. Between the 9th and 13th centuries, thousands of temples, stupas, and monasteries were constructed across the plains of central Myanmar. Today, Bagan remains one of the world’s greatest archaeological and spiritual landscapes, celebrated for its sunrise views and rich architectural heritage.",
+
+    "historicalSignificance": [
+      "Birthplace of unified Myanmar",
+      "UNESCO World Heritage Site",
+      "Center of Theravāda Buddhism in ancient Myanmar",
+      "A living language of Ancient Language and culture",
+      "One of Southeast Asia's greatest archaeological sites"
+    ],
+
+    "facts": [
+      "The millions of bricks used to build Bagan were stamped with a unique monogram or royal seal before firing. These stamps allowed government overseers to track exactly which village or kiln made the bricks.",
+      "More than 2,000 temples and pagodas still survive today",
+      "Bagan flourished during the height of the Pagan Kingdom",
+      "Hot air balloon rides over the temple plains are a popular attraction"
+    ],
+
+    "tags": ["unesco", "historical", "myanmar", "buddhist", "temples"],
+
+    "images": [
+      "https://selectiveasia.tbxcdn.com/media/efcc37fbbb-b4668d-06c1/2018-800x600.jpg",
+      "https://selectiveasia.tbxcdn.com/media/edbbb7abbb-b4b-05e6/5113-800x600.jpg",
+      "https://selectiveasia.tbxcdn.com/media/ea88c7fcc3-f564b-06a9/6907-800x600.jpg",
+      "https://www.sommertage.com/wp-content/uploads/2013/07/Sonnenuntergang-in-Bagan.jpg",
+      "https://www.sommertage.com/wp-content/uploads/2018/01/Bulethi-Pagode-Sonnenaufgang-1024x684.jpg"
+    ],
+
+    "location": {
+      "address": "Old Bagan Archaeological Zone, Mandalay Region, Myanmar",
+      "coordinates": {
+        "latitude": 21.1717,
+        "longitude": 94.8585
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "7:00 PM",
+      "entryFee": {
+        "local": "MMK 10000",
+        "foreign": "MMK 25000"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 89436
+    },
+
+    "theme": {
+      "primaryColor": "#A66A3F",
+      "accentColor": "#E8D2B7"
+    },
+
+    "seo": {
+      "metaTitle": "Bagan - Global Heritage",
+      "metaDescription": "Explore Bagan, Myanmar's legendary ancient city of temples and Buddhist heritage."
+    }
+  },
+  {
+    "id": 13,
+    "slug": "sigiriya-rock-fortress",
+    "name": "Sigiriya Rock Fortress",
+
+    "zone": "south",
+    "continent": "Asia",
+    "country": "Sri Lanka",
+    "city": "Sigiriya",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "477 CE",
+    "completedYear": "495 CE",
+    "builtBy": "King Kashyapa I",
+    "architecturalStyle": "Ancient Sri Lankan Architecture",
+
+    "shortDescription": "An ancient rock fortress and palace complex built atop a massive granite rock in central Sri Lanka.",
+
+    "fullDescription": "Sigiriya Rock Fortress, also known as Lion Rock, was constructed by King Kashyapa I as a royal citadel and palace complex. Rising nearly 200 meters above the surrounding plains, the site is renowned for its advanced urban planning, landscaped gardens, frescoes, and mirror wall inscriptions. Sigiriya is considered one of the finest examples of ancient Sri Lankan engineering and artistry.",
+
+    "historicalSignificance": [
+      "The drama of Imperial Paranoia",
+      "An Architectural wonder of the Ancient world",
+      "UNESCO World Heritage Site",
+      "One of Sri Lanka’s most important archaeological sites",
+      "Outstanding example of ancient urban planning"
+    ],
+
+    "facts": [
+      "The Mirror Wall is covered in over 1,800 pieces of ancient graffiti and poems scratched into the porcelain-like plaster by travelers between the 6th and 14th centuries.",
+      "The fortress sits atop a giant volcanic rock column",
+      "Deep within the outer boulder gardens sits a massive rock formation known as the Cobra Hood Cave.",
+      "The entrance once featured a massive lion-shaped gateway",
+      "Sigiriya contains ancient fresco paintings known as the Sigiriya Maidens"
+    ],
+
+    "tags": ["unesco", "historical", "sri lanka", "fortress", "architecture"],
+
+    "images": [
+      "https://curiosmos.com/wp-content/uploads/2019/03/Sigiriya-Rock-Fortress-1-scaled.jpg",
+      "https://srilankatravellife.com/wp-content/uploads/2025/11/Sigiriya_Rock_fortress-1024x595.webp",
+      "https://www.yogawinetravel.com/wp-content/uploads/2016/05/Sigiriya-Lion-Rock-drone-photo-in-Sri-Lanka-1024x683.jpg",
+      "https://mwtours.com.au/wp-content/uploads/2022/06/Sigiriya-Rock-Sri-Lanka-1024x768.jpg",
+      "https://res.klook.com/image/upload/w_1265,h_791,c_fill,q_85/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/x558uz0hguklrg0naxox.webp"
+    ],
+
+    "location": {
+      "address": "Sigiriya, Central Province, Sri Lanka",
+      "coordinates": {
+        "latitude": 7.957,
+        "longitude": 80.7603
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "7:00 AM",
+      "closingHours": "5:30 PM",
+      "entryFee": {
+        "local": "LKR 120",
+        "foreign": "USD 35"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 118274
+    },
+
+    "theme": {
+      "primaryColor": "#9B6A43",
+      "accentColor": "#E7D3BE"
+    },
+
+    "seo": {
+      "metaTitle": "Sigiriya Rock Fortress - Global Heritage",
+      "metaDescription": "Discover Sigiriya Rock Fortress, Sri Lanka’s ancient palace citadel and UNESCO World Heritage Site."
+    }
+  },
+  {
+    "id": 14,
+    "slug": "chichen-itza",
+    "name": "Chichen Itza",
+
+    "zone": "north",
+    "continent": "North America",
+    "country": "Mexico",
+    "city": "Yucatán",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "600 AD",
+    "completedYear": "1200 AD",
+    "builtBy": "Maya Civilization",
+    "architecturalStyle": "Maya-Toltec Architecture",
+
+    "shortDescription": "An ancient Mayan city in Mexico known for its pyramids, temples, and astronomical significance.",
+
+    "fullDescription": "Chichen Itza was one of the largest and most influential cities of the ancient Maya civilization. Located in the Yucatán Peninsula of Mexico, the city served as a political, religious, and economic center for centuries. Its most famous structure, El Castillo, demonstrates the Maya’s advanced knowledge of astronomy and engineering. Today, Chichen Itza stands as one of the most visited archaeological sites in the Americas.",
+
+    "historicalSignificance": [
+      "It represents a unique merger of Maya knowledge and central Mexican Toltec military culture.",
+      "UNESCO World Heritage Site",
+      "The city controlled regional salt beds and maritime trade networks through its port at Isla Cerritos.",
+      "One of the Seven Wonders of the World",
+      "Major center of the ancient Maya civilization"
+    ],
+
+    "facts": [
+      "El Castillo pyramid has 365 steps representing the solar calendar",
+      "During the equinox, shadows create the illusion of a serpent descending the pyramid",
+      " Clapping at the base of El Castillo creates an echo that perfectly mimics the chirp of the sacred Quetzal bird.",
+      "A person speaking softly at one end of the Great Ball Court can be heard perfectly 150 meters away.",
+      "The site includes one of the largest ancient ball courts in Mesoamerica",
+      "It was voted one of the New 7 Wonders of the World in 2007 by over 100 million global voters."
+    ],
+
+    "tags": ["unesco", "world wonder", "mexico", "historical", "maya"],
+
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Chichen_Itza_3.jpg/960px-Chichen_Itza_3.jpg",
+      "https://montecristomagazine.com/wp-content/uploads/2025/12/Travel-Chichen-Itza_Page_1_Image_0001.webp",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Chichen-Itza-1000-Warriors-Columns.jpg/960px-Chichen-Itza-1000-Warriors-Columns.jpg",
+      "https://visitmexico.com/media/usercontent/6838d056867ca-1_gmxdot_-Chich%C3%A9n-Itz%C3%A1,-Yucat%C3%A1n,-M%C3%A9xico-(2)-(2)_gmxdot_jpg",
+      "https://visitmexico.com/media/usercontent/687e9a154f8e9-landscape-photography-of-the-governors-palace-1024x683_gmxdot_jpeg"
+    ],
+
+    "location": {
+      "address": "Chichen Itza Archaeological Site, Yucatán, Mexico",
+      "coordinates": {
+        "latitude": 20.6843,
+        "longitude": -88.5678
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "5:00 PM",
+      "entryFee": {
+        "local": "MXN 310",
+        "foreign": "MXN 697"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 267845
+    },
+
+    "theme": {
+      "primaryColor": "#8C6B3F",
+      "accentColor": "#E4D3B7"
+    },
+
+    "seo": {
+      "metaTitle": "Chichen Itza - Global Heritage",
+      "metaDescription": "Explore Chichen Itza, the legendary Mayan city and one of the New Seven Wonders of the World."
+    }
+  },
+
+  {
+    "id": 15,
+    "slug": "grand-canyon",
+    "name": "Grand Canyon",
+
+    "zone": "west",
+    "continent": "North America",
+    "country": "United States",
+    "city": "Arizona",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "Unknown",
+    "completedYear": "Unknown",
+    "builtBy": "Natural Formation",
+    "architecturalStyle": "Canyon Landscape",
+
+    "shortDescription": "A massive natural canyon carved by the Colorado River in the state of Arizona, USA.",
+
+    "fullDescription": "The Grand Canyon is one of the most breathtaking natural landmarks in the world. Formed over millions of years by the Colorado River, the canyon stretches for hundreds of kilometers and reveals layers of geological history dating back nearly two billion years. Known for its dramatic cliffs, vibrant rock formations, and panoramic views, the Grand Canyon attracts millions of visitors annually and stands as a symbol of America’s natural beauty.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "Sacred ancestral homeland for Native American tribes,",
+      "One of the Seven Natural Wonders of the World",
+      "A turning point for American conservation",
+      "Major geological and ecological landmark"
+    ],
+
+    "facts": [
+      "The canyon is approximately 446 kilometers long",
+      "The canyon is larger than the entire state of Rhode Island.",
+      "Some rock layers are nearly 2 billion years old",
+      "The gorge plunges down to a maximum depth of 1,828 meters.",
+      "The giant scar is easily seen by astronauts aboard the International Space Station.",
+      "Supai Village sits at the bottom of the canyon and has 208 residents.",
+      "The canyon contains an estimated 1,000 caves, but only 335 are mapped.",
+      "The Colorado River continues to shape the canyon today"
+    ],
+
+    "tags": ["unesco", "natural wonder", "usa", "nature", "geology"],
+
+    "images": [
+      "https://cdn.outsideonline.com/wp-content/uploads/2018/11/20/outside-guide-grand-canyon_h.jpg?auto=webp&width=3840&quality=75&fit=cover",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Duttonnp000077AAA2.jpg/960px-Duttonnp000077AAA2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg/960px-Dawn_on_the_S_rim_of_the_Grand_Canyon_%288645178272%29.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cape_Royal_Sunset.jpg/960px-Cape_Royal_Sunset.jpg",
+      "https://iugs-geoheritage.org/wp-content/uploads/2022/07/084-1_The-Grand-Canyon.jpg"
+    ],
+
+    "location": {
+      "address": "Grand Canyon National Park, Arizona, USA",
+      "coordinates": {
+        "latitude": 36.1069,
+        "longitude": -112.1129
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "Open 24 Hours",
+      "closingHours": "Open 24 Hours",
+      "entryFee": {
+        "local": "USD 20",
+        "foreign": "USD 35"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 489321
+    },
+
+    "theme": {
+      "primaryColor": "#A05A2C",
+      "accentColor": "#E8D2B8"
+    },
+
+    "seo": {
+      "metaTitle": "Grand Canyon - Global Heritage",
+      "metaDescription": "Discover the Grand Canyon, one of the world’s greatest natural wonders and America’s iconic canyon landscape."
+    }
+  },
+
+  {
+    "id": 16,
+    "slug": "taos-pueblo",
+    "name": "Taos Pueblo",
+
+    "zone": "southwest",
+    "continent": "North America",
+    "country": "United States",
+    "city": "Taos",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "1000",
+    "completedYear": "1450 AD",
+    "builtBy": "Taos Pueblo People",
+    "architecturalStyle": "Pueblo Architecture",
+
+    "shortDescription": "An ancient adobe settlement in New Mexico that has been continuously inhabited for over 1,000 years.",
+
+    "fullDescription": "Taos Pueblo is one of the oldest continuously inhabited communities in North America and a significant cultural center for the Taos people. Constructed using adobe mud bricks and timber, the multi-storied structures reflect traditional Pueblo architecture and indigenous building techniques. The pueblo remains an active living community and an enduring symbol of Native American heritage and resilience.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "National Historic Landmark",
+      "One of the oldest continuously inhabited settlements in North America"
+    ],
+
+    "facts": [
+      "The pueblo has been inhabited for more than 1,000 years",
+      "Traditional adobe structures are still maintained using ancient methods",
+      "Electricity and running water are limited in some traditional areas",
+      "Unlike many ancient ruins, the Pueblo has never been abandoned.",
+      "The Taos people still live, speak their native Tiwa language, and practice ancestral traditions in the exact same location as their ancestors did a millennium ago."
+    ],
+
+    "tags": ["unesco", "historical", "native american", "usa", "architecture"],
+
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Taos_Pueblo_2017-05-05.jpg/960px-Taos_Pueblo_2017-05-05.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Taos_Pueblo2.jpg/960px-Taos_Pueblo2.jpg",
+      "https://www.worldatlas.com/r/w768/upload/e8/da/b0/shutterstock-307561931.jpg",
+      "https://www.worldatlas.com/r/w768-q80/upload/d0/52/9a/shutterstock-1697789347.jpg",
+      "https://www.worldatlas.com/r/w768-q80/upload/d4/b4/46/shutterstock-179219417.jpg"
+    ],
+
+    "location": {
+      "address": "120 Veterans Hwy, Taos, New Mexico, USA",
+      "coordinates": {
+        "latitude": 36.4373,
+        "longitude": -105.5456
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "9:00 AM",
+      "closingHours": "4:00 PM",
+      "closedDays": ["Ceremonial and Cultural Event Days"],
+      "entryFee": {
+        "local": "USD 25",
+        "foreign": "USD 25"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 28453
+    },
+
+    "theme": {
+      "primaryColor": "#9A6A42",
+      "accentColor": "#E7D6C3"
+    },
+
+    "seo": {
+      "metaTitle": "Taos Pueblo - Global Heritage",
+      "metaDescription": "Explore Taos Pueblo, one of North America’s oldest living indigenous communities and a UNESCO World Heritage Site."
+    }
+  },
+
+  {
+    "id": 17,
+    "slug": "mesa-verde",
+    "name": "Mesa Verde",
+
+    "zone": "southwest",
+    "continent": "North America",
+    "country": "United States",
+    "city": "Colorado",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "600 AD",
+    "completedYear": "1300 AD",
+    "builtBy": "Ancestral Puebloans",
+    "architecturalStyle": "Cliff Dwelling and Kivas Architecture",
+
+    "shortDescription": "A historic archaeological site in Colorado known for its ancient cliff dwellings built by the Ancestral Pueblo people.",
+
+    "fullDescription": "Mesa Verde is one of the most important archaeological preserves in the United States, protecting thousands of ancient dwellings and cultural sites created by the Ancestral Puebloans. Famous for its cliff dwellings built into canyon walls, the site offers remarkable insight into indigenous life, engineering, and community organization before European contact in North America.",
+
+    "historicalSignificance": [
+      "It represents the spectacular climax of Ancestral Puebloan architectural evolution",
+      "UNESCO World Heritage Site",
+      "One of the largest archaeological preserves in the United States",
+      "Important center of Ancestral Puebloan culture"
+    ],
+
+    "facts": [
+      "Cliff Palace is the largest cliff dwelling in North America",
+      "It boasts of 150 rooms and 23 ceremonial kivas",
+      "The site contains more than 4,000 archaeological locations",
+      "Mesa Verde means 'green table' in Spanish",
+      "Scientists used tree rings inside the wooden roof beams (dendrochronology) to pin down the exact years the villages were built."
+    ],
+
+    "tags": ["unesco", "historical", "native american", "usa", "archaeology"],
+
+    "images": [
+      "https://www.travelandleisure.com/thmb/ojL7P1M9Fo0jUYMzesmnSS2tsAk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-header-cliff-palace-mesa-verde-national-park-co-CLIFFDWELLINGS0525-4e1afbf5ea1f4eb3b89691562ad8c1ee.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Cliff_Palace-Colorado-Mesa_Verde_NP.jpg/960px-Cliff_Palace-Colorado-Mesa_Verde_NP.jpg",
+      "https://canyonoftheancients.com/wp-content/uploads/2024/10/Fun-Facts-About-Mesa-Verde-Learn-Before-You-Explore-1100x733.jpg",
+      "https://i0.wp.com/americanfieldtrip.mystagingwebsite.com/wp-content/uploads/2018/08/mesa-verde-1.jpg?w=1200&ssl=1",
+      "https://i0.wp.com/americanfieldtrip.mystagingwebsite.com/wp-content/uploads/2018/08/mesa-verde-9.jpg?w=1200&ssl=1"
+    ],
+
+    "location": {
+      "address": "Mesa Verde National Park, Colorado, USA",
+      "coordinates": {
+        "latitude": 37.1839,
+        "longitude": 108.4886
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "Sunset",
+      "entryFee": {
+        "local": "USD 15",
+        "foreign": "USD 30"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 47215
+    },
+
+    "theme": {
+      "primaryColor": "#8A6442",
+      "accentColor": "#DDD0BE"
+    },
+
+    "seo": {
+      "metaTitle": "Mesa Verde - Global Heritage",
+      "metaDescription": "Discover Mesa Verde, the ancient cliff dwelling site of the Ancestral Puebloans in Colorado, USA."
+    }
+  },
+
+  {
+    "id": 18,
+    "slug": "chaco-culture",
+    "name": "Chaco Culture National Historical Park",
+
+    "zone": "southwest",
+    "continent": "North America",
+    "country": "United States",
+    "city": "New Mexico",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "850",
+    "completedYear": "1250",
+    "builtBy": "Ancestral Puebloans",
+    "architecturalStyle": "Pueblo Architecture",
+
+    "shortDescription": "An ancient cultural and ceremonial center built by the Ancestral Puebloans in northwestern New Mexico.",
+
+    "fullDescription": "Chaco Culture National Historical Park preserves one of the most important archaeological and cultural sites in North America. Between the 9th and 13th centuries, Chaco Canyon became a major center of trade, astronomy, ceremony, and architecture for the Ancestral Pueblo people. The site is famous for its massive stone buildings, engineered roads, and astronomical alignments that demonstrate advanced planning and social organization.",
+
+    "historicalSignificance": [
+      "It served as a critical link connecting Southwestern cultures to Mesoamerican empires.",
+      "The site proves the Ancestral Puebloans possessed advanced knowledge of astronomy, tracking solar and lunar cycles with extreme precision.",
+      "UNESCO World Heritage Site",
+      "Major ceremonial and trade center of the Ancestral Puebloans",
+      "Important archaeological and astronomical site"
+    ],
+
+    "facts": [
+      "Pueblo Bonito is the largest and most famous great house in Chaco Canyon",
+      "They built massive complexes containing up to 700 rooms.",
+      "Many structures are aligned with solar and lunar cycles",
+      "The Chaco road system extended for hundreds of kilometers",
+      "Workers carried over 200,000 logs from 50 miles away."
+    ],
+
+    "tags": ["unesco", "historical", "native american", "usa", "archaeology"],
+
+    "images": [
+      "https://www.nps.gov/chcu/learn/historyculture/images/Pueblo-Bonito_Kearns.jpg?maxwidth=650&autorotate=false&quality=78&format=webp",
+      "https://redroadtodc.org/wp-content/uploads/2021/05/Chaco-Canyon-1024x532.png",
+      "https://www.pew.org/-/media/post-launch-images/2017/11/chaco_1/chaco_1_16x9.jpg",
+      "https://i0.wp.com/wanderingcanadians.com/wp-content/uploads/2024/06/IMG_3862.jpeg?resize=997%2C380&ssl=1",
+      "https://images.squarespace-cdn.com/content/v1/5b2d9bee697a9837a1ab3f16/ddb935ec-e82f-4496-b1b0-6dea0540694c/IMG_9699.jpg?format=1000w"
+    ],
+
+    "location": {
+      "address": "Chaco Culture National Historical Park, New Mexico, USA",
+      "coordinates": {
+        "latitude": 36.0605,
+        "longitude": -107.9683
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "7:00 AM",
+      "closingHours": "Sunset",
+      "closedDays": ["Thanksgiving Day", "Christmas Day", "New Year's Day"],
+      "entryFee": {
+        "local": "USD 15",
+        "foreign": "USD 25"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 19834
+    },
+
+    "theme": {
+      "primaryColor": "#7C5A3A",
+      "accentColor": "#DCCBB5"
+    },
+
+    "seo": {
+      "metaTitle": "Chaco Culture National Historical Park - Global Heritage",
+      "metaDescription": "Explore Chaco Culture, the ancient ceremonial and architectural center of the Ancestral Puebloans in New Mexico."
+    }
+  },
+  {
+    "id": 19,
+    "slug": "machu-picchu",
+    "name": "Machu Picchu",
+
+    "zone": "west",
+    "continent": "South America",
+    "country": "Peru",
+    "city": "Cusco",
+
+    "isWorldWonder": true,
+    "isFeatured": true,
+
+    "yearBuilt": "1450",
+    "completedYear": "1460",
+    "builtBy": "Inca Empire",
+    "architecturalStyle": "Inca Architecture",
+
+    "shortDescription": "An ancient Incan citadel set high in the Andes Mountains of Peru.",
+
+    "fullDescription": "Machu Picchu is one of the most iconic archaeological sites in the world and a masterpiece of Inca engineering and architecture. Built during the reign of Emperor Pachacuti, the mountain citadel features temples, terraces, plazas, and stone structures carefully integrated into the surrounding landscape. Hidden for centuries and rediscovered internationally in the early 20th century, Machu Picchu remains a symbol of the Inca civilization and Peru's cultural heritage.",
+
+    "historicalSignificance": [
+      "an untouched time capsule",
+      " A sacred religious hub",
+      "UNESCO World Heritage Site",
+      "One of the Seven Wonders of the World",
+      "Outstanding example of Inca engineering and architecture"
+    ],
+
+    "facts": [
+      "Machu Picchu sits approximately 2,430 meters above sea level",
+      "The site was largely unknown to the outside world until 1911",
+      "Its stone structures were built without mortar using precise stone-cutting techniques",
+      "When explorer Hiram Bingham 'discovered' the site in 1911, several indigenous farming families were actively living and growing crops right on the ancient agricultural terraces."
+    ],
+
+    "tags": ["unesco", "world wonder", "peru", "historical", "inca"],
+
+    "images": [
+      "https://www.incatrailmachu.com/img/machu-picchu-02-011.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_Machu_Picchu_Sunrise.jpg/960px-Peru_Machu_Picchu_Sunrise.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Wayna_Picchu%2C_Peru-27Oct2009.jpg/500px-Wayna_Picchu%2C_Peru-27Oct2009.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/P1150143_Pano4_-_Machu_Picchu.JPG/1920px-P1150143_Pano4_-_Machu_Picchu.JPG",
+      "https://sacredsites.com/images/americas/peru/Machu-Picchu-main-shot-cropped.webp"
+    ],
+
+    "location": {
+      "address": "Machu Picchu Historic Sanctuary, Cusco Region, Peru",
+      "coordinates": {
+        "latitude": -13.1631,
+        "longitude": -72.545
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "5:30 PM",
+      "entryFee": {
+        "local": "PEN 90",
+        "foreign": "PEN 152"
+      }
+    },
+
+    "ratings": {
+      "average": 4.9,
+      "reviewCount": 315274
+    },
+
+    "theme": {
+      "primaryColor": "#6E7F4F",
+      "accentColor": "#DDE4D0"
+    },
+
+    "seo": {
+      "metaTitle": "Machu Picchu - Global Heritage",
+      "metaDescription": "Discover Machu Picchu, Peru’s legendary Incan citadel and one of the world’s greatest archaeological wonders."
+    }
+  },
+
+  {
+    "id": 20,
+    "slug": "easter-island",
+    "name": "Easter Island (Rapa Nui)",
+
+    "zone": "west",
+    "continent": "South America",
+    "country": "Chile",
+    "city": "Hanga Roa",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "1200",
+    "completedYear": "1600",
+    "builtBy": "Rapa Nui People",
+    "architecturalStyle": "Polynesian Monumental Architecture",
+
+    "shortDescription": "A remote volcanic island in the Pacific Ocean famous for its massive stone Moai statues.",
+
+    "fullDescription": "Easter Island, known locally as Rapa Nui, is one of the world’s most isolated inhabited islands and is renowned for its mysterious Moai statues carved by the indigenous Rapa Nui people. The island served as a major ceremonial and cultural center, with hundreds of monumental statues built to honor ancestors and spiritual leaders. Today, Easter Island remains a symbol of Polynesian culture, archaeological wonder, and human creativity.",
+
+    "historicalSignificance": [
+      "The apex of Polynesian maritime",
+      "UNESCO World Heritage Site",
+      "Home to the famous Moai stone statues",
+      "Important center of Polynesian culture and history"
+    ],
+
+    "facts": [
+      "There are nearly 1,000 Moai statues across the island",
+      "Some Moai statues weigh more than 80 tons",
+      "The island is one of the most remote inhabited places on Earth",
+      "The island's lone runway is classified as the most remote airport in the world.",
+      "It was declared a UNESCO World Heritage site in 1995 to protect the fragile archaeological ecosystem from unchecked development and tourism."
+    ],
+
+    "tags": ["unesco", "historical", "chile", "polynesian", "archaeology"],
+
+    "images": [
+      "https://www.andeantrails.co.uk/nitropack_static/iwfVQrUWbgdNPzhPfPdurFCwDZQSldCZ/assets/images/optimized/rev-38b0105/www.andeantrails.co.uk/wp-content/uploads/2017/07/seven-moais-easter-island.jpg",
+      "https://magazine.columbia.edu/sites/default/files/styles/wysiwyg_full_width_image/public/2024-08/Exp_easter-island.jpg?itok=mO1e5TJJ",
+      "https://media.istockphoto.com/id/1164299361/photo/morning-raraku-p%C3%A5sk%C3%B6n.jpg?s=612x612&w=0&k=20&c=zpgu7bojb6zaQ7t78oyFiB7fwCgpHAJhxlS2pmS5zWs=",
+      "https://www.travelandleisure.com/thmb/7IanglynRCBGmWmEPXkjgAitXfk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/TAL-moai-in-a-line-EASTERISLAND1023-74e7e3252bb1426d8861b07e21acd367.jpg",
+      "https://media.wired.com/photos/68f12bbe0c68c00ae87a1d8e/master/w_960,c_limit/620497234"
+    ],
+
+    "location": {
+      "address": "Rapa Nui National Park, Hanga Roa, Easter Island, Chile",
+      "coordinates": {
+        "latitude": -27.1127,
+        "longitude": -109.3497
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "9:00 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "CLP 20000",
+        "foreign": "USD 80"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 68452
+    },
+
+    "theme": {
+      "primaryColor": "#7B5A3E",
+      "accentColor": "#DDD0BF"
+    },
+
+    "seo": {
+      "metaTitle": "Easter Island (Rapa Nui) - Global Heritage",
+      "metaDescription": "Explore Easter Island, the remote Polynesian island famous for its mysterious Moai statues and cultural heritage."
+    }
+  },
+
+  {
+    "id": 21,
+    "slug": "nazca-lines",
+    "name": "Nazca Lines",
+
+    "zone": "west",
+    "continent": "South America",
+    "country": "Peru",
+    "city": "Nazca",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "500 BC",
+    "completedYear": "500 AD",
+    "builtBy": "Nazca Civilization",
+    "architecturalStyle": "Geoglyph Art",
+
+    "shortDescription": "A series of enormous ancient geoglyphs etched into the desert plains of southern Peru.",
+
+    "fullDescription": "The Nazca Lines are one of the world's greatest archaeological mysteries, consisting of hundreds of massive geoglyphs created by the ancient Nazca civilization. Formed by removing the reddish surface stones to reveal lighter ground beneath, the lines depict animals, plants, geometric shapes, and human figures. Best viewed from the air, the Nazca Lines are celebrated for their scale, precision, and cultural significance.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "One of the most important archaeological mysteries in the world",
+      "Outstanding example of ancient geoglyph art"
+    ],
+
+    "facts": [
+      "Some geoglyphs stretch over several kilometers",
+      "Famous figures include a hummingbird, monkey, spider, and condor",
+      "The dry desert climate helped preserve the lines for centuries"
+    ],
+
+    "tags": ["unesco", "historical", "peru", "archaeology", "geoglyphs"],
+
+    "images": [
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/05/archaeological-treasures-in-peru-nazca-lines.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2021/04/nazca-lines-theories-monkey-822x463.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/09/nazca-lines-images-astronaut.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/07/Hummingbird-in-Nazca-Lines.jpg",
+      "https://www.machutravelperu.com/blog/wp-content/uploads/2020/09/nazca-lines-images-parrot.jpg"
+    ],
+
+    "location": {
+      "address": "Nazca Desert, Ica Region, Peru",
+      "coordinates": {
+        "latitude": -14.739,
+        "longitude": -75.13
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "8:00 AM",
+      "closingHours": "5:00 PM",
+      "entryFee": {
+        "local": "PEN 20",
+        "foreign": "PEN 77"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 52318
+    },
+
+    "theme": {
+      "primaryColor": "#A1724A",
+      "accentColor": "#E7D7C3"
+    },
+
+    "seo": {
+      "metaTitle": "Nazca Lines - Global Heritage",
+      "metaDescription": "Discover the Nazca Lines, Peru's mysterious ancient desert geoglyphs and archaeological wonder."
+    }
+  },
+
+  {
+    "id": 22,
+    "slug": "ciudad-perdida",
+    "name": "Ciudad Perdida",
+
+    "zone": "north",
+    "continent": "South America",
+    "country": "Colombia",
+    "city": "Santa Marta",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "800 CE",
+    "completedYear": "900 CE",
+    "builtBy": "Tayrona Civilization",
+    "architecturalStyle": "Terraced Stone Architecture",
+
+    "shortDescription": "An ancient archaeological city hidden in the Sierra Nevada mountains of Colombia.",
+
+    "fullDescription": "Ciudad Perdida, meaning 'Lost City,' is an ancient settlement built by the Tairona civilization centuries before Machu Picchu. Hidden deep within Colombia’s Sierra Nevada de Santa Marta mountains, the site consists of stone terraces, stairways, plazas, and pathways integrated into the jungle landscape. Rediscovered in the 1970s, Ciudad Perdida remains one of South America’s most important archaeological and cultural treasures.",
+
+    "historicalSignificance": [
+      "Important archaeological site of the Tairona civilization",
+      "One of the oldest ancient cities in South America",
+      "Major symbol of indigenous Colombian heritage"
+    ],
+
+    "facts": [
+      "The site can only be reached through a multi-day jungle trek",
+      "More than 1,200 stone steps lead to the city",
+      "Ciudad Perdida predates Machu Picchu by several centuries"
+    ],
+
+    "tags": ["historical", "colombia", "archaeology", "indigenous", "south america"],
+
+    "images": [
+      "https://i2-prod.mirror.co.uk/article32275496.ece/ALTERNATES/s1200e/1_ciudad-perdida-ancient-ruins-in-sierra-nevada-mountains.jpg",
+      "https://i2-prod.mirror.co.uk/article32275495.ece/ALTERNATES/s1200f/0_tourists-on-a-path-to-ciudad-perdida.jpg",
+      "https://i0.wp.com/s3.amazonaws.com/images.gearjunkie.com/uploads/2024/09/file-31.jpg?w=700&ssl=1",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/CIUDAD_PERDIDA_2.jpg/500px-CIUDAD_PERDIDA_2.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/YAEL_PHOTOS_898.jpg/500px-YAEL_PHOTOS_898.jpg"
+    ],
+
+    "location": {
+      "address": "Sierra Nevada de Santa Marta, Magdalena Department, Colombia",
+      "coordinates": {
+        "latitude": 11.0375,
+        "longitude": -73.925
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "6:00 AM",
+      "closingHours": "6:00 PM",
+      "entryFee": {
+        "local": "COP 1200000",
+        "foreign": "COP 1200000"
+      }
+    },
+
+    "ratings": {
+      "average": 4.8,
+      "reviewCount": 18724
+    },
+
+    "theme": {
+      "primaryColor": "#5F7048",
+      "accentColor": "#DCE3D2"
+    },
+
+    "seo": {
+      "metaTitle": "Ciudad Perdida - Global Heritage",
+      "metaDescription": "Explore Ciudad Perdida, Colombia's ancient Lost City hidden in the Sierra Nevada mountains."
+    }
+  },
+
+  {
+    "id": 23,
+    "slug": "cueva-de-las-manos",
+    "name": "Cueva de las Manos",
+
+    "zone": "south",
+    "continent": "South America",
+    "country": "Argentina",
+    "city": "Santa Cruz",
+
+    "isWorldWonder": false,
+    "isFeatured": true,
+
+    "yearBuilt": "7300 BC",
+    "completedYear": "700 AD",
+    "builtBy": "Early Hunter-Gatherer Communities",
+    "architecturalStyle": "Rock Art Cave Site",
+
+    "shortDescription": "A prehistoric cave site in Argentina famous for its ancient hand-painted rock art.",
+
+    "fullDescription": "Cueva de las Manos, meaning 'Cave of the Hands,' is one of the most significant prehistoric art sites in South America. Located in Patagonia, the cave contains hundreds of hand stencils, animal depictions, hunting scenes, and symbolic paintings created over thousands of years by early hunter-gatherer communities. The artwork provides valuable insight into the cultural and spiritual lives of ancient peoples in the region.",
+
+    "historicalSignificance": [
+      "UNESCO World Heritage Site",
+      "One of the oldest known rock art sites in South America",
+      "Important record of prehistoric human culture"
+    ],
+
+    "facts": [
+      "Most of the handprints were created using spray-painting techniques",
+      "Many hand stencils are left hands, suggesting paint was sprayed using the right hand",
+      "The cave art dates back more than 9,000 years"
+    ],
+
+    "tags": ["unesco", "historical", "argentina", "rock art", "archaeology"],
+
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Cueva_de_las_Manos.jpg/960px-Cueva_de_las_Manos.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/5/51/Marianoc_IMG_8565_copy.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Acceso_a_la_Cueva_de_las_Manos.jpg/960px-Acceso_a_la_Cueva_de_las_Manos.jpg?utm_source=en.wikivoyage.org&utm_campaign=parser&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/SantaCruz-CuevaManos-P2210651b.jpg/960px-SantaCruz-CuevaManos-P2210651b.jpg",
+      "https://www.southamerica.travel/wp-content/uploads/2026/03/Cueva-De-Las-Manos-%E2%80%93-Cave-Of-The-Hands-2-1024x585.jpg"
+    ],
+
+    "location": {
+      "address": "Perito Moreno, Santa Cruz Province, Argentina",
+      "coordinates": {
+        "lat": -47.155,
+        "lng": -70.6563
+      }
+    },
+
+    "visitingInfo": {
+      "openingHours": "9:00 AM",
+      "closingHours": "5:00 PM",
+      "closedDays": [],
+      "entryFee": {
+        "local": "ARS 5000",
+        "foreign": "ARS 12000"
+      }
+    },
+
+    "ratings": {
+      "average": 4.7,
+      "reviewCount": 9432
+    },
+
+    "theme": {
+      "primaryColor": "#8B5E4A",
+      "accentColor": "#E6D3C8"
+    },
+
+    "seo": {
+      "metaTitle": "Cueva de las Manos - Global Heritage",
+      "metaDescription": "Discover Cueva de las Manos, Argentina’s prehistoric cave art site famous for its ancient hand paintings."
+    }
+  }
+]

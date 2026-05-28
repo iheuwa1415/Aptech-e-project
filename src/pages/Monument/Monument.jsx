@@ -2,6 +2,8 @@ import { useParams } from 'react-router';
 import monuments from '../../data/monuments.json';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
+import Hero from '../../components/Hero/Hero';
+
 
 export const Monument = () => {
   //DO NOT TOUCH!
@@ -18,11 +20,19 @@ export const Monument = () => {
   return (
     <>
       <Header />
-      <div>
+
+      <Hero  key={monument.id}
+            name={monument.name}
+            country={monument.country}
+            city={monument.city}
+            images={monument.images}
+            description={monument.shortDescription}
+      />
+      {/* <div>
         <h2>This is the monuments page</h2>
         <h4>{monument.name}</h4>
         <p>{monument.shortDescription}</p>
-      </div>
+      </div> */}
       <Footer />
     </>
   );
