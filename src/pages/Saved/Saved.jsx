@@ -1,24 +1,19 @@
-import Header from '../../components/Header/Header';
+import Card from '../../components/Card/Card';
+import Filters from '../../components/Filters/Filters';
 import Footer from '../../components/Footer/Footer';
-import Card from "../../components/Card/Card";
-import Filters from "../../components/Filters/Filters"
-import worldwonder from "../../worldwonder.json";
+import Header from '../../components/Header/Header';
+// import data from '../../data/monuments.json';
+import { useMonuments } from '../../hooks/useMonuments';
 import './Saved.css';
-import { useState } from 'react';
-
-
 
 export const Saved = () => {
-
-  const [data, setData] = useState(worldwonder);
-
-  const filterItems = new Set(data.flatMap(d => d.tags.map(t => t))).values();
-  // const filterItems = data.flatMap(d => d.tags.map(t => t));
+  // console.log('These are the monuments: %s', JSON.stringify(data));
+  const { filters, addToFilters, removeFromFilters, monuments } = useMonuments();
 
   return (
     <>
       <Header />
-      <div className='saved-container'>
+      <div>
         <div className="hero">
           <h1>Your Collection</h1>
           <p>
@@ -29,20 +24,14 @@ export const Saved = () => {
         </div>
         <div className="middle">
           {/* <div className="sidebar"> */}
-              <Filters filters={filterItems} /> 
+          <Filters filters={filters} addToFilters={addToFilters} removeFromFilters={removeFromFilters} />
           {/* </div> */}
-          <div className='cards'>
-          {data.map((item) => (
-          <Card
-            key={item.id}
-            name={item.name}
-            country={item.country}
-            city={item.city}
-            images={item.images}
-              /> 
+          <div className="cards">
+            {monuments.map((item) => (
+              <Card key={item.id} name={item.name} country={item.country} city={item.city} images={item.images} />
             ))}
           </div>
-        </div> 
+        </div>
       </div>
       <Footer />
     </>

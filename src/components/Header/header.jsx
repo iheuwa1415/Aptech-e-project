@@ -3,15 +3,15 @@ import './Header.css';
 import { NavLink, useLocation } from 'react-router';
 import { useMonumentNumber } from '../../hooks/useRandomMonument';
 
+const navItems = ['Explore', 'Continents', 'Monument', 'Gallery', 'Saved', 'About'];
+
 const Header = () => {
+  const number = useMonumentNumber();
   const { pathname } = useLocation();
   const [activeTab, setActiveTab] = useState(
     pathname === '/' ? 'Explore' : pathname.charAt(0).toUpperCase() + pathname.slice(1)
   );
-  // console.log('location: %s', JSON.stringify(pathname));
-  const navItems = ['Explore', 'Continents', 'Monument', 'Gallery', 'Saved', 'About'];
-
-  const number = useMonumentNumber();
+  console.log('location: %s', JSON.stringify(pathname));
 
   return (
     <nav className="navbar">
