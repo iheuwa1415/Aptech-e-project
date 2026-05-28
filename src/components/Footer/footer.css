@@ -1,12 +1,12 @@
 /* =========================================================================
-   UNIVERSAL RESPONSIVE FOOTER STYLES
+   SEMANTIC SYSTEM FOOTER (MATCHING IMAGE_10)
    ========================================================================= */
 
 .footer {
   width: 100%;
-  background-color: var(--bg-surface);
-  border-top: 1px solid var(--border-default);
-  padding: 60px 24px 30px 24px;
+  background-color: var(--bg-surface); /* Resolves perfectly to #fff8f3 */
+  border-top: 1px solid var(--border-default); /* Resolves perfectly to #f2e7dd */
+  padding: 60px 40px 30px;
   box-sizing: border-box;
 }
 
@@ -14,133 +14,98 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
-  width: 100%;
   max-width: 1126px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
-
-/* =========================================================================
-   TOP FOOTER LAYOUT
-   ========================================================================= */
 
 .footer-main {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  gap: 24px;
+  align-items: flex-start;
+  gap: 40px;
 }
-
-/* =========================================================================
-   LEFT SECTION
-   ========================================================================= */
 
 .footer-brand-section {
   flex: 1;
   max-width: 440px;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
 }
 
 .footer-logo {
-  font-family: var(--font-heading);
-  font-size: var(--text-heading-md-size);
+  font-family: var(--font-heading); /* Playfair Display */
+  font-size: var(--text-heading-md-size); /* 24px */
   line-height: var(--text-heading-md-line-height);
   font-weight: 500;
-  color: var(--text-primary) !important;
+  color: var(--text-primary); /* #121a28 */
   margin: 0 0 16px 0;
 }
 
 .footer-description {
-  font-family: var(--font-body);
-  font-size: var(--text-small-size);
+  font-family: var(--font-body); /* Inter */
+  font-size: var(--text-small-size); /* 14px */
   line-height: var(--text-small-line-height);
-  color: var(--text-secondary) !important;
-  margin: 0 0 24px 0;
+  color: var(--text-secondary); /* #2d3d45 */
+  margin-bottom: 24px;
 }
-
-/* =========================================================================
-   ICONS
-   ========================================================================= */
 
 .footer-icons {
   display: flex;
-  gap: 18px;
+  gap: 16px;
 }
 
 .footer-icon {
   width: 18px;
   height: 18px;
-  color: var(--text-primary) !important;
   cursor: pointer;
+  color: var(--text-primary);
   opacity: 0.85;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .footer-icon:hover {
   opacity: 1;
-  transform: translateY(-1px);
 }
-
-/* =========================================================================
-   RIGHT LINKS SECTION
-   ========================================================================= */
 
 .footer-links-section {
   display: flex;
-  align-items: flex-start;
-  gap: 48px;
-}
-
-.footer-column {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
+  gap: 72px; /* Amplified padding to prevent any text compression */
 }
 
 .footer-column h4 {
-  font-family: var(--font-body);
-  font-size: var(--text-caption-size);
-  line-height: 1.3;
+  font-family: var(--text-caption-font); /* Inter */
+  font-size: var(--text-caption-size); /* 12px */
+  line-height: var(--text-caption-line-height);
   font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--text-primary) !important;
+  letter-spacing: 0.12em;
+  color: var(--text-primary);
   margin: 0 0 20px 0;
-  white-space: nowrap;
+  white-space: nowrap; /* CRITICAL FIX: Stops DISCOVER / ORGANIZATION splitting across lines */
 }
 
 .footer-column ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
 }
 
 .footer-column ul li a {
+  text-decoration: none;
   font-family: var(--font-body);
   font-size: var(--text-small-size);
-  text-decoration: none;
-  color: var(--text-secondary) !important;
-  white-space: nowrap;
+  color: var(--text-secondary);
   transition: color 0.2s ease;
 }
 
 .footer-column ul li a:hover {
-  color: var(--color-primary);
+  color: var(--color-brand-300); /* Accent highlight color */
 }
-
-/* =========================================================================
-   BOTTOM TAGLINE
-   ========================================================================= */
 
 .footer-bottom {
   display: flex;
   justify-content: flex-end;
-  width: 100%;
   border-top: 1px solid var(--border-default);
   padding-top: 24px;
 }
@@ -148,68 +113,35 @@
 .footer-tagline {
   font-family: var(--font-body);
   font-size: var(--text-caption-size);
-  color: var(--text-muted) !important;
+  color: var(--text-muted); /* #906d54 */
   font-style: italic;
 }
 
 /* =========================================================================
-   MOBILE RESPONSIVE
+   RESPONSIVE LAYOUT BREAKPOINTS
    ========================================================================= */
-
 @media (max-width: 768px) {
   .footer {
-    padding: 40px 16px 96px 16px;
+    padding: 40px 24px 90px;
   }
 
   .footer-main {
     flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 32px;
-  }
-
-  .footer-brand-section {
-    max-width: 100%;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-  }
-
-  .footer-description {
-    text-align: center;
-    max-width: 500px;
-    margin: 0 auto 24px auto;
-  }
-
-  .footer-icons {
-    justify-content: center;
-    margin-bottom: 8px;
+    gap: 36px;
   }
 
   .footer-links-section {
     width: 100%;
-    justify-content: center;
-    gap: 48px;
-    border-top: 1px solid var(--border-default);
-    padding-top: 28px;
-    flex-wrap: wrap;
-  }
-
-  .footer-column {
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;
+    gap: 20px;
   }
 
   .footer-bottom {
-    justify-content: center;
-    padding-top: 20px;
+    justify-content: flex-start;
   }
 }
 
-/* =========================================================================
-   MOBILE BOTTOM APP NAVIGATION COMPONENT
-   ========================================================================= */
-
+/* Bottom Stack Drawer Strip for Mobile Devices */
 .mobile-bottom-nav {
   display: none;
 }
@@ -223,44 +155,27 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 68px;
-    z-index: 9999;
-    background-color: var(--bg-surface);
+    height: 64px;
+    background: var(--bg-surface);
     border-top: 1px solid var(--border-default);
-    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
-    padding-bottom: env(safe-area-inset-bottom);
-    box-sizing: border-box;
+    z-index: 999;
   }
 
   .mobile-nav-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    cursor: pointer;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
+    cursor: pointer;
     color: var(--text-secondary);
-  }
-
-  .mobile-nav-icon {
-    width: 22px;
-    height: 22px;
-    opacity: 0.8;
-  }
-
-  .mobile-nav-item span {
     font-family: var(--font-body);
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 500;
   }
 
   .mobile-nav-item.active {
-    color: var(--text-muted) !important;
-  }
-
-  .mobile-nav-item.active .mobile-nav-icon {
-    opacity: 1;
+    color: var(--text-primary);
+    font-weight: 700;
   }
 }

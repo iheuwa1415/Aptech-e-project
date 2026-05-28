@@ -1,47 +1,44 @@
 /* =========================================================================
-   COMPLETE HOMEPAGE DESIGNS WITH ADAPTIVE RESPONSIVE TRACKING (home.css)
+   COMPLETE HOMEPAGE DESIGN
    ========================================================================= */
-
 .home-page {
   width: 100%;
   min-height: 100vh;
   background-color: var(--bg-page);
+  overflow-x: hidden;
   box-sizing: border-box;
-  overflow-x: hidden; /* Prevent horizontal container spilling */
 }
-
-/* --- 1. HERO LANDING SECTION --- */
+/* =========================================================================
+   HERO SECTION (Updated for Left Alignment)
+   ========================================================================= */
 .hero-section {
   width: 100%;
-  min-height: 70vh; /* Changed from fixed height to fluid min-height */
-  background-image: url('https://cdn.britannica.com/06/122506-050-C8E03A8A/Pyramid-of-Khafre-Giza-Egypt.jpg'); 
+  min-height: 70vh;
+  background-image: url('https://cdn.britannica.com/06/122506-050-C8E03A8A/Pyramid-of-Khafre-Giza-Egypt.jpg');
   background-size: cover;
   background-position: center;
-  position: relative;
   display: flex;
   align-items: center;
-  padding: 60px 0; /* Ensures inner container has breathing room */
-  box-sizing: border-box;
+  justify-content: flex-start; /* Ensures content snaps to the left */
+  padding: 60px 0;
 }
 
 .hero-overlay {
   width: 100%;
-  display: flex;
-  justify-content: flex-start; 
-  align-items: center;        
-  background: transparent; 
 }
 
 .hero-content {
   width: 100%;
-  max-width: 1126px; 
+  max-width: 1126px;
   margin: 0 auto;
   padding: 0 40px;
+  box-sizing: border-box;
+  
+  /* Forces text wrapper children to align left */
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  box-sizing: border-box;
-  text-align: left; 
+  text-align: left;
 }
 
 .hero-subtitle {
@@ -49,22 +46,27 @@
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.25em;
-  color: var(--color-brand-300); 
+  color: var(--color-brand-300);
   margin-bottom: 24px;
-  text-transform: uppercase;
+  display: inline-block; /* Keeps layout spacing uniform */
 }
 
 .hero-title {
-  font-family: var(--font-heading); 
-  font-size: calc(2rem + 2vw); /* Fluid responsive typography scales automatically */
+  font-family: var(--font-heading);
+  font-size: calc(2rem + 2vw);
   line-height: 1.2;
   font-weight: 500;
-  color: var(--bg-surface); 
+  color: var(--bg-surface);
   margin: 0 0 32px 0;
-  max-width: 720px; 
+  max-width: 720px;
 }
 
-/* --- 2. TRENDING MONUMENTS SECTION --- */
+.hero-action {
+  align-self: flex-start; /* Ensures button snaps completely to the left */
+}
+/* =========================================================================
+   TRENDING SECTION
+   ========================================================================= */
 .trending-section {
   width: 100%;
   max-width: 1126px;
@@ -72,7 +74,6 @@
   padding: 80px 40px;
   box-sizing: border-box;
 }
-
 .trending-header {
   display: flex;
   justify-content: space-between;
@@ -80,350 +81,366 @@
   margin-bottom: 48px;
   gap: 24px;
 }
-
 .trending-header h2 {
   font-family: var(--font-heading);
   font-size: 36px;
   color: var(--text-primary);
-  margin: 0 0 12px 0;
-  font-weight: 500;
+  margin-bottom: 12px;
 }
-
 .trending-header p {
   font-family: var(--font-body);
   font-size: 15px;
   color: var(--text-secondary);
   max-width: 580px;
-  margin: 0;
 }
-
-/* Two-column master layout grid */
 .monuments-layout-grid {
   display: flex;
   gap: 40px;
   align-items: flex-start;
-  width: 100%;
 }
-
 .main-monument-card {
   flex: 1.6;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
 }
-
 .card-image-wrapper {
   width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 10; /* Dynamic proportions replace static height constraints */
+  aspect-ratio: 16 / 10;
   overflow: hidden;
-  border-radius: 2px;
 }
-
 .card-image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .card-body-content {
   padding-top: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
-
 .card-location {
-  font-family: var(--font-body);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.15em;
   color: var(--text-secondary);
+  display: block;
   margin-bottom: 8px;
 }
-
 .main-monument-card h3 {
   font-family: var(--font-heading);
   font-size: 28px;
+  margin-bottom: 14px;
   color: var(--text-primary);
-  margin: 0 0 14px 0;
 }
-
 .main-monument-card p {
-  font-family: var(--font-body);
   font-size: 14px;
   line-height: 1.6;
   color: var(--text-secondary);
-  margin: 0 0 16px 0;
+  margin-bottom: 16px;
 }
-
 .card-date-badge {
-  font-family: var(--font-body);
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
+  display: block;
   margin-bottom: 20px;
+  font-size: 12px;
+  color: var(--text-muted);
 }
-
 .text-link-btn {
-  background: none;
   border: none;
-  font-family: var(--font-body);
+  background: none;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.12em;
-  color: var(--text-primary);
   cursor: pointer;
-  padding: 0;
 }
-
+/* =========================================================================
+   SIDE CARD (Updated Container and Typographical Contrast)
+   ========================================================================= */
 .side-discovery-card {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
 }
-
+.side-card-inner {
+  /* Provides the card background block container layout */
+  background-color: rgba(0, 0, 0, 0.03); 
+  padding: 32px;
+  box-sizing: border-box;
+}
 .discovery-label-heading {
+  display: block;
+  margin-bottom: 24px;
   font-family: var(--font-body);
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.15em;
-  color: var(--text-primary);
-  margin-bottom: 24px;
+  color: #4a5568; /* Crisp dark gray slate color */
 }
-
-.side-card-inner {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
 .side-image-wrapper {
   width: 100%;
-  height: auto;
   aspect-ratio: 16 / 10;
   overflow: hidden;
 }
-
 .side-image-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .side-card-body {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  padding-top: 24px;
+  text-align: left;
 }
-
 .side-card-body h3 {
   font-family: var(--font-heading);
-  font-size: 22px;
-  color: var(--text-primary);
-  margin: 0 0 8px 0;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0 0 12px 0;
+  color: #2d3748; /* Prominent heading color override */
 }
-
 .side-card-body p {
   font-family: var(--font-body);
   font-size: 14px;
-  color: var(--text-secondary);
-  margin: 0 0 16px 0;
+  line-height: 1.6;
+  color: #718096; /* Perfectly balanced body color */
+  margin: 0 0 24px 0;
 }
-
-/* --- 3. SPECIAL EXHIBITION LAYOUT --- */
+.side-card-body .text-link-btn {
+  border: none;
+  background: none;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #8c7355; /* Golden brand accent color */
+  padding: 0;
+  cursor: pointer;
+}
+/* =========================================================================
+   EXHIBITION SECTION
+   ========================================================================= */
 .exhibition-section {
   width: 100%;
-  background-color: var(--color-primary-900); 
-  color: var(--bg-surface);
+  background-color: var(--color-primary-900);
   padding: 80px 0;
 }
-
 .exhibition-container {
   max-width: 1126px;
   margin: 0 auto;
   padding: 0 40px;
   display: flex;
-  align-items: center;
   gap: 60px;
+  align-items: center;
 }
-
 .exhibition-image-side {
   flex: 1.2;
-  height: auto;
-  aspect-ratio: 4 / 3;
-  width: 100%;
 }
-
 .exhibition-image-side img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
-
 .exhibition-text-side {
   flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
-
 .exhibition-badge {
-  font-family: var(--font-body);
+  display: block;
+  margin-bottom: 20px;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.2em;
   color: #cbb281;
-  margin-bottom: 20px;
 }
-
 .exhibition-text-side h2 {
   font-family: var(--font-heading);
   font-size: 38px;
   line-height: 1.2;
-  margin: 0 0 24px 0;
+  color: white;
+  margin-bottom: 24px;
 }
-
 .exhibition-intro {
-  font-family: var(--font-body);
-  font-size: 15px;
+  color: #a4cbdc;
   line-height: 1.6;
-  color: #a4cbdc; 
-  margin: 0 0 16px 0;
+  margin-bottom: 16px;
 }
-
 .exhibition-details {
-  font-family: var(--font-body);
-  font-size: 14px;
+  color: rgba(255,255,255,0.7);
   line-height: 1.6;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0 0 32px 0;
+  margin-bottom: 32px;
 }
-
-/* --- 4. CHRONOLOGY TIMELINE --- */
+/* =========================================================================
+   CHRONOLOGY TIMELINE
+   ========================================================================= */
 .chronology-section {
+  width: 100%;
+  padding: 100px 40px;
+  background-color: var(--bg-page);
+  box-sizing: border-box;
+}
+.chronology-main-title {
+  font-family: var(--font-heading);
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--text-primary);
+  margin-bottom: 100px;
+}
+.timeline-vertical-container {
+  position: relative;
   width: 100%;
   max-width: 1126px;
   margin: 0 auto;
-  padding: 100px 40px;
-  box-sizing: border-box;
 }
-
-.chronology-main-title {
-  font-family: var(--font-heading);
-  font-size: 36px;
-  color: var(--text-primary);
-  margin-bottom: 60px;
-  font-weight: 500;
+/* CENTER LINE */
+.timeline-vertical-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: var(--border-default);
+  transform: translateX(-50%);
 }
-
-.timeline-horizontal-grid {
+/* ROW */
+.timeline-row {
+  display: grid;
+  grid-template-columns: 1fr 80px 1fr;
+  align-items: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+.timeline-row:last-child {
+  margin-bottom: 0;
+}
+/* LEFT SIDE */
+.timeline-left {
+  text-align: right;
+  padding-right: 40px;
+}
+/* RIGHT SIDE */
+.timeline-right {
+  text-align: left;
+  padding-left: 40px;
+}
+/* CENTER */
+.timeline-center {
   display: flex;
-  gap: 40px;
-  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 5;
 }
-
-.timeline-node {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  border-top: 1px solid var(--border-default);
-  padding-top: 24px;
+/* DOT */
+.timeline-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #8c7355;
 }
-
-.node-header {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 12px;
-}
-
+/* YEAR */
 .node-year {
+  display: block;
   font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.1em;
-  color: var(--text-muted);
-  margin-bottom: 6px;
+  color: #8c7355;
+  margin-bottom: 10px;
 }
-
-.timeline-node h4 {
+/* TITLES */
+.timeline-left h4,
+.timeline-right h4 {
   font-family: var(--font-heading);
-  font-size: 20px;
+  font-size: 42px;
+  font-weight: 500;
   color: var(--text-primary);
   margin: 0;
-  font-weight: 500;
+  line-height: 1.2;
 }
-
-.timeline-node p {
+/* DESCRIPTION */
+.timeline-left p,
+.timeline-right p {
   font-family: var(--font-body);
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 18px;
+  line-height: 1.7;
   color: var(--text-secondary);
   margin: 0;
+  max-width: 420px;
 }
-
 /* =========================================================================
-   UNIVERSAL DEVICE MEDIA RESPONSIVENESS MEDIA BREAKS
+   TABLET
    ========================================================================= */
-
 @media (max-width: 1024px) {
-  .hero-content {
-    padding: 0 32px;
+  .chronology-main-title {
+    font-size: 52px;
   }
-  .trending-section, .chronology-section {
-    padding: 60px 32px;
+  .timeline-left h4,
+  .timeline-right h4 {
+    font-size: 34px;
   }
-  .monuments-layout-grid {
-    gap: 24px;
-  }
-  .exhibition-container {
-    gap: 32px;
-    padding: 0 32px;
+  .timeline-left p,
+  .timeline-right p {
+    font-size: 16px;
   }
 }
-
+/* =========================================================================
+   MOBILE
+   ========================================================================= */
 @media (max-width: 768px) {
-  .hero-section {
-    min-height: 400px;
+  .hero-content,
+  .trending-section,
+  .exhibition-container,
+  .chronology-section {
+    padding-left: 24px;
+    padding-right: 24px;
   }
-  .hero-content {
-    padding: 0 24px;
-  }
-  
-  .trending-section, .chronology-section, .exhibition-section {
-    padding: 50px 24px;
-  }
-
-  .trending-header {
+  .monuments-layout-grid,
+  .exhibition-container {
     flex-direction: column;
+  }
+  .chronology-main-title {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+  .timeline-vertical-container::before {
+    left: 20px;
+    transform: none;
+  }
+  .timeline-row {
+    grid-template-columns: 40px 1fr;
+    gap: 20px;
+    margin-bottom: 60px;
+  }
+  .timeline-center {
+    grid-column: 1;
     align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 32px;
+    padding-top: 6px;
   }
-
-  /* Structural Reflow: Grid channels collapse to clear horizontal overflow */
-  .monuments-layout-grid, 
-  .exhibition-container, 
-  .timeline-horizontal-grid {
-    flex-direction: column;
-    gap: 32px;
+  .timeline-left,
+  .timeline-right {
+    grid-column: 2;
+    text-align: left;
+    padding: 0;
   }
-
-  .exhibition-image-side {
-    aspect-ratio: 16 / 10;
+  .timeline-left h4,
+  .timeline-right h4 {
+    font-size: 28px;
+  }
+  .timeline-left p,
+  .timeline-right p {
+    font-size: 15px;
+    max-width: 100%;
   }
 }
-
+/* =========================================================================
+   SMALL MOBILE
+   ========================================================================= */
 @media (max-width: 480px) {
-  .hero-content {
-    padding: 0 16px;
+  .chronology-section {
+    padding: 50px 16px;
   }
-  .trending-section, .chronology-section, .exhibition-section {
-    padding: 40px 16px;
+  .chronology-main-title {
+    font-size: 28px;
   }
-  .trending-header h2, .chronology-main-title, .exhibition-text-side h2 {
-    font-size: 26px;
+  .timeline-left h4,
+  .timeline-right h4 {
+    font-size: 24px;
+  }
+  .timeline-left p,
+  .timeline-right p {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }

@@ -1,3 +1,4 @@
+
 /* =========================================================================
    LIVE STATUS TICKER BAR (Ticker.css)
    ========================================================================= */
@@ -6,12 +7,12 @@
   width: 100%;
   background-color: var(--color-primary-900); 
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  min-height: 38px; /* Changed from fixed height to fluid min-height */
+  min-height: 38px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
   overflow: hidden;
-  padding: 6px 0; /* Add fine top/bottom padding to handle safe spacing */
+  padding: 6px 0;
 }
 
 .ticker-wrapper {
@@ -30,7 +31,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  flex-wrap: wrap; /* Allows clock batches to scale cleanly */
+  flex-wrap: wrap;
 }
 
 .ticker-item {
@@ -38,7 +39,7 @@
   font-size: 11px;
   letter-spacing: 0.08em;
   font-weight: 600;
-  white-space: nowrap; /* Keeps location and timestamp tied tightly together */
+  white-space: nowrap;
 }
 
 .ticker-item .location {
@@ -104,21 +105,65 @@
   }
 }
 
-/* Responsive optimization for smaller handheld devices */
+/* =========================================================================
+   UNIVERSAL RESPONSIVE OVERRIDES (TARGETING MOBILE VIEWPORT)
+   ========================================================================= */
+
 @media (max-width: 768px) {
+  
+  /* 1. HIDE THE NAVIGATION LINKS AND PROFILE ICON */
+  /* This completely removes 'Explore', 'Continents', etc. and the profile SVG */
+  .navbar-links,
+  .navbar-profile {
+    display: none !important;
+  }
+
+  /* 2. RE-ALIGN THE LOGO AREA TO BE PERFECTLY CENTERED */
+  /* This keeps the header background visible, centers 'Global Heritage', and trims spacing */
+  .navbar-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    height: auto !important;
+    padding: 12px 16px !important;
+  }
+
+  .navbar-logo {
+    margin: 0 auto !important;
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  /* 3. SLIM DOWN THE DARK TICKER BAR THICKNESS */
+  .live-ticker-bar {
+    padding: 2px 0 !important; /* Drops vertical padding so the bar becomes very thin */
+    min-height: auto !important;
+  }
+
   .ticker-wrapper {
     padding: 0 24px;
-    flex-direction: column; /* Stack times and active explorer counts vertically */
-    gap: 6px;
+    flex-direction: column; /* Stacks times and explorer counts cleanly */
+    gap: 2px !important;    /* Tightens up lines completely */
     text-align: center;
   }
   
   .ticker-time-section {
     justify-content: center;
+    gap: 8px !important;
+  }
+
+  .ticker-item {
+    font-size: 10px !important; /* Slightly scales font down to fit mobile beautifully */
   }
 
   .ticker-dot {
     display: inline-block;
+  }
+
+  .ticker-status-section {
+    gap: 4px !important;
   }
 }
 
@@ -126,7 +171,9 @@
   .ticker-wrapper {
     padding: 0 16px;
   }
+  /* Hides the 'GLOBAL EXPLORERS ONLINE' text to keep small devices uncluttered */
   .status-label {
-    display: none; /* Truncate text string labels on tiny screens to avoid overlaps */
+    display: none !important; 
   }
 }
+
