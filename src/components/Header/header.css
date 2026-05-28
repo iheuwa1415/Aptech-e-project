@@ -18,10 +18,11 @@
 
 /* Left: Logo/Brand heading */
 .navbar-logo {
-  font-family: 'Georgia', serif; /* Editorial look from your image */
-  font-size: 24px;
+  font-family: var(--text-heading-md-font); /* Editorial look from your image */
+  font-size: var(--text-heading-md-size);
   font-weight: 600;
-  color: var(--bg); /* Uses your #08060d / #f3f4f6 token */
+  line-height: var(--text-heading-md-line-height);
+  color: var(--text-grey-active); /* Uses your #08060d / #f3f4f6 token */
   cursor: pointer;
   -webkit-user-select: none;
   user-select: none;
@@ -40,11 +41,10 @@
 
 /* Base item link style */
 .nav-item {
-  font-family: var(--sans);
-  font-size: 15px;
-  font-weight: 500;
-  /* Uses your #6b6375 / #9ca3af token */
-  color: var(--bg); 
+  font-family: var(--font-body);
+  font-size: var(--text-small-size);
+  font-weight: bold;
+  color: var(--text-grey);
   cursor: pointer;
   position: relative;
   padding: 8px 0;
@@ -58,7 +58,8 @@
 /* Active Indicator Line matching your exact image layout */
 .nav-item.active {
   color: var(--bg);
-  font-weight: 600;
+  font-weight: bold;
+  color: var(--text-grey-active);
 }
 
 .nav-item.active::after {
@@ -84,6 +85,7 @@
   width: 24px;
   height: 24px;
   transition: opacity 0.2s ease;
+  color: var(--text-grey-active);
 }
 
 .profile-icon:hover {
@@ -102,7 +104,8 @@
   }
 
   .navbar-links {
-    gap: 16px;
+    gap: 8px;
+    width: 37%;
   }
 
   .nav-item {

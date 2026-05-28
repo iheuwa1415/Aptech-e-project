@@ -8,8 +8,9 @@ import { Continents } from './pages/Continents/Continents';
 import { Gallery } from './pages/Gallery/Gallery';
 import { Saved } from './pages/Saved/Saved';
 import { About } from './pages/About/About';
+import { Monument } from './pages/Monument/Monument';
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -18,10 +19,11 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/saved" element={<Saved />} />
         <Route path="/about" element={<About />} />
+        <Route path="/monument/:id" element={<Monument />} />
         <Route path="/hello" element={<div>Hello World</div>} />
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default App;

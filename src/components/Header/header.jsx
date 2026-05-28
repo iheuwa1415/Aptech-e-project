@@ -1,6 +1,12 @@
 import { useState } from 'react';
+<<<<<<< HEAD
 import './header.css';
 import { NavLink, useLocation } from 'react-router-dom';
+=======
+import './Header.css';
+import { NavLink, useLocation } from 'react-router';
+import { useMonumentNumber } from '../../hooks/useRandomMonument';
+>>>>>>> main
 
 const Header = () => {
   const { pathname } = useLocation();
@@ -8,7 +14,9 @@ const Header = () => {
     pathname === '/' ? 'Explore' : pathname.charAt(0).toUpperCase() + pathname.slice(1)
   );
   // console.log('location: %s', JSON.stringify(pathname));
-  const navItems = ['Explore', 'Continents', 'Gallery', 'Saved', 'About'];
+  const navItems = ['Explore', 'Continents', 'Monument', 'Gallery', 'Saved', 'About'];
+
+  const number = useMonumentNumber();
 
   return (
     <nav className="navbar">
@@ -18,12 +26,13 @@ const Header = () => {
 
         {/* Center: Navigation Links */}
         <ul className="navbar-links">
-          {navItems.map((item) => (
+          {navItems.map((item, index) => (
             <NavLink
-              to={item === 'Explore' ? '/' : `/${item.toLowerCase()}`}
+              key={index}
+              to={item === 'Explore' ? '/' : item === 'Monument' ? `/monument/${number}` : `/${item.toLowerCase()}`}
               className={`nav-item ${activeTab === item ? 'active' : ''}`}
               onClick={() => setActiveTab(item)}
-              style={() => ({ textDecoration: 'none' })}
+              style={() => ({ textDecoration: 'none', fontWeight: activeTab === item ? 'bold' : 600 })}
               end
             >
               {item}
