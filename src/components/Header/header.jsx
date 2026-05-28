@@ -1,12 +1,7 @@
 import { useState } from 'react';
-<<<<<<< HEAD
-import './header.css';
-import { NavLink, useLocation } from 'react-router-dom';
-=======
 import './Header.css';
 import { NavLink, useLocation } from 'react-router';
 import { useMonumentNumber } from '../../hooks/useRandomMonument';
->>>>>>> main
 
 const Header = () => {
   const { pathname } = useLocation();

@@ -5,6 +5,7 @@ import Feedback from '../../components/Feedback/Feedback';
 import './About.css';
 
 export const About = () => {
+  const {isMobile} = useDimensions();
   return (
     <>
       <Header />
@@ -22,10 +23,17 @@ export const About = () => {
         </div>  
       </div>
        <div className="contact-feedback-container">
-          
-          <Feedback />
-          
-          <ContactUs/>  
+          {isMobile ? (
+            <>
+              <ContactUs />
+              <Feedback />
+            </>
+           ) : (
+            <>
+              <Feedback />
+              <ContactUs />
+            </>
+          )}
         </div >
       <div className="spotlight-section">
         <img 

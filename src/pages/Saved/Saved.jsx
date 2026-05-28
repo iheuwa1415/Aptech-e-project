@@ -4,8 +4,11 @@ import Card from '../../components/Card/Card';
 import Filters from '../../components/Filters/Filters';
 import data from '../../data/monuments.json';
 import './Saved.css';
+import {useDimentions} from '../../hooks/useDimentions';
 
 export const Saved = () => {
+  const {width, height} = useDimentions();
+
   return (
     <>
       <Header />
