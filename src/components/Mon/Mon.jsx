@@ -1,6 +1,7 @@
-import './mon.css'
+import './Mon.css'
 
-const mon = ({historicalSignificance, fullDescription,  images, shortDescription, name}) =>{
+
+export const Mon = ({historicalSignificance, fullDescription,  images, shortDescription, name}) => {
     return(
         <>
         <div className="container">

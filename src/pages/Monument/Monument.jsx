@@ -3,8 +3,7 @@ import monuments from '../../data/monuments.json';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
-import mon from '../../components/Center/mon';
-
+import {Mon} from '../../components/Mon/Mon';
 
 export const Monument = () => {
   //DO NOT TOUCH!
@@ -30,7 +29,7 @@ export const Monument = () => {
             shortDescription={monument.shortDescription}
       />
 
-      <Center   key={monument.id}
+      <Mon   key={monument.id}
             name={monument.name}
             historicalSignificance={monument.historicalSignificance}
             fullDescription={monument.fullDescription}
@@ -38,12 +37,6 @@ export const Monument = () => {
             shortDescription={monument.shortDescription}
       />
      
-      
-      {/* <div>
-        <h2>This is the monuments page</h2>
-        <h4>{monument.name}</h4>
-        <p>{monument.shortDescription}</p>
-      </div> */}
       <Footer />
     </>
   );
