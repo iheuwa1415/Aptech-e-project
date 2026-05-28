@@ -1,8 +1,9 @@
 import React from "react";
+import "./Feedback.css";
 
 const FeedbackPage = () => {
   return (
-    <div className="feedback-container">
+    
       <div className="feedback-card">
         {/* Share Your Insight Header */}
         <div className="insight-header">
@@ -64,7 +65,6 @@ const FeedbackPage = () => {
 
         </form>
       </div>
-    </div>
   );
 };
 
