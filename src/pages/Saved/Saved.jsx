@@ -21,8 +21,11 @@ export const Saved = () => {
       <div className='saved-container'>
         <div className="hero">
           <h1>Your Collection</h1>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati ipsa omnis, odit suscipit numquam dolorum explicabo
-             dolorem eum nam veritatis unde non, placeat ea? Quas possimus id magnam quidem enim magn</p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati ipsa omnis, odit suscipit
+            numquam dolorum explicabo dolorem eum nam veritatis unde non, placeat ea? Quas possimus id magnam quidem
+            enim magn
+          </p>
         </div>
         <div className="middle">
           {/* <div className="sidebar"> */}

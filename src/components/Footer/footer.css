@@ -1,9 +1,12 @@
 .footer {
   width: 100%;
-  background-color: var(--bg-surface); /* Clean warm brand-100 background tint */
+  background-color: var(--bg-footer);
   border-top: 1px solid var(--border-default);
   padding: 60px 40px 30px 40px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .footer-container {
@@ -32,16 +35,16 @@
   font-family: var(--font-heading); /* Uses Playfair Display */
   font-size: var(--text-heading-md-size);
   line-height: var(--text-heading-md-line-height);
-  font-weight: 500;
-  color: var(--text-primary); /* Pure primary #121a28 deep tone */
+  font-weight: 600;
+  color: var(--text-grey-active); /* Pure primary #121a28 deep tone */
   margin: 0 0 20px 0;
 }
 
 .footer-description {
-  font-family: var(--font-body); /* Uses Inter */
-  font-size: var(--text-small-size);
-  line-height: var(--text-small-line-height);
-  color: var(--text-secondary); /* Balanced #2d3d45 readability tone */
+  font-family: var(--text-heading-md-font); /* Uses Inter */
+  font-size: var(--text-heading-md-size);
+  line-height: var(--text-heading-md-line-height);
+  color: var(--text-grey); /* Balanced #2d3d45 readability tone */
   margin: 0 0 32px 0;
 }
 
@@ -53,10 +56,12 @@
 .footer-icon {
   width: 18px;
   height: 18px;
-  color: var(--text-primary);
+  color: var(--text-dark);
   cursor: pointer;
   opacity: 0.85;
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
 }
 
 .footer-icon:hover {
@@ -77,12 +82,12 @@
 }
 
 .footer-column h4 {
-  font-family: var(--font-body);
-  font-size: var(--text-caption-size);
-  line-height: 1.3;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--text-primary); /* Bold directory names */
+  font-family: var(--text-small-font);
+  font-size: var(--text-small-size);
+  line-height: var(--text-small-line-height);
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  color: var(--text-dark) !important;
   margin: 0 0 24px 0;
 }
 
@@ -96,10 +101,13 @@
 }
 
 .footer-column ul li a {
-  font-family: var(--font-body);
-  font-size: var(--text-small-size);
+  font-family: var(--text-caption-font);
+  font-size: var(--text-caption-size);
+  line-height: var(--text-caption-line-height);
+  font-weight: 500;
+  letter-spacing: 0px;
   text-decoration: none;
-  color: var(--text-secondary);
+  color: var(--text-grey);
   transition: color 0.2s ease;
 }
 
@@ -129,7 +137,7 @@
 
 .footer {
   width: 100%;
-  background-color: var(--bg-surface); /* Warm brand-100 tint */
+  background-color: var(--bg-footer); /* Warm brand-100 tint */
   border-top: 1px solid var(--border-default);
   padding: 60px 24px 30px 24px; /* Slightly tighter horizontal padding to prevent page overflow */
   box-sizing: border-box;
@@ -188,7 +196,7 @@
 .footer-icon {
   width: 18px;
   height: 18px;
-  color: var(--text-primary) !important;
+  color: var(--text-dark) !important;
   cursor: pointer;
 }
 
@@ -205,12 +213,12 @@
 }
 
 .footer-column h4 {
-  font-family: var(--font-body);
-  font-size: var(--text-caption-size);
-  line-height: 1.3;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--text-primary) !important;
+  font-family: var(--text-small-font);
+  font-size: var(--text-small-size);
+  line-height: var(--text-small-line-height);
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  color: var(--text-dark) !important;
   margin: 0 0 20px 0;
   white-space: nowrap; /* Keeps DISCOVER and ORGANIZATION perfectly whole */
 }
@@ -225,10 +233,10 @@
 }
 
 .footer-column ul li a {
-  font-family: var(--font-body);
-  font-size: var(--text-small-size);
+  font-family: var(--text-caption-font);
+  font-size: var(--text-caption-size);
+  color: var(--text-grey);
   text-decoration: none;
-  color: var(--text-secondary) !important;
   white-space: nowrap;
 }
 
@@ -247,7 +255,6 @@
   color: var(--text-muted) !important;
   font-style: italic;
 }
-
 
 /* =========================================================================
    CRITICAL MOBILE SCREEN MEDIA QUERY (BREAKS COLS APART)
@@ -274,7 +281,7 @@
   /* Align directories row layout across the bottom of mobile screen */
   .footer-links-section {
     width: 100%;
-    justify-content:间-between; /* Spreads menus outward evenly over narrow device spaces */
+    justify-content: 间-between; /* Spreads menus outward evenly over narrow device spaces */
     gap: 20px;
   }
 
@@ -283,7 +290,6 @@
     padding-top: 20px;
   }
 }
-
 
 /* =========================================================================
    MOBILE BOTTOM APP NAVIGATION COMPONENT
@@ -335,7 +341,7 @@
   }
 
   .mobile-nav-item.active {
-    color: var(--text-muted) !important; 
+    color: var(--text-muted) !important;
   }
 
   .mobile-nav-item.active .mobile-nav-icon {

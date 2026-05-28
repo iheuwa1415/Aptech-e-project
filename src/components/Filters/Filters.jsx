@@ -9,7 +9,6 @@ function Filters(props) {
   
   return (
     <div className="filters">
-
       <h2>FILTERS</h2>
 
       
@@ -40,7 +39,7 @@ function Filters(props) {
           <input type="checkbox" />
           Listed Site
         </label>
-        
+
         <label>
           <input type="checkbox" />
           Tentactive List
@@ -49,6 +48,6 @@ function Filters(props) {
       <button className="btn">Clear Filters</button>
     </div>
   );
-}
+};
 
 export default Filters;
