@@ -37,8 +37,8 @@ export const Saved = () => {
             key={item.id}
             name={item.name}
             country={item.country}
-                city={item.city}
-                images={item.images}
+            city={item.city}
+            images={item.images}
               /> 
             ))}
           </div>
