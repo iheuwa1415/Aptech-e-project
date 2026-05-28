@@ -1,7 +1,7 @@
 import "./Hero.css";
 
 
-const Hero = ({ name, country, city, images, description}) => {
+const Hero = ({ name, country, city, images, shortDescription}) => {
   return (
     <>
       <div
@@ -15,7 +15,7 @@ const Hero = ({ name, country, city, images, description}) => {
           <h4 className="acb">{city}</h4>
         </div>
         <h1>{name}</h1>
-        <p>{description}</p>
+        <p>{shortDescription}</p>
       </div>
     </>
   );
