@@ -1,4 +1,5 @@
 import monuments from '../../data/monuments';
+import { useMonumentNumber } from '../../hooks/useRandomMonument';
 import Button from '../Button/Button';
 import LiveTicker from '../Ticker/Ticker';
 import './Home.css';
@@ -20,6 +21,15 @@ const Home = () => {
     console.log('Opening featured chapter...');
   };
 
+  // const { randomMonument } = useMonuments();
+
+  //DO NOT TOUCH THIS!
+  const number = useMonumentNumber();
+  const randomMonument = monuments[number];
+  const getNextMonument = (index) => {
+    return monuments[index % monuments.length];
+  };
+
   return (
     <div className="home-page">
       <LiveTicker />
@@ -27,7 +37,7 @@ const Home = () => {
       {/* =========================================================
           HERO SECTION
       ========================================================= */}
-      <section className="hero-section">
+      <section className="hero-section" style={{ backgroundImage: randomMonument.images[0] }}>
         <div className="hero-overlay">
           <div className="hero-content">
             <span className="hero-subtitle">THE CRADLE OF CIVILIZATION</span>
@@ -35,7 +45,7 @@ const Home = () => {
             <h1 className="hero-title">
               Witness the Majesty of
               <br />
-              the Eternal Sands.
+              the {randomMonument.name}.
             </h1>
 
             <div className="hero-action">
@@ -92,7 +102,7 @@ const Home = () => {
           {/* =========================================================
               SIDE CARD
           ========================================================= */}
-          {monuments[1] && (
+          {getNextMonument(1) && (
             <div className="side-discovery-card">
               <span className="discovery-label-heading">DISCOVERY OF THE WEEK</span>
 
