@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router';
 import './Card.css';
 
 export const Card = ({ id = '', name, country, city, images = [] }) => {
@@ -18,7 +19,11 @@ export const Card = ({ id = '', name, country, city, images = [] }) => {
           📍 {city}, {country}
         </div>
 
-        <div className="card-cta">VIEW FULL RECORD</div>
+        <div className="card-cta">
+          <NavLink to={`/monument/${id}`} style={{ textDecoration: 'none', color: '#ee2242' }}>
+            VIEW FULL RECORD
+          </NavLink>
+        </div>
       </div>
     </article>
   );
