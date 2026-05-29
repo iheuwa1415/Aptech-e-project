@@ -7,10 +7,9 @@ import Header from '../../components/Header/Header';
 import { Pagination } from '../../components/Pagination/Pagination';
 import { useMonuments } from '../../hooks/useMonuments';
 import './Saved.css';
-import {useDimensions} from '../../hooks/useDimensions';
+// import {useDimensions} from '../../hooks/useDimensions';
 
 export const Saved = () => {
-<<<<<<< HEAD
   const { filters, addToFilters, removeFromFilters, monuments = [], activeFilters } = useMonuments();
 
   const itemsPerPage = 6;
@@ -32,9 +31,6 @@ export const Saved = () => {
   const total = monuments.length;
   const start = (page - 1) * itemsPerPage;
   const paged = monuments.slice(start, start + itemsPerPage);
-=======
-  const {width, height} = useDimensions();
->>>>>>> 453bf1c594ea96141e9076224588cfb6448c1df9
 
   return (
     <>
