@@ -3,7 +3,7 @@ import monuments from '../../data/monuments.json';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
-
+import {Mon} from '../../components/Mon/Mon';
 
 export const Monument = () => {
   //DO NOT TOUCH!
@@ -26,13 +26,24 @@ export const Monument = () => {
             country={monument.country}
             city={monument.city}
             images={monument.images}
-            description={monument.shortDescription}
+            shortDescription={monument.shortDescription}
       />
-      {/* <div>
-        <h2>This is the monuments page</h2>
-        <h4>{monument.name}</h4>
-        <p>{monument.shortDescription}</p>
-      </div> */}
+
+      <Mon   key={monument.id}
+            name={monument.name}
+            historicalSignificance={monument.historicalSignificance}
+            fullDescription={monument.fullDescription}
+            images={monument.images}
+            shortDescription={monument.shortDescription}
+            address={monument.location.address}
+            openingHours={monument.visitingInfo.openingHours}
+            closingHours={monument.visitingInfo.closingHours}
+            local={monument.visitingInfo.entryFee.local}
+            foreign={monument.visitingInfo.entryFee.foreign}
+            architecturalStyle={monument.architecturalStyle}
+            historicalSignificance={monument.historicalSignificance}
+      />
+     
       <Footer />
     </>
   );

@@ -160,7 +160,7 @@ function Filters({
     <div className="filters">
       <h2>FILTERS</h2>
 
-      <input type="text" placeholder="Search records..." />
+      
 
       {renderGroup('era', 'ERA')}
       {renderGroup('region', 'REGION')}
