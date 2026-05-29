@@ -33,11 +33,11 @@
   margin: 0 auto;
   padding: 0 40px;
   box-sizing: border-box;
-  
+
   /* Forces text wrapper children to align left */
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
   text-align: left;
 }
 
@@ -156,7 +156,7 @@
 }
 .side-card-inner {
   /* Provides the card background block container layout */
-  background-color: rgba(0, 0, 0, 0.03); 
+  background-color: rgba(0, 0, 0, 0.03);
   padding: 32px;
   box-sizing: border-box;
 }
@@ -255,7 +255,7 @@
   margin-bottom: 16px;
 }
 .exhibition-details {
-  color: rgba(255,255,255,0.7);
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1.6;
   margin-bottom: 32px;
 }

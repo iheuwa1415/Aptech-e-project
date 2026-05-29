@@ -1,457 +1,177 @@
 /* =========================================================================
-   COMPLETE HOMEPAGE DESIGNS WITH ADAPTIVE RESPONSIVE TRACKING (home.css)
+   LIVE STATUS TICKER BAR (Ticker.css)
    ========================================================================= */
 
-.home-page {
-  width: 100%;
-  min-height: 100vh;
-  background-color: var(--bg-page);
-  box-sizing: border-box;
-}
-
-/* --- 1. HERO LANDING SECTION --- */
-.hero-section {
-  width: 100%;
-  height: 85vh;
-  min-height: 550px;
-  background-image: url('/src/assets/pyramid-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  overflow: hidden;
-}
-
-.hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background: transparent; /* Kept completely bright to show off your asset image cleanly */
-}
-
-.hero-content {
-  width: 100%;
-  max-width: 1126px;
-  margin: 0 auto;
-  padding: 0 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  box-sizing: border-box;
-  text-align: left; /* Strict left alignment layout tracking */
-}
-
-.hero-subtitle {
-  font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.25em;
-  color: var(--color-brand-300);
-  margin-bottom: 24px;
-  text-transform: uppercase;
-}
-
-.hero-title {
-  font-family: var(--font-heading);
-  font-size: 52px;
-  line-height: 1.15;
-  font-weight: 500;
-  color: var(--bg-surface);
-  margin: 0 0 32px 0;
-  max-width: 720px;
-}
-
-/* --- 2. TRENDING MONUMENTS SECTION --- */
-.trending-section {
-  width: 100%;
-  max-width: 1126px;
-  margin: 0 auto;
-  padding: 80px 40px;
-  box-sizing: border-box;
-}
-
-.trending-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 48px;
-  gap: 24px;
-}
-
-.trending-header h2 {
-  font-family: var(--font-heading);
-  font-size: 36px;
-  color: var(--text-primary);
-  margin: 0 0 12px 0;
-  font-weight: 500;
-}
-
-.trending-header p {
-  font-family: var(--font-body);
-  font-size: 15px;
-  color: var(--text-secondary);
-  max-width: 580px;
-  margin: 0;
-}
-
-/* Two-column master grid setup */
-.monuments-layout-grid {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  width: 100%;
-}
-
-.main-monument-card {
-  flex: 1.6;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-image-wrapper {
-  width: 100%;
-  height: 420px;
-  overflow: hidden;
-  border-radius: 2px;
-}
-
-.card-image-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.card-body-content {
-  padding-top: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.card-location {
-  font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: var(--text-secondary);
-  margin-bottom: 8px;
-}
-
-.main-monument-card h3 {
-  font-family: var(--font-heading);
-  font-size: 28px;
-  color: var(--text-primary);
-  margin: 0 0 14px 0;
-}
-
-.main-monument-card p {
-  font-family: var(--font-body);
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--text-secondary);
-  margin: 0 0 16px 0;
-}
-
-.card-date-badge {
-  font-family: var(--font-body);
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--text-muted);
-  margin-bottom: 20px;
-}
-
-.text-link-btn {
-  background: none;
-  border: none;
-  font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  color: var(--text-primary);
-  cursor: pointer;
-  padding: 0;
-}
-
-.side-discovery-card {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.discovery-label-heading {
-  font-family: var(--font-body);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.15em;
-  color: var(--text-primary);
-  margin-bottom: 24px;
-}
-
-.side-card-inner {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.side-image-wrapper {
-  width: 100%;
-  height: 240px;
-  overflow: hidden;
-}
-
-.side-image-wrapper img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.side-card-body {
-  padding-top: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.side-card-body h3 {
-  font-family: var(--font-heading);
-  font-size: 22px;
-  color: var(--text-primary);
-  margin: 0 0 8px 0;
-}
-
-.side-card-body p {
-  font-family: var(--font-body);
-  font-size: 14px;
-  color: var(--text-secondary);
-  margin: 0 0 16px 0;
-}
-
-/* --- 3. SPECIAL EXHIBITION LAYOUT --- */
-.exhibition-section {
+.live-ticker-bar {
   width: 100%;
   background-color: var(--color-primary-900);
-  color: var(--bg-surface);
-  padding: 100px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  min-height: 38px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 6px 0;
 }
 
-.exhibition-container {
+.ticker-wrapper {
+  width: 100%;
   max-width: 1126px;
   margin: 0 auto;
   padding: 0 40px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  box-sizing: border-box;
+  gap: 16px;
 }
 
-.exhibition-image-side {
-  flex: 1.2;
-  height: 480px;
-}
-
-.exhibition-image-side img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.exhibition-text-side {
-  flex: 1;
+.ticker-time-section {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-.exhibition-badge {
+.ticker-item {
+  font-family: var(--font-body);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.ticker-item .location {
+  color: #519bbd;
+}
+
+.ticker-item .time-val {
+  color: #a4cbdc;
+}
+
+.ticker-dot {
+  color: rgba(255, 255, 255, 0.25);
+  font-size: 10px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.ticker-status-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+/* Pulsing Crimson Beacon Dot */
+.live-pulse-dot {
+  width: 6px;
+  height: 6px;
+  background-color: #a34c48;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 0 0 rgba(163, 76, 72, 0.7);
+  animation: pulse-glow 2s infinite;
+  flex-shrink: 0;
+}
+
+.status-label {
   font-family: var(--font-body);
   font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.2em;
-  color: #cbb281;
-  margin-bottom: 20px;
+  letter-spacing: 0.08em;
+  color: #519bbd;
 }
 
-.exhibition-text-side h2 {
-  font-family: var(--font-heading);
-  font-size: 38px;
-  line-height: 1.2;
-  margin: 0 0 24px 0;
-}
-
-.exhibition-intro {
+.status-count {
   font-family: var(--font-body);
-  font-size: 15px;
-  line-height: 1.6;
-  color: #a4cbdc;
-  margin: 0 0 16px 0;
-}
-
-.exhibition-details {
-  font-family: var(--font-body);
-  font-size: 14px;
-  line-height: 1.6;
-  color: rgba(255, 255, 255, 0.7);
-  margin: 0 0 32px 0;
-}
-
-/* --- 4. CHRONOLOGY TIMELINE --- */
-.chronology-section {
-  width: 100%;
-  max-width: 1126px;
-  margin: 0 auto;
-  padding: 100px 40px;
-  box-sizing: border-box;
-}
-
-.chronology-main-title {
-  font-family: var(--font-heading);
-  font-size: 36px;
-  color: var(--text-primary);
-  margin-bottom: 60px;
-  font-weight: 500;
-}
-
-.timeline-horizontal-grid {
-  display: flex;
-  gap: 40px;
-  width: 100%;
-}
-
-.timeline-node {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  border-top: 1px solid var(--border-default);
-  padding-top: 24px;
-}
-
-.node-header {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 12px;
-}
-
-.node-year {
-  font-family: var(--font-body);
-  font-size: 12px;
+  font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.1em;
-  color: var(--text-muted);
-  margin-bottom: 6px;
+  color: #a4cbdc;
 }
 
-.timeline-node h4 {
-  font-family: var(--font-heading);
-  font-size: 20px;
-  color: var(--text-primary);
-  margin: 0;
-  font-weight: 500;
-}
-
-.timeline-node p {
-  font-family: var(--font-body);
-  font-size: 14px;
-  line-height: 1.6;
-  color: var(--text-secondary);
-  margin: 0;
+@keyframes pulse-glow {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(163, 76, 72, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 5px rgba(163, 76, 72, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(163, 76, 72, 0);
+  }
 }
 
 /* =========================================================================
-   UNIVERSAL DEVICE MEDIA RESPONSIVENESS MEDIA BREAKS
+   UNIVERSAL RESPONSIVE OVERRIDES (TARGETING MOBILE VIEWPORT)
    ========================================================================= */
 
-/* --- TABLETS & MEDIUM SCREENS (1024px down) --- */
-@media (max-width: 1024px) {
-  .hero-title {
-    font-size: 42px;
-  }
-  .monuments-layout-grid {
-    gap: 24px;
-  }
-  .card-image-wrapper {
-    height: 340px;
-  }
-  .exhibition-container {
-    gap: 32px;
-  }
-  .exhibition-image-side {
-    height: 380px;
-  }
-}
-
-/* --- MOBILE LANDSCAPE & PHONES (768px down) --- */
 @media (max-width: 768px) {
-  .hero-section {
-    height: 70vh;
-    min-height: 450px;
+  /* 1. HIDE THE NAVIGATION LINKS AND PROFILE ICON */
+  /* This completely removes 'Explore', 'Continents', etc. and the profile SVG */
+  .navbar-links,
+  .navbar-profile {
+    display: none !important;
   }
-  .hero-content {
+
+  /* 2. RE-ALIGN THE LOGO AREA TO BE PERFECTLY CENTERED */
+  /* This keeps the header background visible, centers 'Global Heritage', and trims spacing */
+  .navbar-container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    height: auto !important;
+    padding: 12px 16px !important;
+  }
+
+  .navbar-logo {
+    margin: 0 auto !important;
+    display: block !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  /* 3. SLIM DOWN THE DARK TICKER BAR THICKNESS */
+  .live-ticker-bar {
+    padding: 2px 0 !important; /* Drops vertical padding so the bar becomes very thin */
+    min-height: auto !important;
+  }
+
+  .ticker-wrapper {
     padding: 0 24px;
-  }
-  .hero-title {
-    font-size: 34px;
-  }
-
-  .trending-section {
-    padding: 60px 24px;
-  }
-  .trending-header {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 32px;
-  }
-  .trending-header p {
-    max-width: 100%;
+    flex-direction: column; /* Stacks times and explorer counts cleanly */
+    gap: 2px !important; /* Tightens up lines completely */
+    text-align: center;
   }
 
-  /* Structural Collapse: Stacks side-by-side components into vertical grid channels */
-  .monuments-layout-grid,
-  .exhibition-container,
-  .timeline-horizontal-grid {
-    flex-direction: column;
-    width: 100%;
-    gap: 40px;
+  .ticker-time-section {
+    justify-content: center;
+    gap: 8px !important;
   }
 
-  .card-image-wrapper {
-    height: 280px;
-  }
-  .side-image-wrapper {
-    height: 260px;
+  .ticker-item {
+    font-size: 10px !important; /* Slightly scales font down to fit mobile beautifully */
   }
 
-  .exhibition-section {
-    padding: 60px 24px;
-  }
-  .exhibition-image-side {
-    width: 100%;
-    height: 280px;
+  .ticker-dot {
+    display: inline-block;
   }
 
-  .chronology-section {
-    padding: 60px 24px;
-  }
-  .chronology-main-title {
-    margin-bottom: 40px;
-    font-size: 28px;
-  }
-  .timeline-node {
-    padding-top: 16px;
+  .ticker-status-section {
+    gap: 4px !important;
   }
 }
 
-/* --- SMALL DEVICE CHANNELS (480px down) --- */
 @media (max-width: 480px) {
-  .hero-title {
-    font-size: 28px;
+  .ticker-wrapper {
+    padding: 0 16px;
   }
-  .trending-header h2 {
-    font-size: 26px;
-  }
-  .exhibition-text-side h2 {
-    font-size: 28px;
+  /* Hides the 'GLOBAL EXPLORERS ONLINE' text to keep small devices uncluttered */
+  .status-label {
+    display: none !important;
   }
 }
