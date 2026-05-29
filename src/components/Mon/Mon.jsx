@@ -1,4 +1,4 @@
-import './Mon.css';
+import './Mon.css'
 
 
 export const Mon = ({historicalSignificance, fullDescription,  images, shortDescription, name, address, openingHours, closingHours,
@@ -41,13 +41,13 @@ export const Mon = ({historicalSignificance, fullDescription,  images, shortDesc
                     </div>
                 </div>
                 <div className="sidebar">
-                    <div className="card">
+                    <div className="card-mon">
                             <h3>{name}</h3>
                             <img src={images[2]} alt={name} />
                             <p>{address}</p>
                     </div>
 
-                    <div className="card">
+                    <div className="card-mon">
                             <h3>Visitor Facts</h3>
                             <h4>Opening Hours</h4>
                             <p>Daily {openingHours} - {closingHours}</p>
