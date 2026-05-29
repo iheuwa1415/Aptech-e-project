@@ -35,6 +35,13 @@ export const Monument = () => {
             fullDescription={monument.fullDescription}
             images={monument.images}
             shortDescription={monument.shortDescription}
+            address={monument.location.address}
+            openingHours={monument.visitingInfo.openingHours}
+            closingHours={monument.visitingInfo.closingHours}
+            local={monument.visitingInfo.entryFee.local}
+            foreign={monument.visitingInfo.entryFee.foreign}
+            architecturalStyle={monument.architecturalStyle}
+            historicalSignificance={monument.historicalSignificance}
       />
      
       <Footer />

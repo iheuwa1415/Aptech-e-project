@@ -25,7 +25,7 @@ const Hero = ({ name, country, city, images, shortDescription}) => {
           <h4 className="acb">{city}</h4>
         </div>
         <h1>{name}</h1>
-        <p>{shortDescription}</p>
+        <p className="shortp">{shortDescription}</p>
       </div>
     </>
   );

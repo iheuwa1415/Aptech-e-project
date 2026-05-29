@@ -51,6 +51,15 @@ p{
   margin: 15px 0;
 }
 
+.card h3{
+  font-weight: 800;
+  font-size: 25px;
+}
+.card h4{
+  font-weight: 800;
+  font-size: medium;
+}
+
 .timeline{
   margin-top: 50px;
 }
