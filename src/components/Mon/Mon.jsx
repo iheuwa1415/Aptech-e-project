@@ -1,4 +1,4 @@
-import './Mon.css'
+import './Mon.css';
 
 
 export const Mon = ({historicalSignificance, fullDescription,  images, shortDescription, name, address, openingHours, closingHours,

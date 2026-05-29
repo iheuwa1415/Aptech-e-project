@@ -1,9 +1,9 @@
 import { useParams } from 'react-router';
-import monuments from '../../data/monuments.json';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
-import {Mon} from '../../components/Mon/Mon';
+import { Mon } from '../../components/Mon/Mon';
+import monuments from '../../data/monuments.json';
 
 export const Monument = () => {
   //DO NOT TOUCH!
@@ -21,12 +21,13 @@ export const Monument = () => {
     <>
       <Header />
 
-      <Hero  key={monument.id}
-            name={monument.name}
-            country={monument.country}
-            city={monument.city}
-            images={monument.images}
-            shortDescription={monument.shortDescription}
+      <Hero
+        key={monument.id}
+        name={monument.name}
+        country={monument.country}
+        city={monument.city}
+        images={monument.images}
+        shortDescription={monument.shortDescription}
       />
 
       <Mon   key={monument.id}
@@ -43,7 +44,7 @@ export const Monument = () => {
             architecturalStyle={monument.architecturalStyle}
             facts={monument.facts}
       />
-     
+
       <Footer />
     </>
   );
