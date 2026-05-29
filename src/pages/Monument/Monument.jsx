@@ -41,7 +41,7 @@ export const Monument = () => {
             local={monument.visitingInfo.entryFee.local}
             foreign={monument.visitingInfo.entryFee.foreign}
             architecturalStyle={monument.architecturalStyle}
-            historicalSignificance={monument.historicalSignificance}
+            facts={monument.facts}
       />
      
       <Footer />

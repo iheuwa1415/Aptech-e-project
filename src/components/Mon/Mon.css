@@ -71,3 +71,56 @@ p{
 
   margin-bottom: 30px;
 }
+
+.tour-box {
+  background: #112342;
+  width: 320px;
+  padding: 50px 30px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.tour-icon {
+  color: #d4a017;
+  font-size: 28px;
+}
+
+.tour-box h2 {
+  font-size: 34px;
+  font-family: serif;
+  margin: 0;
+  font-weight: 500;
+}
+
+.tour-box p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #d7d7d7;
+  max-width: 240px;
+  margin: 0;
+}
+
+.tour-box button {
+  background: #b08a13;
+  color: white;
+  border: none;
+  padding: 16px 30px;
+  width: 100%;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tour-box button:hover {
+  opacity: 0.9;
+}
+
+.tour-box small {
+  color: #bdbdbd;
+  font-size: 11px;
+}
