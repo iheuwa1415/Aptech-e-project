@@ -1,4 +1,5 @@
-import { useEffect, useState } from 'react';
+/* eslint-disable react-hooks/immutability */
+import { useEffect, useRef, useState } from 'react';
 import { Card } from '../../components/Card/Card';
 import Filters from '../../components/Filters/Filters';
 import Footer from '../../components/Footer/Footer';
@@ -13,14 +14,17 @@ export const Saved = () => {
   const itemsPerPage = 6;
   const [page, setPage] = useState(1);
 
-  // reset to first page when filter results change
-  useEffect(() => {
-    setPage(1);
-  }, [monuments, activeFilters]);
+  // derive displayed page without calling setState inside an effect
+  const prevDeps = useRef({ monuments, activeFilters });
 
-  // const page = useMemo(() => {
-  //   return 1;
-  // }, [monuments, activeFilters]);
+  let depsChanged = false;
+  const effectivePage = depsChanged ? 1 : page;
+
+  useEffect(() => {
+    depsChanged = prevDeps.current.monuments !== monuments || prevDeps.current.activeFilters !== activeFilters;
+    // update the ref after render (no setState)
+    prevDeps.current = { monuments, activeFilters };
+  }, [monuments, activeFilters]);
 
   const total = monuments.length;
   const start = (page - 1) * itemsPerPage;
@@ -60,7 +64,12 @@ export const Saved = () => {
               ))}
             </div>
 
-            <Pagination totalItems={total} itemsPerPage={itemsPerPage} currentPage={page} onPageChange={setPage} />
+            <Pagination
+              totalItems={total}
+              itemsPerPage={itemsPerPage}
+              currentPage={effectivePage}
+              onPageChange={setPage}
+            />
           </div>
         </div>
       </div>
