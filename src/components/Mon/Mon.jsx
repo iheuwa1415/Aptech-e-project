@@ -8,8 +8,11 @@ export const Mon = ({historicalSignificance, fullDescription,  images, shortDesc
         <>
             <div className="container2">
                 <div className='firstdiv'>
-                        <h2>Description</h2>
-                        <p>{shortDescription}</p>
+                        <div className='firsth2p'>
+                          <h2 >Description</h2>
+                          <p >{shortDescription}</p>
+                        </div>
+                        
                         <div className="imgag">
                             <img src={images[1]} alt={name} />
                             <img src={images[0]} alt={name} />

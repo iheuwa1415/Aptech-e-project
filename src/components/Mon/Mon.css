@@ -148,6 +148,24 @@ p{
     font-size: 32px;
   }
 
+  .firstdiv h2{
+    text-align: center;
+  }
+
+   .firsth2p{
+    background: white;
+    padding: 15px;
+    margin-bottom: -15px;
+   }
+
+ .firsth2p h2, .firsth2p p{
+    text-align: center;
+  }
+
+  .firstdiv{
+    margin-top: -160px
+  }
+
   .tour-box {
     margin: 0 auto;
     width: 90%;
