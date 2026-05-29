@@ -106,7 +106,7 @@
 .form-input,
 .form-select,
 .form-textarea {
-  width: 100%;
+  width: 50%;
   border: none;
   border-bottom: 1px solid #d4d4d4;
   padding: 0.75rem 0;
@@ -185,8 +185,8 @@
 .spotlight-image {
   width: 100%;
   height: 500%;
-  object-fit: cover;
-  display: flex;
+  object-fit: fill;
+  display: block;
 }
 
 .spotlight-overlay {
@@ -259,7 +259,7 @@
 
   .feedback-card,
   .contact-card {
-    padding: 0.5rem;
+    
   }
 
   .card-title {
@@ -284,7 +284,8 @@
   }
 
   .spotlight-image {
-    height: 320px;
+    height: 500px;
+    width: 300px;
   }
 
   .spotlight-overlay {
@@ -307,7 +308,7 @@
   }
 
   .spotlight-image {
-    height: 250px;
+    height: 100px;
   }
 
   .spotlight-title {

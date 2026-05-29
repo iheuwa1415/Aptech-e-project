@@ -50,9 +50,9 @@ body {
 
 .feedback-card {
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   background: #f7f5f1;
-  padding: 55px;
+  padding: 40px 28px;
 }
 
 
@@ -83,11 +83,12 @@ body {
 
 .feedback-title {
   font-size:1rem ;
-  font-weight: 10px;
+  font-weight: 1rem;
   color: #6b5200;
   margin-bottom: 30px;
   letter-spacing: 2px;
   line-height: 1.1;
+  padding-top: 20px;
 }
 
 /* =========================
@@ -119,7 +120,7 @@ body {
 
   color: #22324d;
 
-  margin-bottom: 14px;
+  margin-bottom: 1px;
 
   letter-spacing: 1px;
 }
@@ -155,7 +156,7 @@ body {
 .form-group textarea {
   resize: vertical;
 
-  min-height: 30px;
+  min-height: 100px;
 }
 
 /* PLACEHOLDER */
@@ -163,6 +164,7 @@ body {
 .form-group input::placeholder,
 .form-group textarea::placeholder {
   color: #b1b7c2;
+  font-size: 0.95rem;
 }
 
 /* FOCUS */
@@ -190,7 +192,7 @@ body {
 
   padding: 20px;
 
-  border-radius: 14px;
+  border-radius: 10px;
 
   font-size: 18px;
 

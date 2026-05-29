@@ -12,13 +12,13 @@ const FeedbackPage = () => {
           <p className="insight-subtitle">Help us preserve history through modern technology.</p>
         </div>
 
-        <h1 className="feedback-title">feedback details </h1>
+        <p className="feedback-title">feedback details </p>
 
         <form className="feedback-form">
 
           {/* Full Name */}
           <div className="form-group">
-            <label>FULL NAME</label>
+            <label> FULL NAME</label>
 
             <input
               type="text"

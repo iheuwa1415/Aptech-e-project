@@ -42,6 +42,10 @@ const ContactUs = () => {
           Reach out to our archival team for direct inquiries.
         </p>
 
+        <p className="contact-info">
+          YOUR INFORMATION 
+        </p>
+
         <form className="contact-form" onSubmit={handleSubmit}>
           {/* FULL NAME */}
           <div className="form-group">
