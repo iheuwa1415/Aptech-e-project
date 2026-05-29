@@ -50,7 +50,7 @@ body {
 
 .feedback-card {
   width: 100%;
-  max-width: 900px;
+  max-width: 500px;
   background: #f7f5f1;
   padding: 55px;
 }
@@ -60,11 +60,12 @@ body {
   transform: translateY(-3px);
 }
 
-.feedback-insight-title {
+.insight-title {
   font-family:'Playfair Display', serif; ;
   font-optical-sizing: auto;
-  font-weight: 900;
-  font-style: normal;
+  font-size: 45px;
+  font-weight: 700px;
+  font-style: bold;
   font-variation-settings:"wdth" 100;
 } 
 
@@ -81,16 +82,11 @@ body {
 ========================= */
 
 .feedback-title {
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
-
-  font-weight: 800;
-
+  font-size:1rem ;
+  font-weight: 10px;
   color: #6b5200;
-
-  margin-bottom: 50px;
-
+  margin-bottom: 30px;
   letter-spacing: 2px;
-
   line-height: 1.1;
 }
 
@@ -99,7 +95,7 @@ body {
 ========================= */
 
 .feedback-form {
-  display: flex;
+  display: block ;
   flex-direction: column;
 
   gap: 38px;
@@ -110,16 +106,16 @@ body {
 ========================= */
 
 .form-group {
-  display: flex;
+  display: block;
   flex-direction: column;
 }
 
 /* LABELS */
 
 .form-group label {
-  font-size: 10px;
+  font-size: 1rem;
 
-  font-weight: 300;
+  font-weight: 200;
 
   color: #22324d;
 
@@ -159,7 +155,7 @@ body {
 .form-group textarea {
   resize: vertical;
 
-  min-height: 170px;
+  min-height: 30px;
 }
 
 /* PLACEHOLDER */

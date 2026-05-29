@@ -3,6 +3,7 @@ import Footer from '../../components/Footer/Footer';
 import ContactUs from '../../components/Contactus/ContactUs';
 import Feedback from '../../components/Feedback/Feedback';
 import './About.css';
+import {useDimensions} from '../../hooks/useDimensions';
 
 export const About = () => {
   const {isMobile} = useDimensions();
