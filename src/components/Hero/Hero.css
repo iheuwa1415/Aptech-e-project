@@ -10,6 +10,10 @@
     
 }
 
+p{
+    color: white;
+}
+
 .container .h4s{
     display: flex;
     gap: 13px;

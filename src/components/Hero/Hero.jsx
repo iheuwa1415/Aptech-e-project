@@ -6,9 +6,19 @@ const Hero = ({ name, country, city, images, shortDescription}) => {
     <>
       <div
         className="container"
-        style={{
-          backgroundImage: `url(${images[4]})`,
-        }}
+       style={{
+    backgroundImage: `
+    linear-gradient(
+      rgba(30, 80, 180, 0.35),
+      rgba(30, 80, 180, 0.35)
+    ),
+    url(${images[4]})
+    `,
+
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+}}
       >
         <div className="h4s">
           <h4 className="abc">{country}</h4>
