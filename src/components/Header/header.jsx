@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import './Header.css';
 import { NavLink, useLocation } from 'react-router';
 import { useMonumentNumber } from '../../hooks/useRandomMonument';
+import './Header.css';
 
 const navItems = ['Explore', 'Continents', 'Monument', 'Gallery', 'Saved', 'About'];
 
@@ -11,7 +11,8 @@ const Header = () => {
   const [activeTab, setActiveTab] = useState(
     pathname === '/' ? 'Explore' : pathname.charAt(0).toUpperCase() + pathname.slice(1)
   );
-  console.log('location: %s', JSON.stringify(pathname));
+  // console.log('location: %s', JSON.stringify(pathname));
+  // const navItems = ['Explore', 'Continents', 'Gallery', 'Saved', 'About'];
 
   return (
     <nav className="navbar">

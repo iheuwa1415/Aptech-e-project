@@ -8,7 +8,10 @@ import { Continents } from './pages/Continents/Continents';
 import { Gallery } from './pages/Gallery/Gallery';
 import { Saved } from './pages/Saved/Saved';
 import { About } from './pages/About/About';
+<<<<<<< HEAD
 import { Monument } from './pages/Monument/Monument';
+=======
+>>>>>>> 043a07ecefba31cbc3b8cc1389e47ae2d8ced819
 
 const App = () => {
   return (
@@ -19,7 +22,10 @@ const App = () => {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/saved" element={<Saved />} />
         <Route path="/about" element={<About />} />
+<<<<<<< HEAD
         <Route path="/monument/:id" element={<Monument />} />
+=======
+>>>>>>> 043a07ecefba31cbc3b8cc1389e47ae2d8ced819
         <Route path="/hello" element={<div>Hello World</div>} />
       </Routes>
     </BrowserRouter>
