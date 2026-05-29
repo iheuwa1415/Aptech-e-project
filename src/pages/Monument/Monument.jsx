@@ -1,9 +1,9 @@
 import { useParams } from 'react-router';
-import monuments from '../../data/monuments.json';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
-import {Mon} from '../../components/Mon/Mon';
+import { Mon } from '../../components/Mon/Mon';
+import monuments from '../../data/monuments.json';
 
 export const Monument = () => {
   //DO NOT TOUCH!
@@ -21,29 +21,31 @@ export const Monument = () => {
     <>
       <Header />
 
-      <Hero  key={monument.id}
-            name={monument.name}
-            country={monument.country}
-            city={monument.city}
-            images={monument.images}
-            shortDescription={monument.shortDescription}
+      <Hero
+        key={monument.id}
+        name={monument.name}
+        country={monument.country}
+        city={monument.city}
+        images={monument.images}
+        shortDescription={monument.shortDescription}
       />
 
-      <Mon   key={monument.id}
-            name={monument.name}
-            historicalSignificance={monument.historicalSignificance}
-            fullDescription={monument.fullDescription}
-            images={monument.images}
-            shortDescription={monument.shortDescription}
-            address={monument.location.address}
-            openingHours={monument.visitingInfo.openingHours}
-            closingHours={monument.visitingInfo.closingHours}
-            local={monument.visitingInfo.entryFee.local}
-            foreign={monument.visitingInfo.entryFee.foreign}
-            architecturalStyle={monument.architecturalStyle}
-            facts={monument.facts}
+      <Mon
+        key={monument.id}
+        name={monument.name}
+        historicalSignificance={monument.historicalSignificance}
+        fullDescription={monument.fullDescription}
+        images={monument.images}
+        shortDescription={monument.shortDescription}
+        address={monument.location.address}
+        openingHours={monument.visitingInfo.openingHours}
+        closingHours={monument.visitingInfo.closingHours}
+        local={monument.visitingInfo.entryFee.local}
+        foreign={monument.visitingInfo.entryFee.foreign}
+        architecturalStyle={monument.architecturalStyle}
+        facts={monument.facts}
       />
-     
+
       <Footer />
     </>
   );

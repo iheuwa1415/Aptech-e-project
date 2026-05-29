@@ -1,23 +1,22 @@
-h1{
+h1 {
   font-size: 48px;
   margin-bottom: 20px;
 }
 
-p{
+p {
   line-height: 1.7;
   color: #444;
 }
 
-.container2{
+.container2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 40px;
   padding: 40px;
   background: #f5f1ea;
-
 }
 
-.imgag{
+.imgag {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -25,20 +24,20 @@ p{
   margin: 30px 0;
 }
 
-.imgag img{
+.imgag img {
   width: 100%;
   height: 220px;
 
   object-fit: cover;
 }
 
-.sidebar{
+.sidebar {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.card{
+.card-mon {
   background: #efe7db;
 
   padding: 20px;
@@ -46,25 +45,25 @@ p{
   border-radius: 6px;
 }
 
-.card img{
+.card-mon img {
   width: 100%;
   margin: 15px 0;
 }
 
-.card h3{
+.card-mon h3 {
   font-weight: 800;
   font-size: 25px;
 }
-.card h4{
+.card-mon h4 {
   font-weight: 800;
   font-size: medium;
 }
 
-.timeline{
+.timeline {
   margin-top: 50px;
 }
 
-.timeline-item{
+.timeline-item {
   border-left: 3px solid gold;
 
   padding-left: 20px;
