@@ -17,15 +17,16 @@ export const Saved = () => {
   // derive displayed page without calling setState inside an effect
   const prevDeps = useRef({ monuments, activeFilters });
 
-  let depsChanged = false;
-  const effectivePage = depsChanged ? 1 : page;
+  const depsChanged = useRef(false);
 
   useEffect(() => {
-    depsChanged = prevDeps.current.monuments !== monuments || prevDeps.current.activeFilters !== activeFilters;
+    depsChanged.current = prevDeps.current.monuments !== monuments || prevDeps.current.activeFilters !== activeFilters;
     // update the ref after render (no setState)
     prevDeps.current = { monuments, activeFilters };
   }, [monuments, activeFilters]);
 
+  // eslint-disable-next-line react-hooks/refs
+  const effectivePage = depsChanged.current ? 1 : page;
   const total = monuments.length;
   const start = (page - 1) * itemsPerPage;
   const paged = monuments.slice(start, start + itemsPerPage);
